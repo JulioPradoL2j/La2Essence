@@ -24,22 +24,22 @@ import java.io.File;
 import java.util.AbstractMap.SimpleEntry;
 import java.util.Map.Entry;
 
-import org.l2jmobius.commons.time.SchedulingPattern;
-import org.l2jmobius.commons.util.IXmlReader;
-import org.l2jmobius.gameserver.managers.events.BalthusEventManager;
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.ListenerRegisterType;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterEvent;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterType;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerLogin;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
-import org.l2jmobius.gameserver.model.script.LongTimeEvent;
-import org.l2jmobius.gameserver.model.variables.PlayerVariables;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
-import org.l2jmobius.gameserver.network.serverpackets.balthusevent.ExBalthusEvent;
+import net.sf.l2jdev.commons.time.SchedulingPattern;
+import net.sf.l2jdev.commons.util.IXmlReader;
+import net.sf.l2jdev.gameserver.managers.events.BalthusEventManager;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.ListenerRegisterType;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterEvent;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterType;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerLogin;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.model.script.LongTimeEvent;
+import net.sf.l2jdev.gameserver.model.variables.PlayerVariables;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.gameserver.network.serverpackets.balthusevent.ExBalthusEvent;
 import org.w3c.dom.Document;
 
 /**

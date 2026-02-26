@@ -23,11 +23,11 @@ package handlers.admincommandhandlers;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.zone.ZoneId;
-import org.l2jmobius.gameserver.taskmanagers.AttackStanceTaskManager;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.zone.ZoneId;
+import net.sf.l2jdev.gameserver.taskmanagers.AttackStanceTaskManager;
 
 /**
  * @author Mobius

@@ -20,9 +20,9 @@
  */
 package handlers.admincommandhandlers;
 
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Player;
 
 /**
  * This class handles following admin commands: - target name = sets player with respective name as target

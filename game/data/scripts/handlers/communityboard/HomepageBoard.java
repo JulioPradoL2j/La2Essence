@@ -16,10 +16,10 @@
  */
 package handlers.communityboard;
 
-import org.l2jmobius.gameserver.cache.HtmCache;
-import org.l2jmobius.gameserver.handler.CommunityBoardHandler;
-import org.l2jmobius.gameserver.handler.IParseBoardHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.cache.HtmCache;
+import net.sf.l2jdev.gameserver.handler.CommunityBoardHandler;
+import net.sf.l2jdev.gameserver.handler.IParseBoardHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
 
 /**
  * Homepage board.

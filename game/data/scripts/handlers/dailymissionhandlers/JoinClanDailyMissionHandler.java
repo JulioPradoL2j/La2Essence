@@ -22,16 +22,16 @@ package handlers.dailymissionhandlers;
 
 import java.util.function.Consumer;
 
-import org.l2jmobius.gameserver.handler.AbstractDailyMissionHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.player.DailyMissionStatus;
-import org.l2jmobius.gameserver.model.actor.holders.player.DailyMissionDataHolder;
-import org.l2jmobius.gameserver.model.actor.holders.player.DailyMissionPlayerEntry;
-import org.l2jmobius.gameserver.model.events.Containers;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerClanCreate;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerClanJoin;
-import org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener;
+import net.sf.l2jdev.gameserver.handler.AbstractDailyMissionHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.player.DailyMissionStatus;
+import net.sf.l2jdev.gameserver.model.actor.holders.player.DailyMissionDataHolder;
+import net.sf.l2jdev.gameserver.model.actor.holders.player.DailyMissionPlayerEntry;
+import net.sf.l2jdev.gameserver.model.events.Containers;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerClanCreate;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerClanJoin;
+import net.sf.l2jdev.gameserver.model.events.listeners.ConsumerEventListener;
 
 /**
  * @author kamikadzz

@@ -19,17 +19,17 @@ package ai.others.WyvernManager;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.l2jmobius.gameserver.config.FeatureConfig;
-import org.l2jmobius.gameserver.managers.CastleManager;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.player.MountType;
-import org.l2jmobius.gameserver.model.clan.Clan;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.siege.Castle;
-import org.l2jmobius.gameserver.model.siege.Fort;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.util.ArrayUtil;
+import net.sf.l2jdev.gameserver.config.FeatureConfig;
+import net.sf.l2jdev.gameserver.managers.CastleManager;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.player.MountType;
+import net.sf.l2jdev.gameserver.model.clan.Clan;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.siege.Castle;
+import net.sf.l2jdev.gameserver.model.siege.Fort;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.util.ArrayUtil;
 
 /**
  * Wyvern Manager

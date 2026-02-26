@@ -24,12 +24,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.effects.AbstractEffect;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.enums.StatModifierType;
-import org.l2jmobius.gameserver.model.stats.Stat;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.effects.AbstractEffect;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.enums.StatModifierType;
+import net.sf.l2jdev.gameserver.model.stats.Stat;
 
 /**
  * @author Mobius

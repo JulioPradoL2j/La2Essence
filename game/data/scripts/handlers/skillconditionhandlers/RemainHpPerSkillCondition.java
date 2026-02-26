@@ -20,13 +20,13 @@
  */
 package handlers.skillconditionhandlers;
 
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.skill.ISkillCondition;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.enums.SkillConditionAffectType;
-import org.l2jmobius.gameserver.model.skill.enums.SkillConditionPercentType;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.skill.ISkillCondition;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.enums.SkillConditionAffectType;
+import net.sf.l2jdev.gameserver.model.skill.enums.SkillConditionPercentType;
 
 /**
  * @author UnAfraid, Mobius

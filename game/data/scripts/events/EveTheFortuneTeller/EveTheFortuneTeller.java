@@ -20,12 +20,12 @@
  */
 package events.EveTheFortuneTeller;
 
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.LongTimeEvent;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.enums.LuckyGameType;
-import org.l2jmobius.gameserver.network.serverpackets.luckygame.ExStartLuckyGame;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.LongTimeEvent;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.enums.LuckyGameType;
+import net.sf.l2jdev.gameserver.network.serverpackets.luckygame.ExStartLuckyGame;
 
 /**
  * Eve the Fortune Teller Returns<br>

@@ -20,17 +20,17 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-import org.l2jmobius.gameserver.geoengine.GeoEngine;
-import org.l2jmobius.gameserver.handler.AffectObjectHandler;
-import org.l2jmobius.gameserver.handler.IAffectObjectHandler;
-import org.l2jmobius.gameserver.handler.IAffectScopeHandler;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.targets.AffectScope;
-import org.l2jmobius.gameserver.model.skill.targets.TargetType;
+import net.sf.l2jdev.gameserver.geoengine.GeoEngine;
+import net.sf.l2jdev.gameserver.handler.AffectObjectHandler;
+import net.sf.l2jdev.gameserver.handler.IAffectObjectHandler;
+import net.sf.l2jdev.gameserver.handler.IAffectScopeHandler;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.targets.AffectScope;
+import net.sf.l2jdev.gameserver.model.skill.targets.TargetType;
 
 /**
  * Range affect scope implementation. Gathers objects in area of target origin (including origin itself).

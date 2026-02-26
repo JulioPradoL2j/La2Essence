@@ -24,15 +24,15 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-import org.l2jmobius.gameserver.managers.ZoneManager;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.SkillCaster;
-import org.l2jmobius.gameserver.model.skill.holders.SkillHolder;
-import org.l2jmobius.gameserver.model.zone.ZoneType;
+import net.sf.l2jdev.gameserver.managers.ZoneManager;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.SkillCaster;
+import net.sf.l2jdev.gameserver.model.skill.holders.SkillHolder;
+import net.sf.l2jdev.gameserver.model.zone.ZoneType;
 
 /**
  * @author Tanatos

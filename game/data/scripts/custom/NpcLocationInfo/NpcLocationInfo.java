@@ -19,12 +19,12 @@ package custom.NpcLocationInfo;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.l2jmobius.commons.util.StringUtil;
-import org.l2jmobius.gameserver.data.SpawnTable;
-import org.l2jmobius.gameserver.model.Spawn;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Script;
+import net.sf.l2jdev.commons.util.StringUtil;
+import net.sf.l2jdev.gameserver.data.SpawnTable;
+import net.sf.l2jdev.gameserver.model.Spawn;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Script;
 
 /**
  * Npc Location Info AI.

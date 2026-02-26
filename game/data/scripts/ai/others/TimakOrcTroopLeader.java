@@ -20,13 +20,13 @@
  */
 package ai.others;
 
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.holders.npc.MinionHolder;
-import org.l2jmobius.gameserver.model.actor.instance.Monster;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.network.NpcStringId;
-import org.l2jmobius.gameserver.network.enums.ChatType;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.holders.npc.MinionHolder;
+import net.sf.l2jdev.gameserver.model.actor.instance.Monster;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.network.NpcStringId;
+import net.sf.l2jdev.gameserver.network.enums.ChatType;
 
 /**
  * Timak Orc Troop Leader AI.

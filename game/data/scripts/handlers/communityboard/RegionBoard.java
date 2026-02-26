@@ -29,17 +29,17 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.l2jmobius.commons.database.DatabaseFactory;
-import org.l2jmobius.commons.util.StringUtil;
-import org.l2jmobius.gameserver.cache.HtmCache;
-import org.l2jmobius.gameserver.data.sql.ClanTable;
-import org.l2jmobius.gameserver.handler.CommunityBoardHandler;
-import org.l2jmobius.gameserver.handler.IWriteBoardHandler;
-import org.l2jmobius.gameserver.managers.CastleManager;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.clan.Clan;
-import org.l2jmobius.gameserver.model.siege.Castle;
-import org.l2jmobius.gameserver.model.siege.TaxType;
+import net.sf.l2jdev.commons.database.DatabaseFactory;
+import net.sf.l2jdev.commons.util.StringUtil;
+import net.sf.l2jdev.gameserver.cache.HtmCache;
+import net.sf.l2jdev.gameserver.data.sql.ClanTable;
+import net.sf.l2jdev.gameserver.handler.CommunityBoardHandler;
+import net.sf.l2jdev.gameserver.handler.IWriteBoardHandler;
+import net.sf.l2jdev.gameserver.managers.CastleManager;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.clan.Clan;
+import net.sf.l2jdev.gameserver.model.siege.Castle;
+import net.sf.l2jdev.gameserver.model.siege.TaxType;
 
 /**
  * Region board.

@@ -22,7 +22,7 @@ package handlers;
 
 import java.util.logging.Logger;
 
-import org.l2jmobius.gameserver.handler.DailyMissionHandler;
+import net.sf.l2jdev.gameserver.handler.DailyMissionHandler;
 
 import handlers.dailymissionhandlers.BossDailyMissionHandler;
 import handlers.dailymissionhandlers.EnchantHennaDailyMissionHandler;

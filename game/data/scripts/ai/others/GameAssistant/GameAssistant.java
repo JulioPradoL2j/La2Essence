@@ -23,27 +23,27 @@ package ai.others.GameAssistant;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.l2jmobius.gameserver.cache.HtmCache;
-import org.l2jmobius.gameserver.data.xml.MultisellData;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.ListenerRegisterType;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterEvent;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterType;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerBypass;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.model.itemcontainer.PlayerFreight;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.ExPremiumManagerShowHtml;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
-import org.l2jmobius.gameserver.network.serverpackets.PackageToList;
-import org.l2jmobius.gameserver.network.serverpackets.WareHouseWithdrawalList;
-import org.l2jmobius.gameserver.network.serverpackets.ensoul.ExShowEnsoulExtractionWindow;
-import org.l2jmobius.gameserver.network.serverpackets.ensoul.ExShowEnsoulWindow;
-import org.l2jmobius.gameserver.network.serverpackets.variation.ExShowVariationCancelWindow;
+import net.sf.l2jdev.gameserver.cache.HtmCache;
+import net.sf.l2jdev.gameserver.data.xml.MultisellData;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.ListenerRegisterType;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterEvent;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterType;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerBypass;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.itemcontainer.PlayerFreight;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExPremiumManagerShowHtml;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.gameserver.network.serverpackets.PackageToList;
+import net.sf.l2jdev.gameserver.network.serverpackets.WareHouseWithdrawalList;
+import net.sf.l2jdev.gameserver.network.serverpackets.ensoul.ExShowEnsoulExtractionWindow;
+import net.sf.l2jdev.gameserver.network.serverpackets.ensoul.ExShowEnsoulWindow;
+import net.sf.l2jdev.gameserver.network.serverpackets.variation.ExShowVariationCancelWindow;
 
 /**
  * Dimensional Merchant AI.

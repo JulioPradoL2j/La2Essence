@@ -16,10 +16,10 @@
  */
 package ai.others.TeleportWithCharm;
 
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Script;
 
 /**
  * Charm teleport AI.<br>

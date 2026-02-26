@@ -20,14 +20,14 @@
  */
 package ai.others.NewSiege;
 
-import org.l2jmobius.gameserver.managers.ZoneManager;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.zone.type.SiegeZone;
-import org.l2jmobius.gameserver.network.NpcStringId;
-import org.l2jmobius.gameserver.network.serverpackets.ExShowScreenMessage;
+import net.sf.l2jdev.gameserver.managers.ZoneManager;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.zone.type.SiegeZone;
+import net.sf.l2jdev.gameserver.network.NpcStringId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage;
 
 public class Relics extends Script
 {

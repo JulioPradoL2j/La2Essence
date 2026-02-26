@@ -20,8 +20,8 @@
  */
 package handlers.effecthandlers;
 
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.stats.Stat;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.stats.Stat;
 
 /**
  * Bonus damage to immobile targets.

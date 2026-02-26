@@ -20,14 +20,14 @@
  */
 package handlers.usercommandhandlers;
 
-import org.l2jmobius.gameserver.handler.IUserCommandHandler;
-import org.l2jmobius.gameserver.managers.MapRegionManager;
-import org.l2jmobius.gameserver.managers.ZoneManager;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.creature.Race;
-import org.l2jmobius.gameserver.model.zone.type.RespawnZone;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2jdev.gameserver.handler.IUserCommandHandler;
+import net.sf.l2jdev.gameserver.managers.MapRegionManager;
+import net.sf.l2jdev.gameserver.managers.ZoneManager;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.creature.Race;
+import net.sf.l2jdev.gameserver.model.zone.type.RespawnZone;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * Loc user command.

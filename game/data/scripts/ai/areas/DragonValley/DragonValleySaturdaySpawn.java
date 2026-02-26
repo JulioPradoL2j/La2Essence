@@ -25,9 +25,9 @@ import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.util.Calendar;
 
-import org.l2jmobius.commons.threads.ThreadPool;
-import org.l2jmobius.gameserver.data.xml.SpawnData;
-import org.l2jmobius.gameserver.model.script.Script;
+import net.sf.l2jdev.commons.threads.ThreadPool;
+import net.sf.l2jdev.gameserver.data.xml.SpawnData;
+import net.sf.l2jdev.gameserver.model.script.Script;
 
 public class DragonValleySaturdaySpawn extends Script
 {

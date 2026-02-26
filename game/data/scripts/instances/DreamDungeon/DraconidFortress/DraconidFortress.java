@@ -26,15 +26,15 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import org.l2jmobius.commons.util.Rnd;
-import org.l2jmobius.gameserver.managers.InstanceManager;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.events.holders.instance.OnInstanceStatusChange;
-import org.l2jmobius.gameserver.model.instancezone.Instance;
-import org.l2jmobius.gameserver.model.script.InstanceScript;
-import org.l2jmobius.gameserver.network.NpcStringId;
-import org.l2jmobius.gameserver.network.serverpackets.ExShowScreenMessage;
+import net.sf.l2jdev.commons.util.Rnd;
+import net.sf.l2jdev.gameserver.managers.InstanceManager;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.events.holders.instance.OnInstanceStatusChange;
+import net.sf.l2jdev.gameserver.model.instancezone.Instance;
+import net.sf.l2jdev.gameserver.model.script.InstanceScript;
+import net.sf.l2jdev.gameserver.network.NpcStringId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage;
 
 import instances.DreamDungeon.CatGuildsLair.CatGuildsLair;
 

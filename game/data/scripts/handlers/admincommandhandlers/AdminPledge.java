@@ -22,16 +22,16 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import org.l2jmobius.gameserver.data.sql.ClanTable;
-import org.l2jmobius.gameserver.data.xml.ClanLevelData;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.managers.GlobalVariablesManager;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.clan.Clan;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.GMViewPledgeInfo;
-import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2jdev.gameserver.data.sql.ClanTable;
+import net.sf.l2jdev.gameserver.data.xml.ClanLevelData;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.managers.GlobalVariablesManager;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.clan.Clan;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.GMViewPledgeInfo;
+import net.sf.l2jdev.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * <b>Pledge Manipulation:</b><br>

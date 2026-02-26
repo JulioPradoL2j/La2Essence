@@ -22,12 +22,12 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.managers.ScriptManager;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Event;
-import org.l2jmobius.gameserver.model.script.Quest;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.managers.ScriptManager;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Event;
+import net.sf.l2jdev.gameserver.model.script.Quest;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
 
 public class AdminEvents implements IAdminCommandHandler
 {

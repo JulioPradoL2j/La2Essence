@@ -22,12 +22,12 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import org.l2jmobius.gameserver.config.PlayerConfig;
-import org.l2jmobius.gameserver.data.xml.ExperienceData;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.config.PlayerConfig;
+import net.sf.l2jdev.gameserver.data.xml.ExperienceData;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
 
 public class AdminLevel implements IAdminCommandHandler
 {

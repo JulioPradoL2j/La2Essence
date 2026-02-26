@@ -16,13 +16,13 @@
  */
 package handlers.targethandlers;
 
-import org.l2jmobius.gameserver.handler.ITargetTypeHandler;
-import org.l2jmobius.gameserver.managers.MentorManager;
-import org.l2jmobius.gameserver.model.Mentee;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.targets.TargetType;
+import net.sf.l2jdev.gameserver.handler.ITargetTypeHandler;
+import net.sf.l2jdev.gameserver.managers.MentorManager;
+import net.sf.l2jdev.gameserver.model.Mentee;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.targets.TargetType;
 
 /**
  * Target my mentor.

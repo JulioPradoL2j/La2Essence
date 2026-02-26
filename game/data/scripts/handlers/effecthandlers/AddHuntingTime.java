@@ -20,18 +20,18 @@
  */
 package handlers.effecthandlers;
 
-import org.l2jmobius.gameserver.data.holders.TimedHuntingZoneHolder;
-import org.l2jmobius.gameserver.data.xml.TimedHuntingZoneData;
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.effects.AbstractEffect;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.variables.PlayerVariables;
-import org.l2jmobius.gameserver.network.serverpackets.huntingzones.TimeRestrictFieldUserAlarm;
-import org.l2jmobius.gameserver.network.serverpackets.huntingzones.TimedHuntingZoneChargeResult;
+import net.sf.l2jdev.gameserver.data.holders.TimedHuntingZoneHolder;
+import net.sf.l2jdev.gameserver.data.xml.TimedHuntingZoneData;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.effects.AbstractEffect;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.variables.PlayerVariables;
+import net.sf.l2jdev.gameserver.network.serverpackets.huntingzones.TimeRestrictFieldUserAlarm;
+import net.sf.l2jdev.gameserver.network.serverpackets.huntingzones.TimedHuntingZoneChargeResult;
 
 /**
  * @author Mobius

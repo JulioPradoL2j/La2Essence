@@ -20,14 +20,14 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.effects.AbstractEffect;
-import org.l2jmobius.gameserver.model.effects.EffectFlag;
-import org.l2jmobius.gameserver.model.effects.EffectType;
-import org.l2jmobius.gameserver.model.instancezone.Instance;
-import org.l2jmobius.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.effects.AbstractEffect;
+import net.sf.l2jdev.gameserver.model.effects.EffectFlag;
+import net.sf.l2jdev.gameserver.model.effects.EffectType;
+import net.sf.l2jdev.gameserver.model.instancezone.Instance;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
 
 /**
  * Resurrection Special effect implementation.

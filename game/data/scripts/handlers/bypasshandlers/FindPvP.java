@@ -24,16 +24,16 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.l2jmobius.commons.util.Rnd;
-import org.l2jmobius.gameserver.config.PvpConfig;
-import org.l2jmobius.gameserver.config.custom.FindPvpConfig;
-import org.l2jmobius.gameserver.handler.IBypassHandler;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.zone.ZoneId;
-import org.l2jmobius.gameserver.network.enums.ChatType;
-import org.l2jmobius.gameserver.network.serverpackets.CreatureSay;
+import net.sf.l2jdev.commons.util.Rnd;
+import net.sf.l2jdev.gameserver.config.PvpConfig;
+import net.sf.l2jdev.gameserver.config.custom.FindPvpConfig;
+import net.sf.l2jdev.gameserver.handler.IBypassHandler;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.zone.ZoneId;
+import net.sf.l2jdev.gameserver.network.enums.ChatType;
+import net.sf.l2jdev.gameserver.network.serverpackets.CreatureSay;
 
 /**
  * Based on Tenkai pvpzone.

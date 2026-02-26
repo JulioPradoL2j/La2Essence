@@ -25,18 +25,18 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.l2jmobius.commons.util.Rnd;
-import org.l2jmobius.gameserver.model.AggroInfo;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Playable;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.enums.SkillFinishType;
-import org.l2jmobius.gameserver.model.skill.holders.SkillHolder;
-import org.l2jmobius.gameserver.network.NpcStringId;
-import org.l2jmobius.gameserver.network.serverpackets.ExShowScreenMessage;
+import net.sf.l2jdev.commons.util.Rnd;
+import net.sf.l2jdev.gameserver.model.AggroInfo;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Playable;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.enums.SkillFinishType;
+import net.sf.l2jdev.gameserver.model.skill.holders.SkillHolder;
+import net.sf.l2jdev.gameserver.network.NpcStringId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage;
 
 import ai.others.Atingo;
 

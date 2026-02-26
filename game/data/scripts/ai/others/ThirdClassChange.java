@@ -20,17 +20,17 @@
  */
 package ai.others;
 
-import org.l2jmobius.gameserver.data.enums.CategoryType;
-import org.l2jmobius.gameserver.data.xml.CategoryData;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.ListenerRegisterType;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterEvent;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterType;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerLevelChanged;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerLogin;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.network.serverpackets.classchange.ExClassChangeSetAlarm;
+import net.sf.l2jdev.gameserver.data.enums.CategoryType;
+import net.sf.l2jdev.gameserver.data.xml.CategoryData;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.ListenerRegisterType;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterEvent;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterType;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerLevelChanged;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerLogin;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.network.serverpackets.classchange.ExClassChangeSetAlarm;
 
 /**
  * Third class change has only level requirement.

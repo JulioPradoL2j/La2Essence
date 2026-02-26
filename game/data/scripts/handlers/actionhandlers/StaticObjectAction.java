@@ -20,15 +20,15 @@
  */
 package handlers.actionhandlers;
 
-import org.l2jmobius.gameserver.ai.Intention;
-import org.l2jmobius.gameserver.cache.HtmCache;
-import org.l2jmobius.gameserver.handler.IActionHandler;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.creature.InstanceType;
-import org.l2jmobius.gameserver.model.actor.instance.StaticObject;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.gameserver.ai.Intention;
+import net.sf.l2jdev.gameserver.cache.HtmCache;
+import net.sf.l2jdev.gameserver.handler.IActionHandler;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.creature.InstanceType;
+import net.sf.l2jdev.gameserver.model.actor.instance.StaticObject;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
 
 public class StaticObjectAction implements IActionHandler
 {

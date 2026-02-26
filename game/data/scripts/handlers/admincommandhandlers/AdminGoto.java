@@ -23,10 +23,10 @@ package handlers.admincommandhandlers;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.l2jmobius.gameserver.ai.Intention;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.ai.Intention;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Player;
 
 /**
  * @author Mobius

@@ -22,12 +22,12 @@ package handlers.voicedcommandhandlers;
 
 import java.text.SimpleDateFormat;
 
-import org.l2jmobius.gameserver.config.RatesConfig;
-import org.l2jmobius.gameserver.config.custom.PremiumSystemConfig;
-import org.l2jmobius.gameserver.handler.IVoicedCommandHandler;
-import org.l2jmobius.gameserver.managers.PremiumManager;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.gameserver.config.RatesConfig;
+import net.sf.l2jdev.gameserver.config.custom.PremiumSystemConfig;
+import net.sf.l2jdev.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2jdev.gameserver.managers.PremiumManager;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
 
 public class Premium implements IVoicedCommandHandler
 {

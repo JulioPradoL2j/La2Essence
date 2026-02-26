@@ -20,27 +20,27 @@
  */
 package handlers.punishmenthandlers;
 
-import org.l2jmobius.commons.threads.ThreadPool;
-import org.l2jmobius.commons.time.TimeUtil;
-import org.l2jmobius.gameserver.LoginServerThread;
-import org.l2jmobius.gameserver.cache.HtmCache;
-import org.l2jmobius.gameserver.handler.IPunishmentHandler;
-import org.l2jmobius.gameserver.managers.PunishmentManager;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.tasks.player.TeleportTask;
-import org.l2jmobius.gameserver.model.events.Containers;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerLogin;
-import org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener;
-import org.l2jmobius.gameserver.model.olympiad.OlympiadManager;
-import org.l2jmobius.gameserver.model.punishment.PunishmentAffect;
-import org.l2jmobius.gameserver.model.punishment.PunishmentTask;
-import org.l2jmobius.gameserver.model.punishment.PunishmentType;
-import org.l2jmobius.gameserver.model.zone.ZoneId;
-import org.l2jmobius.gameserver.model.zone.type.JailZone;
-import org.l2jmobius.gameserver.network.GameClient;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.commons.threads.ThreadPool;
+import net.sf.l2jdev.commons.time.TimeUtil;
+import net.sf.l2jdev.gameserver.LoginServerThread;
+import net.sf.l2jdev.gameserver.cache.HtmCache;
+import net.sf.l2jdev.gameserver.handler.IPunishmentHandler;
+import net.sf.l2jdev.gameserver.managers.PunishmentManager;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.tasks.player.TeleportTask;
+import net.sf.l2jdev.gameserver.model.events.Containers;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerLogin;
+import net.sf.l2jdev.gameserver.model.events.listeners.ConsumerEventListener;
+import net.sf.l2jdev.gameserver.model.olympiad.OlympiadManager;
+import net.sf.l2jdev.gameserver.model.punishment.PunishmentAffect;
+import net.sf.l2jdev.gameserver.model.punishment.PunishmentTask;
+import net.sf.l2jdev.gameserver.model.punishment.PunishmentType;
+import net.sf.l2jdev.gameserver.model.zone.ZoneId;
+import net.sf.l2jdev.gameserver.model.zone.type.JailZone;
+import net.sf.l2jdev.gameserver.network.GameClient;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
 
 /**
  * This class handles jail punishment.

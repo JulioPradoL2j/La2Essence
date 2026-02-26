@@ -20,12 +20,12 @@
  */
 package handlers.admincommandhandlers;
 
-import org.l2jmobius.gameserver.cache.HtmCache;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.network.GameClient;
-import org.l2jmobius.gameserver.network.holders.ClientHardwareInfoHolder;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.gameserver.cache.HtmCache;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.network.GameClient;
+import net.sf.l2jdev.gameserver.network.holders.ClientHardwareInfoHolder;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
 
 /**
  * @author Mobius

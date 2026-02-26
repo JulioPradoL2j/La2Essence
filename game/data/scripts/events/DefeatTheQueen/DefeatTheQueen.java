@@ -20,12 +20,12 @@
  */
 package events.DefeatTheQueen;
 
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.LongTimeEvent;
-import org.l2jmobius.gameserver.model.skill.SkillCaster;
-import org.l2jmobius.gameserver.model.skill.holders.SkillHolder;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.LongTimeEvent;
+import net.sf.l2jdev.gameserver.model.skill.SkillCaster;
+import net.sf.l2jdev.gameserver.model.skill.holders.SkillHolder;
 
 /**
  * @author Mobius

@@ -18,21 +18,21 @@ package handlers.chathandlers;
 
 import java.util.StringTokenizer;
 
-import org.l2jmobius.gameserver.config.GeneralConfig;
-import org.l2jmobius.gameserver.config.custom.FactionSystemConfig;
-import org.l2jmobius.gameserver.handler.IChatHandler;
-import org.l2jmobius.gameserver.handler.IVoicedCommandHandler;
-import org.l2jmobius.gameserver.handler.VoicedCommandHandler;
-import org.l2jmobius.gameserver.model.BlockList;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
-import org.l2jmobius.gameserver.model.itemcontainer.Inventory;
-import org.l2jmobius.gameserver.model.zone.ZoneId;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.enums.ChatType;
-import org.l2jmobius.gameserver.network.serverpackets.CreatureSay;
-import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2jdev.gameserver.config.GeneralConfig;
+import net.sf.l2jdev.gameserver.config.custom.FactionSystemConfig;
+import net.sf.l2jdev.gameserver.handler.IChatHandler;
+import net.sf.l2jdev.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2jdev.gameserver.handler.VoicedCommandHandler;
+import net.sf.l2jdev.gameserver.model.BlockList;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.model.itemcontainer.Inventory;
+import net.sf.l2jdev.gameserver.model.zone.ZoneId;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.enums.ChatType;
+import net.sf.l2jdev.gameserver.network.serverpackets.CreatureSay;
+import net.sf.l2jdev.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * General Chat Handler.

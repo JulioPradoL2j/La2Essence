@@ -25,20 +25,20 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.l2jmobius.gameserver.data.xml.ExperienceData;
-import org.l2jmobius.gameserver.data.xml.NpcData;
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.creature.Race;
-import org.l2jmobius.gameserver.model.actor.instance.Servitor;
-import org.l2jmobius.gameserver.model.actor.templates.NpcTemplate;
-import org.l2jmobius.gameserver.model.effects.AbstractEffect;
-import org.l2jmobius.gameserver.model.effects.EffectType;
-import org.l2jmobius.gameserver.model.item.holders.ItemHolder;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.model.skill.BuffInfo;
-import org.l2jmobius.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.data.xml.ExperienceData;
+import net.sf.l2jdev.gameserver.data.xml.NpcData;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.creature.Race;
+import net.sf.l2jdev.gameserver.model.actor.instance.Servitor;
+import net.sf.l2jdev.gameserver.model.actor.templates.NpcTemplate;
+import net.sf.l2jdev.gameserver.model.effects.AbstractEffect;
+import net.sf.l2jdev.gameserver.model.effects.EffectType;
+import net.sf.l2jdev.gameserver.model.item.holders.ItemHolder;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.skill.BuffInfo;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
 
 /**
  * SummonMulti effect implementation.

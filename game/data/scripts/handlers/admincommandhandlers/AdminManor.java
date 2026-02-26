@@ -20,13 +20,13 @@
  */
 package handlers.admincommandhandlers;
 
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.managers.CastleManager;
-import org.l2jmobius.gameserver.managers.CastleManorManager;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.siege.Castle;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
-import org.l2jmobius.gameserver.util.FormatUtil;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.managers.CastleManager;
+import net.sf.l2jdev.gameserver.managers.CastleManorManager;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.siege.Castle;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.gameserver.util.FormatUtil;
 
 /**
  * @author malyelfik, Mobius

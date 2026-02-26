@@ -20,13 +20,13 @@
  */
 package handlers.admincommandhandlers;
 
-import org.l2jmobius.gameserver.data.xml.OptionData;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.VariationInstance;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.data.xml.OptionData;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.VariationInstance;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
 
 /**
  * @author Mobius

@@ -16,8 +16,8 @@
  */
 package handlers.effecthandlers;
 
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.effects.AbstractEffect;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.effects.AbstractEffect;
 
 /**
  * Change Fishing Mastery dummy effect implementation.

@@ -22,20 +22,20 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import org.l2jmobius.gameserver.config.PlayerConfig;
-import org.l2jmobius.gameserver.data.xml.EnchantItemGroupsData;
-import org.l2jmobius.gameserver.data.xml.ItemData;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.handler.IItemHandler;
-import org.l2jmobius.gameserver.handler.ItemHandler;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.item.ItemTemplate;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.network.serverpackets.ExAdenaInvenCount;
-import org.l2jmobius.gameserver.network.serverpackets.GMViewItemList;
+import net.sf.l2jdev.gameserver.config.PlayerConfig;
+import net.sf.l2jdev.gameserver.data.xml.EnchantItemGroupsData;
+import net.sf.l2jdev.gameserver.data.xml.ItemData;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.handler.IItemHandler;
+import net.sf.l2jdev.gameserver.handler.ItemHandler;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.item.ItemTemplate;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExAdenaInvenCount;
+import net.sf.l2jdev.gameserver.network.serverpackets.GMViewItemList;
 
 /**
  * This class handles following admin commands: - itemcreate = show menu - create_item <id> [num] = creates num items with respective id, if num is not specified, assumes 1.

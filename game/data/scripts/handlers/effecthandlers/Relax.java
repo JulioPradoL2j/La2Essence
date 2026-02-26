@@ -20,15 +20,15 @@
  */
 package handlers.effecthandlers;
 
-import org.l2jmobius.gameserver.ai.Intention;
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.effects.AbstractEffect;
-import org.l2jmobius.gameserver.model.effects.EffectFlag;
-import org.l2jmobius.gameserver.model.effects.EffectType;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.ai.Intention;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.effects.AbstractEffect;
+import net.sf.l2jdev.gameserver.model.effects.EffectFlag;
+import net.sf.l2jdev.gameserver.model.effects.EffectType;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
 
 /**
  * Relax effect implementation.

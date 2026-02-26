@@ -20,11 +20,11 @@
  */
 package custom.FakePlayers;
 
-import org.l2jmobius.gameserver.config.PvpConfig;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.config.PvpConfig;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Script;
 
 /**
  * TODO: Move it to Creature.

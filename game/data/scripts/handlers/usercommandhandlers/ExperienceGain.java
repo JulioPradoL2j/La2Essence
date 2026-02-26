@@ -20,8 +20,8 @@
  */
 package handlers.usercommandhandlers;
 
-import org.l2jmobius.gameserver.handler.IVoicedCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
 
 /**
  * @author xban1x, Mobius

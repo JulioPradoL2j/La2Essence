@@ -20,24 +20,24 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.l2jmobius.gameserver.config.OlympiadConfig;
-import org.l2jmobius.gameserver.data.enums.CategoryType;
-import org.l2jmobius.gameserver.data.xml.MultisellData;
-import org.l2jmobius.gameserver.handler.BypassHandler;
-import org.l2jmobius.gameserver.handler.IBypassHandler;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.olympiad.CompetitionType;
-import org.l2jmobius.gameserver.model.olympiad.Olympiad;
-import org.l2jmobius.gameserver.model.olympiad.OlympiadGameManager;
-import org.l2jmobius.gameserver.model.olympiad.OlympiadGameTask;
-import org.l2jmobius.gameserver.model.olympiad.OlympiadManager;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.zone.ZoneId;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.olympiad.ExOlympiadMatchList;
+import net.sf.l2jdev.gameserver.config.OlympiadConfig;
+import net.sf.l2jdev.gameserver.data.enums.CategoryType;
+import net.sf.l2jdev.gameserver.data.xml.MultisellData;
+import net.sf.l2jdev.gameserver.handler.BypassHandler;
+import net.sf.l2jdev.gameserver.handler.IBypassHandler;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.olympiad.CompetitionType;
+import net.sf.l2jdev.gameserver.model.olympiad.Olympiad;
+import net.sf.l2jdev.gameserver.model.olympiad.OlympiadGameManager;
+import net.sf.l2jdev.gameserver.model.olympiad.OlympiadGameTask;
+import net.sf.l2jdev.gameserver.model.olympiad.OlympiadManager;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.zone.ZoneId;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.olympiad.ExOlympiadMatchList;
 
 /**
  * Olympiad Manager AI.

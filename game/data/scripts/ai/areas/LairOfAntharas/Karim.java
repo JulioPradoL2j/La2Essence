@@ -20,16 +20,16 @@
  */
 package ai.areas.LairOfAntharas;
 
-import org.l2jmobius.commons.threads.ThreadPool;
-import org.l2jmobius.commons.time.TimeUtil;
-import org.l2jmobius.gameserver.managers.ZoneManager;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.zone.ZoneType;
-import org.l2jmobius.gameserver.network.NpcStringId;
-import org.l2jmobius.gameserver.network.serverpackets.ExShowScreenMessage;
-import org.l2jmobius.gameserver.network.serverpackets.PlaySound;
+import net.sf.l2jdev.commons.threads.ThreadPool;
+import net.sf.l2jdev.commons.time.TimeUtil;
+import net.sf.l2jdev.gameserver.managers.ZoneManager;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.zone.ZoneType;
+import net.sf.l2jdev.gameserver.network.NpcStringId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage;
+import net.sf.l2jdev.gameserver.network.serverpackets.PlaySound;
 
 /**
  * @author Mobius

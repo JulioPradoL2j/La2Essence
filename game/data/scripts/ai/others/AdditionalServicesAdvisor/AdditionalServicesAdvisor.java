@@ -23,23 +23,23 @@ package ai.others.AdditionalServicesAdvisor;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.l2jmobius.gameserver.data.enums.CategoryType;
-import org.l2jmobius.gameserver.data.xml.ClassListData;
-import org.l2jmobius.gameserver.managers.InstanceManager;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.appearance.PlayerAppearance;
-import org.l2jmobius.gameserver.model.actor.enums.player.SubclassInfoType;
-import org.l2jmobius.gameserver.model.instancezone.Instance;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.model.olympiad.Hero;
-import org.l2jmobius.gameserver.model.olympiad.Olympiad;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.network.Disconnection;
-import org.l2jmobius.gameserver.network.serverpackets.ExSubjobInfo;
-import org.l2jmobius.gameserver.network.serverpackets.ExUserInfoInvenWeight;
-import org.l2jmobius.gameserver.network.serverpackets.LeaveWorld;
+import net.sf.l2jdev.gameserver.data.enums.CategoryType;
+import net.sf.l2jdev.gameserver.data.xml.ClassListData;
+import net.sf.l2jdev.gameserver.managers.InstanceManager;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.appearance.PlayerAppearance;
+import net.sf.l2jdev.gameserver.model.actor.enums.player.SubclassInfoType;
+import net.sf.l2jdev.gameserver.model.instancezone.Instance;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.olympiad.Hero;
+import net.sf.l2jdev.gameserver.model.olympiad.Olympiad;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.network.Disconnection;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExSubjobInfo;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExUserInfoInvenWeight;
+import net.sf.l2jdev.gameserver.network.serverpackets.LeaveWorld;
 
 /**
  * @author Mobius

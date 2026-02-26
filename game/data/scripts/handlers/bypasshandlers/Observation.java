@@ -22,16 +22,16 @@ package handlers.bypasshandlers;
 
 import java.util.logging.Level;
 
-import org.l2jmobius.gameserver.handler.IBypassHandler;
-import org.l2jmobius.gameserver.managers.SiegeManager;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.instance.BroadcastingTower;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.ActionFailed;
+import net.sf.l2jdev.gameserver.handler.IBypassHandler;
+import net.sf.l2jdev.gameserver.managers.SiegeManager;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.instance.BroadcastingTower;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ActionFailed;
 
 public class Observation implements IBypassHandler
 {

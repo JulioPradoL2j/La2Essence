@@ -22,17 +22,17 @@ package ai.bosses.SevenSignsRBs;
 
 import java.util.List;
 
-import org.l2jmobius.gameserver.managers.DatabaseSpawnManager;
-import org.l2jmobius.gameserver.managers.ZoneManager;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.npc.RaidBossStatus;
-import org.l2jmobius.gameserver.model.groups.Party;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.skill.AbnormalVisualEffect;
-import org.l2jmobius.gameserver.model.zone.type.NoRestartZone;
+import net.sf.l2jdev.gameserver.managers.DatabaseSpawnManager;
+import net.sf.l2jdev.gameserver.managers.ZoneManager;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.npc.RaidBossStatus;
+import net.sf.l2jdev.gameserver.model.groups.Party;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.skill.AbnormalVisualEffect;
+import net.sf.l2jdev.gameserver.model.zone.type.NoRestartZone;
 
 /**
  * @author RobikBobik

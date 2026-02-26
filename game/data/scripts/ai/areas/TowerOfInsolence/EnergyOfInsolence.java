@@ -23,20 +23,20 @@ package ai.areas.TowerOfInsolence;
 import java.util.List;
 import java.util.concurrent.ScheduledFuture;
 
-import org.l2jmobius.commons.threads.ThreadPool;
-import org.l2jmobius.gameserver.data.xml.SpawnData;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.Spawn;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.holders.npc.ChanceLocation;
-import org.l2jmobius.gameserver.model.actor.instance.Monster;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.skill.AbnormalVisualEffect;
-import org.l2jmobius.gameserver.model.spawns.NpcSpawnTemplate;
-import org.l2jmobius.gameserver.network.NpcStringId;
-import org.l2jmobius.gameserver.network.enums.ChatType;
-import org.l2jmobius.gameserver.util.ArrayUtil;
+import net.sf.l2jdev.commons.threads.ThreadPool;
+import net.sf.l2jdev.gameserver.data.xml.SpawnData;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.Spawn;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.holders.npc.ChanceLocation;
+import net.sf.l2jdev.gameserver.model.actor.instance.Monster;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.skill.AbnormalVisualEffect;
+import net.sf.l2jdev.gameserver.model.spawns.NpcSpawnTemplate;
+import net.sf.l2jdev.gameserver.network.NpcStringId;
+import net.sf.l2jdev.gameserver.network.enums.ChatType;
+import net.sf.l2jdev.gameserver.util.ArrayUtil;
 
 /**
  * @author Brutallis

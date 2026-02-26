@@ -20,15 +20,15 @@
  */
 package ai.others.NewbieGuide;
 
-import org.l2jmobius.gameserver.config.PlayerConfig;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.creature.Race;
-import org.l2jmobius.gameserver.model.item.holders.ItemHolder;
-import org.l2jmobius.gameserver.model.script.QuestState;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
-import org.l2jmobius.gameserver.network.serverpackets.PlaySound;
+import net.sf.l2jdev.gameserver.config.PlayerConfig;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.creature.Race;
+import net.sf.l2jdev.gameserver.model.item.holders.ItemHolder;
+import net.sf.l2jdev.gameserver.model.script.QuestState;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.gameserver.network.serverpackets.PlaySound;
 
 /**
  * @author Mobius

@@ -16,11 +16,11 @@
  */
 package handlers.usercommandhandlers;
 
-import org.l2jmobius.gameserver.handler.IUserCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.groups.CommandChannel;
-import org.l2jmobius.gameserver.model.groups.Party;
-import org.l2jmobius.gameserver.network.serverpackets.ExMultiPartyCommandChannelInfo;
+import net.sf.l2jdev.gameserver.handler.IUserCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.groups.CommandChannel;
+import net.sf.l2jdev.gameserver.model.groups.Party;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExMultiPartyCommandChannelInfo;
 
 /**
  * Channel Info user command.

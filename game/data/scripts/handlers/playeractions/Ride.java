@@ -16,9 +16,9 @@
  */
 package handlers.playeractions;
 
-import org.l2jmobius.gameserver.handler.IPlayerActionHandler;
-import org.l2jmobius.gameserver.model.ActionDataHolder;
-import org.l2jmobius.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.handler.IPlayerActionHandler;
+import net.sf.l2jdev.gameserver.model.ActionDataHolder;
+import net.sf.l2jdev.gameserver.model.actor.Player;
 
 /**
  * Mount/Dismount player action handler.

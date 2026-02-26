@@ -22,19 +22,19 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import org.l2jmobius.commons.util.StringUtil;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.olympiad.Olympiad;
-import org.l2jmobius.gameserver.model.olympiad.OlympiadGameManager;
-import org.l2jmobius.gameserver.model.olympiad.OlympiadGameNonClassed;
-import org.l2jmobius.gameserver.model.olympiad.OlympiadGameTask;
-import org.l2jmobius.gameserver.model.olympiad.OlympiadManager;
-import org.l2jmobius.gameserver.model.olympiad.Participant;
-import org.l2jmobius.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.commons.util.StringUtil;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.olympiad.Olympiad;
+import net.sf.l2jdev.gameserver.model.olympiad.OlympiadGameManager;
+import net.sf.l2jdev.gameserver.model.olympiad.OlympiadGameNonClassed;
+import net.sf.l2jdev.gameserver.model.olympiad.OlympiadGameTask;
+import net.sf.l2jdev.gameserver.model.olympiad.OlympiadManager;
+import net.sf.l2jdev.gameserver.model.olympiad.Participant;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
 
 /**
  * @author UnAfraid, Mobius

@@ -22,21 +22,21 @@ package handlers.voicedcommandhandlers;
 
 import java.util.function.Consumer;
 
-import org.l2jmobius.gameserver.config.custom.OfflinePlayConfig;
-import org.l2jmobius.gameserver.handler.IVoicedCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.player.PlayerAction;
-import org.l2jmobius.gameserver.model.events.Containers;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerLogin;
-import org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener;
-import org.l2jmobius.gameserver.model.zone.ZoneId;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.enums.ChatType;
-import org.l2jmobius.gameserver.network.serverpackets.ActionFailed;
-import org.l2jmobius.gameserver.network.serverpackets.ConfirmDlg;
-import org.l2jmobius.gameserver.network.serverpackets.CreatureSay;
-import org.l2jmobius.gameserver.network.serverpackets.ExShowScreenMessage;
+import net.sf.l2jdev.gameserver.config.custom.OfflinePlayConfig;
+import net.sf.l2jdev.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.player.PlayerAction;
+import net.sf.l2jdev.gameserver.model.events.Containers;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerLogin;
+import net.sf.l2jdev.gameserver.model.events.listeners.ConsumerEventListener;
+import net.sf.l2jdev.gameserver.model.zone.ZoneId;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.enums.ChatType;
+import net.sf.l2jdev.gameserver.network.serverpackets.ActionFailed;
+import net.sf.l2jdev.gameserver.network.serverpackets.ConfirmDlg;
+import net.sf.l2jdev.gameserver.network.serverpackets.CreatureSay;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage;
 
 /**
  * @author Mobius

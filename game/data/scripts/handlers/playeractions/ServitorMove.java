@@ -16,12 +16,12 @@
  */
 package handlers.playeractions;
 
-import org.l2jmobius.gameserver.ai.Intention;
-import org.l2jmobius.gameserver.handler.IPlayerActionHandler;
-import org.l2jmobius.gameserver.model.ActionDataHolder;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.Summon;
-import org.l2jmobius.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.ai.Intention;
+import net.sf.l2jdev.gameserver.handler.IPlayerActionHandler;
+import net.sf.l2jdev.gameserver.model.ActionDataHolder;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.Summon;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
 
 /**
  * Servitor move to target player action handler.

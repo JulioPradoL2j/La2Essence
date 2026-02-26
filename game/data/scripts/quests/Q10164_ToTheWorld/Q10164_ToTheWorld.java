@@ -20,19 +20,19 @@
  */
 package quests.Q10164_ToTheWorld;
 
-import org.l2jmobius.gameserver.data.xml.TeleportListData;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Quest;
-import org.l2jmobius.gameserver.model.script.QuestDialogType;
-import org.l2jmobius.gameserver.model.script.QuestState;
-import org.l2jmobius.gameserver.model.script.newquestdata.NewQuest;
-import org.l2jmobius.gameserver.model.script.newquestdata.NewQuestLocation;
-import org.l2jmobius.gameserver.model.script.newquestdata.QuestCondType;
-import org.l2jmobius.gameserver.model.skill.holders.SkillHolder;
-import org.l2jmobius.gameserver.network.serverpackets.quest.ExQuestDialog;
-import org.l2jmobius.gameserver.network.serverpackets.quest.ExQuestNotification;
+import net.sf.l2jdev.gameserver.data.xml.TeleportListData;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Quest;
+import net.sf.l2jdev.gameserver.model.script.QuestDialogType;
+import net.sf.l2jdev.gameserver.model.script.QuestState;
+import net.sf.l2jdev.gameserver.model.script.newquestdata.NewQuest;
+import net.sf.l2jdev.gameserver.model.script.newquestdata.NewQuestLocation;
+import net.sf.l2jdev.gameserver.model.script.newquestdata.QuestCondType;
+import net.sf.l2jdev.gameserver.model.skill.holders.SkillHolder;
+import net.sf.l2jdev.gameserver.network.serverpackets.quest.ExQuestDialog;
+import net.sf.l2jdev.gameserver.network.serverpackets.quest.ExQuestNotification;
 
 import quests.Q10510_MoreExperience.Q10510_MoreExperience;
 

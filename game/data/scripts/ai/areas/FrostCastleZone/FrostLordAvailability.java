@@ -24,8 +24,8 @@ import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Logger;
 
-import org.l2jmobius.commons.threads.ThreadPool;
-import org.l2jmobius.gameserver.managers.GlobalVariablesManager;
+import net.sf.l2jdev.commons.threads.ThreadPool;
+import net.sf.l2jdev.gameserver.managers.GlobalVariablesManager;
 
 /**
  * @author Serenitty

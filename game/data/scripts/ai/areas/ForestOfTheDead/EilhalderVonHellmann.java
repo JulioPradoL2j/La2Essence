@@ -20,15 +20,15 @@
  */
 package ai.areas.ForestOfTheDead;
 
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.ListenerRegisterType;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterEvent;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterType;
-import org.l2jmobius.gameserver.model.events.holders.OnDayNightChange;
-import org.l2jmobius.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.ListenerRegisterType;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterEvent;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterType;
+import net.sf.l2jdev.gameserver.model.events.holders.OnDayNightChange;
+import net.sf.l2jdev.gameserver.model.script.Script;
 
 /**
  * @author Mobius

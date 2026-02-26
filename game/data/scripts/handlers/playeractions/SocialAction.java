@@ -16,22 +16,22 @@
  */
 package handlers.playeractions;
 
-import org.l2jmobius.commons.threads.ThreadPool;
-import org.l2jmobius.gameserver.ai.Action;
-import org.l2jmobius.gameserver.ai.Intention;
-import org.l2jmobius.gameserver.ai.NextAction;
-import org.l2jmobius.gameserver.data.xml.FakePlayerData;
-import org.l2jmobius.gameserver.handler.IPlayerActionHandler;
-import org.l2jmobius.gameserver.model.ActionDataHolder;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.events.EventDispatcher;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerSocialAction;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.ExAskCoupleAction;
-import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
-import org.l2jmobius.gameserver.taskmanagers.AttackStanceTaskManager;
+import net.sf.l2jdev.commons.threads.ThreadPool;
+import net.sf.l2jdev.gameserver.ai.Action;
+import net.sf.l2jdev.gameserver.ai.Intention;
+import net.sf.l2jdev.gameserver.ai.NextAction;
+import net.sf.l2jdev.gameserver.data.xml.FakePlayerData;
+import net.sf.l2jdev.gameserver.handler.IPlayerActionHandler;
+import net.sf.l2jdev.gameserver.model.ActionDataHolder;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.events.EventDispatcher;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerSocialAction;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExAskCoupleAction;
+import net.sf.l2jdev.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2jdev.gameserver.taskmanagers.AttackStanceTaskManager;
 
 /**
  * Social Action player action handler.
@@ -91,7 +91,7 @@ public class SocialAction implements IPlayerActionHandler
 
 		if (player.canMakeSocialAction())
 		{
-			player.broadcastPacket(new org.l2jmobius.gameserver.network.serverpackets.SocialAction(player.getObjectId(), id));
+			player.broadcastPacket(new net.sf.l2jdev.gameserver.network.serverpackets.SocialAction(player.getObjectId(), id));
 
 			// Notify to scripts
 			if (EventDispatcher.getInstance().hasListener(EventType.ON_PLAYER_SOCIAL_ACTION, player))

@@ -23,23 +23,23 @@ package village_master.ClanMaster;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.clan.Clan;
-import org.l2jmobius.gameserver.model.clan.ClanMember;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.ListenerRegisterType;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterEvent;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterType;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerClanJoin;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerClanLeft;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerLogin;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerLogout;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerProfessionChange;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.enums.SkillFinishType;
-import org.l2jmobius.gameserver.model.skill.holders.SkillHolder;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.clan.Clan;
+import net.sf.l2jdev.gameserver.model.clan.ClanMember;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.ListenerRegisterType;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterEvent;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterType;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerClanJoin;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerClanLeft;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerLogin;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerLogout;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerProfessionChange;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.enums.SkillFinishType;
+import net.sf.l2jdev.gameserver.model.skill.holders.SkillHolder;
 
 /**
  * @author UnAfraid, Mobius

@@ -16,21 +16,21 @@
  */
 package handlers.effecthandlers;
 
-import org.l2jmobius.gameserver.managers.FortManager;
-import org.l2jmobius.gameserver.managers.FortSiegeManager;
-import org.l2jmobius.gameserver.managers.MailManager;
-import org.l2jmobius.gameserver.model.Message;
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.effects.AbstractEffect;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.model.itemcontainer.Inventory;
-import org.l2jmobius.gameserver.model.itemcontainer.Mail;
-import org.l2jmobius.gameserver.model.siege.Fort;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.network.enums.MailType;
+import net.sf.l2jdev.gameserver.managers.FortManager;
+import net.sf.l2jdev.gameserver.managers.FortSiegeManager;
+import net.sf.l2jdev.gameserver.managers.MailManager;
+import net.sf.l2jdev.gameserver.model.Message;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.effects.AbstractEffect;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.itemcontainer.Inventory;
+import net.sf.l2jdev.gameserver.model.itemcontainer.Mail;
+import net.sf.l2jdev.gameserver.model.siege.Fort;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.network.enums.MailType;
 
 /**
  * Take Fort effect implementation.

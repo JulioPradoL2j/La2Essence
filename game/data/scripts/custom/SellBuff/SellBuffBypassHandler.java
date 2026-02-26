@@ -18,21 +18,21 @@ package custom.SellBuff;
 
 import java.util.StringTokenizer;
 
-import org.l2jmobius.commons.util.StringUtil;
-import org.l2jmobius.gameserver.config.custom.SellBuffsConfig;
-import org.l2jmobius.gameserver.data.holders.SellBuffHolder;
-import org.l2jmobius.gameserver.data.xml.ItemData;
-import org.l2jmobius.gameserver.handler.BypassHandler;
-import org.l2jmobius.gameserver.handler.IBypassHandler;
-import org.l2jmobius.gameserver.managers.SellBuffsManager;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.item.ItemTemplate;
-import org.l2jmobius.gameserver.model.script.Quest;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.util.LocationUtil;
+import net.sf.l2jdev.commons.util.StringUtil;
+import net.sf.l2jdev.gameserver.config.custom.SellBuffsConfig;
+import net.sf.l2jdev.gameserver.data.holders.SellBuffHolder;
+import net.sf.l2jdev.gameserver.data.xml.ItemData;
+import net.sf.l2jdev.gameserver.handler.BypassHandler;
+import net.sf.l2jdev.gameserver.handler.IBypassHandler;
+import net.sf.l2jdev.gameserver.managers.SellBuffsManager;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.item.ItemTemplate;
+import net.sf.l2jdev.gameserver.model.script.Quest;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.util.LocationUtil;
 
 /**
  * Sell Buffs bypass commands.

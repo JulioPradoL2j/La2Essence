@@ -18,20 +18,20 @@ package handlers.itemhandlers;
 
 import java.util.List;
 
-import org.l2jmobius.gameserver.config.GeneralConfig;
-import org.l2jmobius.gameserver.handler.IItemHandler;
-import org.l2jmobius.gameserver.managers.CastleManorManager;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Playable;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.instance.Chest;
-import org.l2jmobius.gameserver.model.actor.instance.Monster;
-import org.l2jmobius.gameserver.model.item.enums.ItemSkillType;
-import org.l2jmobius.gameserver.model.item.holders.ItemSkillHolder;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.model.siege.Castle;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.ActionFailed;
+import net.sf.l2jdev.gameserver.config.GeneralConfig;
+import net.sf.l2jdev.gameserver.handler.IItemHandler;
+import net.sf.l2jdev.gameserver.managers.CastleManorManager;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Playable;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.instance.Chest;
+import net.sf.l2jdev.gameserver.model.actor.instance.Monster;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemSkillType;
+import net.sf.l2jdev.gameserver.model.item.holders.ItemSkillHolder;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.siege.Castle;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ActionFailed;
 
 /**
  * @author l3x
@@ -75,7 +75,7 @@ public class Seed implements IItemHandler
 			return false;
 		}
 
-		final org.l2jmobius.gameserver.model.Seed seed = CastleManorManager.getInstance().getSeed(item.getId());
+		final net.sf.l2jdev.gameserver.model.Seed seed = CastleManorManager.getInstance().getSeed(item.getId());
 		if (seed == null)
 		{
 			return false;

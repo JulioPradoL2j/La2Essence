@@ -22,11 +22,11 @@ package handlers.admincommandhandlers;
 
 import java.util.List;
 
-import org.l2jmobius.gameserver.config.GeoEngineConfig;
-import org.l2jmobius.gameserver.geoengine.pathfinding.GeoLocation;
-import org.l2jmobius.gameserver.geoengine.pathfinding.PathFinding;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.config.GeoEngineConfig;
+import net.sf.l2jdev.gameserver.geoengine.pathfinding.GeoLocation;
+import net.sf.l2jdev.gameserver.geoengine.pathfinding.PathFinding;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
 
 public class AdminPathNode implements IAdminCommandHandler
 {

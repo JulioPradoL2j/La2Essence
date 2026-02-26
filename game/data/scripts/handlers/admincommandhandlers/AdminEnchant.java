@@ -20,18 +20,18 @@
  */
 package handlers.admincommandhandlers;
 
-import org.l2jmobius.gameserver.cache.HtmCache;
-import org.l2jmobius.gameserver.config.PlayerConfig;
-import org.l2jmobius.gameserver.data.xml.EnchantItemGroupsData;
-import org.l2jmobius.gameserver.data.xml.ItemData;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.item.ItemTemplate;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.model.itemcontainer.Inventory;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.InventoryUpdate;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.gameserver.cache.HtmCache;
+import net.sf.l2jdev.gameserver.config.PlayerConfig;
+import net.sf.l2jdev.gameserver.data.xml.EnchantItemGroupsData;
+import net.sf.l2jdev.gameserver.data.xml.ItemData;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.item.ItemTemplate;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.itemcontainer.Inventory;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.InventoryUpdate;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
 
 /**
  * @author CostyKiller

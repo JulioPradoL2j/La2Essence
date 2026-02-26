@@ -25,16 +25,16 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ScheduledFuture;
 
-import org.l2jmobius.commons.threads.ThreadPool;
-import org.l2jmobius.commons.time.SchedulingPattern;
-import org.l2jmobius.gameserver.managers.InstanceManager;
-import org.l2jmobius.gameserver.model.Spawn;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.events.holders.instance.OnInstanceStatusChange;
-import org.l2jmobius.gameserver.model.instancezone.Instance;
-import org.l2jmobius.gameserver.model.instancezone.InstanceTemplate;
-import org.l2jmobius.gameserver.model.script.InstanceScript;
+import net.sf.l2jdev.commons.threads.ThreadPool;
+import net.sf.l2jdev.commons.time.SchedulingPattern;
+import net.sf.l2jdev.gameserver.managers.InstanceManager;
+import net.sf.l2jdev.gameserver.model.Spawn;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.events.holders.instance.OnInstanceStatusChange;
+import net.sf.l2jdev.gameserver.model.instancezone.Instance;
+import net.sf.l2jdev.gameserver.model.instancezone.InstanceTemplate;
+import net.sf.l2jdev.gameserver.model.script.InstanceScript;
 
 /**
  * @author Index

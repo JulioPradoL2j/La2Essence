@@ -27,26 +27,26 @@ import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 import java.util.logging.Logger;
 
-import org.l2jmobius.commons.database.DatabaseFactory;
-import org.l2jmobius.gameserver.ai.Intention;
-import org.l2jmobius.gameserver.data.xml.NpcData;
-import org.l2jmobius.gameserver.data.xml.SpawnData;
-import org.l2jmobius.gameserver.geoengine.GeoEngine;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.managers.DatabaseSpawnManager;
-import org.l2jmobius.gameserver.managers.MapRegionManager;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.Spawn;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.player.AdminTeleportType;
-import org.l2jmobius.gameserver.model.actor.instance.GrandBoss;
-import org.l2jmobius.gameserver.model.actor.instance.RaidBoss;
-import org.l2jmobius.gameserver.model.actor.templates.NpcTemplate;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.commons.database.DatabaseFactory;
+import net.sf.l2jdev.gameserver.ai.Intention;
+import net.sf.l2jdev.gameserver.data.xml.NpcData;
+import net.sf.l2jdev.gameserver.data.xml.SpawnData;
+import net.sf.l2jdev.gameserver.geoengine.GeoEngine;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.managers.DatabaseSpawnManager;
+import net.sf.l2jdev.gameserver.managers.MapRegionManager;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.Spawn;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.player.AdminTeleportType;
+import net.sf.l2jdev.gameserver.model.actor.instance.GrandBoss;
+import net.sf.l2jdev.gameserver.model.actor.instance.RaidBoss;
+import net.sf.l2jdev.gameserver.model.actor.templates.NpcTemplate;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
 
 /**
  * This class handles following admin commands: - show_moves - show_teleport - teleport_to_character - move_to - teleport_character

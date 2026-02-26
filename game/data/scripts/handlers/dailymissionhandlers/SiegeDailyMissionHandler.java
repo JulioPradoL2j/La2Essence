@@ -16,18 +16,18 @@
  */
 package handlers.dailymissionhandlers;
 
-import org.l2jmobius.gameserver.data.sql.ClanTable;
-import org.l2jmobius.gameserver.handler.AbstractDailyMissionHandler;
-import org.l2jmobius.gameserver.model.SiegeClan;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.player.DailyMissionStatus;
-import org.l2jmobius.gameserver.model.actor.holders.player.DailyMissionDataHolder;
-import org.l2jmobius.gameserver.model.actor.holders.player.DailyMissionPlayerEntry;
-import org.l2jmobius.gameserver.model.clan.Clan;
-import org.l2jmobius.gameserver.model.events.Containers;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.holders.sieges.OnCastleSiegeStart;
-import org.l2jmobius.gameserver.model.events.listeners.ConsumerEventListener;
+import net.sf.l2jdev.gameserver.data.sql.ClanTable;
+import net.sf.l2jdev.gameserver.handler.AbstractDailyMissionHandler;
+import net.sf.l2jdev.gameserver.model.SiegeClan;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.player.DailyMissionStatus;
+import net.sf.l2jdev.gameserver.model.actor.holders.player.DailyMissionDataHolder;
+import net.sf.l2jdev.gameserver.model.actor.holders.player.DailyMissionPlayerEntry;
+import net.sf.l2jdev.gameserver.model.clan.Clan;
+import net.sf.l2jdev.gameserver.model.events.Containers;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.holders.sieges.OnCastleSiegeStart;
+import net.sf.l2jdev.gameserver.model.events.listeners.ConsumerEventListener;
 
 /**
  * @author UnAfraid

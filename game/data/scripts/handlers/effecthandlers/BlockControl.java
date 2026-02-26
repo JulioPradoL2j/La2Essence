@@ -16,10 +16,10 @@
  */
 package handlers.effecthandlers;
 
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.effects.AbstractEffect;
-import org.l2jmobius.gameserver.model.effects.EffectFlag;
-import org.l2jmobius.gameserver.model.effects.EffectType;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.effects.AbstractEffect;
+import net.sf.l2jdev.gameserver.model.effects.EffectFlag;
+import net.sf.l2jdev.gameserver.model.effects.EffectType;
 
 /**
  * An effect that blocks the player (NPC?) control.<br>

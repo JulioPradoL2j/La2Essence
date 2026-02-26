@@ -20,26 +20,26 @@
  */
 package ai.bosses.Kuka;
 
-import org.l2jmobius.commons.threads.ThreadPool;
-import org.l2jmobius.commons.time.SchedulingPattern;
-import org.l2jmobius.gameserver.data.SpawnTable;
-import org.l2jmobius.gameserver.data.xml.NpcData;
-import org.l2jmobius.gameserver.data.xml.SkillData;
-import org.l2jmobius.gameserver.managers.DatabaseSpawnManager;
-import org.l2jmobius.gameserver.managers.ZoneManager;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.Spawn;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.npc.RaidBossStatus;
-import org.l2jmobius.gameserver.model.actor.templates.NpcTemplate;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.skill.BuffInfo;
-import org.l2jmobius.gameserver.model.zone.ZoneType;
-import org.l2jmobius.gameserver.model.zone.type.NoRestartZone;
-import org.l2jmobius.gameserver.network.NpcStringId;
-import org.l2jmobius.gameserver.network.serverpackets.ExShowScreenMessage;
+import net.sf.l2jdev.commons.threads.ThreadPool;
+import net.sf.l2jdev.commons.time.SchedulingPattern;
+import net.sf.l2jdev.gameserver.data.SpawnTable;
+import net.sf.l2jdev.gameserver.data.xml.NpcData;
+import net.sf.l2jdev.gameserver.data.xml.SkillData;
+import net.sf.l2jdev.gameserver.managers.DatabaseSpawnManager;
+import net.sf.l2jdev.gameserver.managers.ZoneManager;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.Spawn;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.npc.RaidBossStatus;
+import net.sf.l2jdev.gameserver.model.actor.templates.NpcTemplate;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.skill.BuffInfo;
+import net.sf.l2jdev.gameserver.model.zone.ZoneType;
+import net.sf.l2jdev.gameserver.model.zone.type.NoRestartZone;
+import net.sf.l2jdev.gameserver.network.NpcStringId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage;
 
 /**
  * @author Symb1OS

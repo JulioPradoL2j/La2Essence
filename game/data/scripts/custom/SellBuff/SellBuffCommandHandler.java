@@ -16,11 +16,11 @@
  */
 package custom.SellBuff;
 
-import org.l2jmobius.gameserver.config.custom.SellBuffsConfig;
-import org.l2jmobius.gameserver.handler.IVoicedCommandHandler;
-import org.l2jmobius.gameserver.handler.VoicedCommandHandler;
-import org.l2jmobius.gameserver.managers.SellBuffsManager;
-import org.l2jmobius.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.config.custom.SellBuffsConfig;
+import net.sf.l2jdev.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2jdev.gameserver.handler.VoicedCommandHandler;
+import net.sf.l2jdev.gameserver.managers.SellBuffsManager;
+import net.sf.l2jdev.gameserver.model.actor.Player;
 
 /**
  * Sell Buffs voiced commands.

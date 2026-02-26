@@ -23,16 +23,16 @@ package handlers.admincommandhandlers;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.l2jmobius.gameserver.data.holders.AdenLabHolder;
-import org.l2jmobius.gameserver.data.xml.AdenLaboratoryData;
-import org.l2jmobius.gameserver.data.xml.AdminData;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.managers.AdenLaboratoryManager;
-import org.l2jmobius.gameserver.managers.PunishmentManager;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.player.IllegalActionPunishmentType;
-import org.l2jmobius.gameserver.network.serverpackets.adenlab.ExAdenLabBossInfo;
+import net.sf.l2jdev.gameserver.data.holders.AdenLabHolder;
+import net.sf.l2jdev.gameserver.data.xml.AdenLaboratoryData;
+import net.sf.l2jdev.gameserver.data.xml.AdminData;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.managers.AdenLaboratoryManager;
+import net.sf.l2jdev.gameserver.managers.PunishmentManager;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.player.IllegalActionPunishmentType;
+import net.sf.l2jdev.gameserver.network.serverpackets.adenlab.ExAdenLabBossInfo;
 
 /**
  * @author SaltyMike

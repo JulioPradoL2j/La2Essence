@@ -16,15 +16,15 @@
  */
 package handlers.punishmenthandlers;
 
-import org.l2jmobius.gameserver.LoginServerThread;
-import org.l2jmobius.gameserver.handler.IPunishmentHandler;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.punishment.PunishmentTask;
-import org.l2jmobius.gameserver.model.punishment.PunishmentType;
-import org.l2jmobius.gameserver.network.GameClient;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.EtcStatusUpdate;
+import net.sf.l2jdev.gameserver.LoginServerThread;
+import net.sf.l2jdev.gameserver.handler.IPunishmentHandler;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.punishment.PunishmentTask;
+import net.sf.l2jdev.gameserver.model.punishment.PunishmentType;
+import net.sf.l2jdev.gameserver.network.GameClient;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.EtcStatusUpdate;
 
 /**
  * This class handles chat ban punishment.

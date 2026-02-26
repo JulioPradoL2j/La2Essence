@@ -16,14 +16,14 @@
  */
 package handlers.targethandlers;
 
-import org.l2jmobius.gameserver.geoengine.GeoEngine;
-import org.l2jmobius.gameserver.handler.ITargetTypeHandler;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.targets.TargetType;
-import org.l2jmobius.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.geoengine.GeoEngine;
+import net.sf.l2jdev.gameserver.handler.ITargetTypeHandler;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.targets.TargetType;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
 
 /**
  * Target enemy or ally if force attacking.

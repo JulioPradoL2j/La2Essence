@@ -36,7 +36,7 @@ Set file = Nothing
 'Generate command.
 command = path & "java " & parameters & " -jar ../libs/LoginServer.jar"
 If window = 1 Then
-	command = "cmd /c start ""L2J Mobius - Login Server Console"" " & command
+	command = "cmd /c start ""Login Server Console"" " & command
 End If
 
 'Run the server.

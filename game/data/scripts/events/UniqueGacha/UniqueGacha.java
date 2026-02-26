@@ -24,14 +24,14 @@ import java.io.File;
 import java.math.BigDecimal;
 import java.util.logging.Level;
 
-import org.l2jmobius.commons.util.IXmlReader;
-import org.l2jmobius.gameserver.managers.events.UniqueGachaManager;
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.item.enums.UniqueGachaRank;
-import org.l2jmobius.gameserver.model.script.LongTimeEvent;
-import org.l2jmobius.gameserver.model.script.Quest;
+import net.sf.l2jdev.commons.util.IXmlReader;
+import net.sf.l2jdev.gameserver.managers.events.UniqueGachaManager;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.item.enums.UniqueGachaRank;
+import net.sf.l2jdev.gameserver.model.script.LongTimeEvent;
+import net.sf.l2jdev.gameserver.model.script.Quest;
 import org.w3c.dom.Document;
 
 public class UniqueGacha extends LongTimeEvent implements IXmlReader

@@ -19,20 +19,20 @@ package handlers.itemhandlers;
 import java.util.List;
 import java.util.Set;
 
-import org.l2jmobius.gameserver.data.xml.PetDataTable;
-import org.l2jmobius.gameserver.data.xml.SkillData;
-import org.l2jmobius.gameserver.handler.IItemHandler;
-import org.l2jmobius.gameserver.model.actor.Playable;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.instance.Pet;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
-import org.l2jmobius.gameserver.model.item.enums.ItemSkillType;
-import org.l2jmobius.gameserver.model.item.holders.ItemSkillHolder;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.MagicSkillUse;
-import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2jdev.gameserver.data.xml.PetDataTable;
+import net.sf.l2jdev.gameserver.data.xml.SkillData;
+import net.sf.l2jdev.gameserver.handler.IItemHandler;
+import net.sf.l2jdev.gameserver.model.actor.Playable;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.instance.Pet;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemSkillType;
+import net.sf.l2jdev.gameserver.model.item.holders.ItemSkillHolder;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.MagicSkillUse;
+import net.sf.l2jdev.gameserver.network.serverpackets.SystemMessage;
 
 /**
  * @author Kerberos, Zoey76

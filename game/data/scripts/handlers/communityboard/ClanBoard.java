@@ -19,13 +19,13 @@ package handlers.communityboard;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-import org.l2jmobius.gameserver.data.sql.ClanTable;
-import org.l2jmobius.gameserver.handler.CommunityBoardHandler;
-import org.l2jmobius.gameserver.handler.IWriteBoardHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.clan.Clan;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.util.HtmlUtil;
+import net.sf.l2jdev.gameserver.data.sql.ClanTable;
+import net.sf.l2jdev.gameserver.handler.CommunityBoardHandler;
+import net.sf.l2jdev.gameserver.handler.IWriteBoardHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.clan.Clan;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.util.HtmlUtil;
 
 /**
  * Clan board.

@@ -20,11 +20,11 @@
  */
 package custom.DelevelManager;
 
-import org.l2jmobius.gameserver.config.custom.DelevelManagerConfig;
-import org.l2jmobius.gameserver.data.xml.ExperienceData;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.config.custom.DelevelManagerConfig;
+import net.sf.l2jdev.gameserver.data.xml.ExperienceData;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Script;
 
 /**
  * @author Mobius

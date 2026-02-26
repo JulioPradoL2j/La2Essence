@@ -22,11 +22,11 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.network.Disconnection;
-import org.l2jmobius.gameserver.network.serverpackets.LeaveWorld;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.network.Disconnection;
+import net.sf.l2jdev.gameserver.network.serverpackets.LeaveWorld;
 
 public class AdminKick implements IAdminCommandHandler
 {

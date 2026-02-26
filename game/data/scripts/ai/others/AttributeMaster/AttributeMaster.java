@@ -22,17 +22,17 @@ package ai.others.AttributeMaster;
 
 import java.util.Arrays;
 
-import org.l2jmobius.gameserver.model.ElementalSpirit;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.events.EventDispatcher;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnElementalSpiritLearn;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.network.enums.UserInfoType;
-import org.l2jmobius.gameserver.network.serverpackets.UserInfo;
-import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ElementalSpiritInfo;
-import org.l2jmobius.gameserver.network.serverpackets.elementalspirits.ExElementalSpiritAttackType;
+import net.sf.l2jdev.gameserver.model.ElementalSpirit;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.events.EventDispatcher;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnElementalSpiritLearn;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.network.enums.UserInfoType;
+import net.sf.l2jdev.gameserver.network.serverpackets.UserInfo;
+import net.sf.l2jdev.gameserver.network.serverpackets.elementalspirits.ElementalSpiritInfo;
+import net.sf.l2jdev.gameserver.network.serverpackets.elementalspirits.ExElementalSpiritAttackType;
 
 /**
  * @author JoeAlisson

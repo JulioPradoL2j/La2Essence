@@ -19,12 +19,12 @@ package village_master.FirstClassTransferTalk;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.creature.Race;
-import org.l2jmobius.gameserver.model.actor.instance.VillageMasterFighter;
-import org.l2jmobius.gameserver.model.actor.instance.VillageMasterPriest;
-import org.l2jmobius.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.creature.Race;
+import net.sf.l2jdev.gameserver.model.actor.instance.VillageMasterFighter;
+import net.sf.l2jdev.gameserver.model.actor.instance.VillageMasterPriest;
+import net.sf.l2jdev.gameserver.model.script.Script;
 
 /**
  * This script manages the dialogs of the headmasters of all newbie villages.<br>

@@ -16,8 +16,8 @@
  */
 package handlers.usercommandhandlers;
 
-import org.l2jmobius.gameserver.handler.IUserCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.handler.IUserCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
 
 /**
  * Dismount user command.

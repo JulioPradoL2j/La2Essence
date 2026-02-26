@@ -20,9 +20,9 @@
  */
 package handlers.admincommandhandlers;
 
-import org.l2jmobius.gameserver.handler.AdminCommandHandler;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.handler.AdminCommandHandler;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
 
 /**
  * @author poltomb, Mobius

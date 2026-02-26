@@ -22,23 +22,23 @@ package handlers.actionshifthandlers;
 
 import java.util.Set;
 
-import org.l2jmobius.commons.util.StringUtil;
-import org.l2jmobius.gameserver.config.NpcConfig;
-import org.l2jmobius.gameserver.data.xml.ClanHallData;
-import org.l2jmobius.gameserver.data.xml.NpcData;
-import org.l2jmobius.gameserver.handler.IActionShiftHandler;
-import org.l2jmobius.gameserver.managers.ScriptManager;
-import org.l2jmobius.gameserver.managers.WalkingManager;
-import org.l2jmobius.gameserver.model.Spawn;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.creature.AttributeType;
-import org.l2jmobius.gameserver.model.actor.enums.creature.InstanceType;
-import org.l2jmobius.gameserver.model.residences.ClanHall;
-import org.l2jmobius.gameserver.model.script.Quest;
-import org.l2jmobius.gameserver.model.spawns.NpcSpawnTemplate;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.commons.util.StringUtil;
+import net.sf.l2jdev.gameserver.config.NpcConfig;
+import net.sf.l2jdev.gameserver.data.xml.ClanHallData;
+import net.sf.l2jdev.gameserver.data.xml.NpcData;
+import net.sf.l2jdev.gameserver.handler.IActionShiftHandler;
+import net.sf.l2jdev.gameserver.managers.ScriptManager;
+import net.sf.l2jdev.gameserver.managers.WalkingManager;
+import net.sf.l2jdev.gameserver.model.Spawn;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.creature.AttributeType;
+import net.sf.l2jdev.gameserver.model.actor.enums.creature.InstanceType;
+import net.sf.l2jdev.gameserver.model.residences.ClanHall;
+import net.sf.l2jdev.gameserver.model.script.Quest;
+import net.sf.l2jdev.gameserver.model.spawns.NpcSpawnTemplate;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
 
 import handlers.bypasshandlers.NpcViewMod;
 

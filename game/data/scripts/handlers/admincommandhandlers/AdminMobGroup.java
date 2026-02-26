@@ -16,18 +16,18 @@
  */
 package handlers.admincommandhandlers;
 
-import org.l2jmobius.gameserver.data.xml.NpcData;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.MobGroup;
-import org.l2jmobius.gameserver.model.MobGroupTable;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.templates.NpcTemplate;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.MagicSkillUse;
-import org.l2jmobius.gameserver.network.serverpackets.SetupGauge;
-import org.l2jmobius.gameserver.util.Broadcast;
+import net.sf.l2jdev.gameserver.data.xml.NpcData;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.MobGroup;
+import net.sf.l2jdev.gameserver.model.MobGroupTable;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.templates.NpcTemplate;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.MagicSkillUse;
+import net.sf.l2jdev.gameserver.network.serverpackets.SetupGauge;
+import net.sf.l2jdev.gameserver.util.Broadcast;
 
 /**
  * Admin commands handler for controllable mobs.

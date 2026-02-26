@@ -22,20 +22,20 @@ package instances.TrainingZone;
 
 import java.util.Arrays;
 
-import org.l2jmobius.gameserver.data.holders.TimedHuntingZoneHolder;
-import org.l2jmobius.gameserver.data.xml.TimedHuntingZoneData;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.instancezone.Instance;
-import org.l2jmobius.gameserver.model.script.InstanceScript;
-import org.l2jmobius.gameserver.model.skill.holders.SkillHolder;
-import org.l2jmobius.gameserver.network.NpcStringId;
-import org.l2jmobius.gameserver.network.enums.ChatType;
-import org.l2jmobius.gameserver.network.serverpackets.ExSendUIEvent;
-import org.l2jmobius.gameserver.network.serverpackets.ExShowScreenMessage;
-import org.l2jmobius.gameserver.network.serverpackets.huntingzones.TimedHuntingZoneExit;
+import net.sf.l2jdev.gameserver.data.holders.TimedHuntingZoneHolder;
+import net.sf.l2jdev.gameserver.data.xml.TimedHuntingZoneData;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.instancezone.Instance;
+import net.sf.l2jdev.gameserver.model.script.InstanceScript;
+import net.sf.l2jdev.gameserver.model.skill.holders.SkillHolder;
+import net.sf.l2jdev.gameserver.network.NpcStringId;
+import net.sf.l2jdev.gameserver.network.enums.ChatType;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExSendUIEvent;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExShowScreenMessage;
+import net.sf.l2jdev.gameserver.network.serverpackets.huntingzones.TimedHuntingZoneExit;
 
 /**
  * @author Serenitty

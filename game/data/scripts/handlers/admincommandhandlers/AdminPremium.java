@@ -23,14 +23,14 @@ package handlers.admincommandhandlers;
 import java.text.SimpleDateFormat;
 import java.util.concurrent.TimeUnit;
 
-import org.l2jmobius.gameserver.cache.HtmCache;
-import org.l2jmobius.gameserver.config.custom.PremiumSystemConfig;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.managers.PcCafePointsManager;
-import org.l2jmobius.gameserver.managers.PremiumManager;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.gameserver.cache.HtmCache;
+import net.sf.l2jdev.gameserver.config.custom.PremiumSystemConfig;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.managers.PcCafePointsManager;
+import net.sf.l2jdev.gameserver.managers.PremiumManager;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
 
 /**
  * @author Mobius

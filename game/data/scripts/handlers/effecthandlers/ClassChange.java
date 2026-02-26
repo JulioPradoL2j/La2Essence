@@ -20,29 +20,29 @@
  */
 package handlers.effecthandlers;
 
-import org.l2jmobius.commons.threads.ThreadPool;
-import org.l2jmobius.gameserver.data.xml.SkillData;
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.enums.player.SubclassInfoType;
-import org.l2jmobius.gameserver.model.actor.holders.player.Shortcut;
-import org.l2jmobius.gameserver.model.effects.AbstractEffect;
-import org.l2jmobius.gameserver.model.groups.Party;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.model.olympiad.OlympiadManager;
-import org.l2jmobius.gameserver.model.skill.AbnormalType;
-import org.l2jmobius.gameserver.model.skill.BuffInfo;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.enums.SkillFinishType;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.AcquireSkillDone;
-import org.l2jmobius.gameserver.network.serverpackets.AcquireSkillList;
-import org.l2jmobius.gameserver.network.serverpackets.ExSubjobInfo;
-import org.l2jmobius.gameserver.network.serverpackets.PartySmallWindowAll;
-import org.l2jmobius.gameserver.network.serverpackets.PartySmallWindowDeleteAll;
-import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
-import org.l2jmobius.gameserver.taskmanagers.AutoUseTaskManager;
+import net.sf.l2jdev.commons.threads.ThreadPool;
+import net.sf.l2jdev.gameserver.data.xml.SkillData;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.enums.player.SubclassInfoType;
+import net.sf.l2jdev.gameserver.model.actor.holders.player.Shortcut;
+import net.sf.l2jdev.gameserver.model.effects.AbstractEffect;
+import net.sf.l2jdev.gameserver.model.groups.Party;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.olympiad.OlympiadManager;
+import net.sf.l2jdev.gameserver.model.skill.AbnormalType;
+import net.sf.l2jdev.gameserver.model.skill.BuffInfo;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.enums.SkillFinishType;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.AcquireSkillDone;
+import net.sf.l2jdev.gameserver.network.serverpackets.AcquireSkillList;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExSubjobInfo;
+import net.sf.l2jdev.gameserver.network.serverpackets.PartySmallWindowAll;
+import net.sf.l2jdev.gameserver.network.serverpackets.PartySmallWindowDeleteAll;
+import net.sf.l2jdev.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2jdev.gameserver.taskmanagers.AutoUseTaskManager;
 
 /**
  * @author Sdw, Mobius

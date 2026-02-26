@@ -16,10 +16,10 @@
  */
 package handlers.voicedcommandhandlers;
 
-import org.l2jmobius.gameserver.config.custom.BankingConfig;
-import org.l2jmobius.gameserver.handler.IVoicedCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.config.custom.BankingConfig;
+import net.sf.l2jdev.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
 
 /**
  * This class trades Gold Bars for Adena and vice versa.

@@ -20,23 +20,23 @@
  */
 package quests.Q10442_MemoryOfTheGloriousPast2;
 
-import org.l2jmobius.gameserver.data.xml.TeleportListData;
-import org.l2jmobius.gameserver.model.Location;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.events.EventType;
-import org.l2jmobius.gameserver.model.events.ListenerRegisterType;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterEvent;
-import org.l2jmobius.gameserver.model.events.annotations.RegisterType;
-import org.l2jmobius.gameserver.model.events.holders.actor.player.OnPlayerQuestComplete;
-import org.l2jmobius.gameserver.model.script.Quest;
-import org.l2jmobius.gameserver.model.script.QuestDialogType;
-import org.l2jmobius.gameserver.model.script.QuestState;
-import org.l2jmobius.gameserver.model.script.newquestdata.NewQuest;
-import org.l2jmobius.gameserver.model.script.newquestdata.NewQuestLocation;
-import org.l2jmobius.gameserver.model.script.newquestdata.QuestCondType;
-import org.l2jmobius.gameserver.network.serverpackets.quest.ExQuestDialog;
-import org.l2jmobius.gameserver.network.serverpackets.quest.ExQuestNotification;
+import net.sf.l2jdev.gameserver.data.xml.TeleportListData;
+import net.sf.l2jdev.gameserver.model.Location;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.events.EventType;
+import net.sf.l2jdev.gameserver.model.events.ListenerRegisterType;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterEvent;
+import net.sf.l2jdev.gameserver.model.events.annotations.RegisterType;
+import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerQuestComplete;
+import net.sf.l2jdev.gameserver.model.script.Quest;
+import net.sf.l2jdev.gameserver.model.script.QuestDialogType;
+import net.sf.l2jdev.gameserver.model.script.QuestState;
+import net.sf.l2jdev.gameserver.model.script.newquestdata.NewQuest;
+import net.sf.l2jdev.gameserver.model.script.newquestdata.NewQuestLocation;
+import net.sf.l2jdev.gameserver.model.script.newquestdata.QuestCondType;
+import net.sf.l2jdev.gameserver.network.serverpackets.quest.ExQuestDialog;
+import net.sf.l2jdev.gameserver.network.serverpackets.quest.ExQuestNotification;
 
 import quests.Q10340_MemoryOfTheGloriousPast3.Q10340_MemoryOfTheGloriousPast3;
 

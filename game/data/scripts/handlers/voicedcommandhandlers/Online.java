@@ -20,10 +20,10 @@
  */
 package handlers.voicedcommandhandlers;
 
-import org.l2jmobius.gameserver.config.custom.OnlineInfoConfig;
-import org.l2jmobius.gameserver.handler.IVoicedCommandHandler;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.config.custom.OnlineInfoConfig;
+import net.sf.l2jdev.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Player;
 
 /**
  * @author Mobius

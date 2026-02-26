@@ -20,7 +20,7 @@
  */
 package handlers.chathandlers;
 
-import org.l2jmobius.commons.util.Rnd;
+import net.sf.l2jdev.commons.util.Rnd;
 
 /**
  * @author Mobius

@@ -25,15 +25,15 @@ import java.util.Date;
 import java.util.StringTokenizer;
 import java.util.logging.Level;
 
-import org.l2jmobius.gameserver.config.GeneralConfig;
-import org.l2jmobius.gameserver.handler.IBypassHandler;
-import org.l2jmobius.gameserver.managers.ItemAuctionManager;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.itemauction.ItemAuction;
-import org.l2jmobius.gameserver.model.itemauction.ItemAuctionInstance;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.ExItemAuctionInfoPacket;
+import net.sf.l2jdev.gameserver.config.GeneralConfig;
+import net.sf.l2jdev.gameserver.handler.IBypassHandler;
+import net.sf.l2jdev.gameserver.managers.ItemAuctionManager;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.itemauction.ItemAuction;
+import net.sf.l2jdev.gameserver.model.itemauction.ItemAuctionInstance;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExItemAuctionInfoPacket;
 
 public class ItemAuctionLink implements IBypassHandler
 {

@@ -22,16 +22,16 @@ package ai.areas.LandsOfShadow;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import org.l2jmobius.gameserver.data.enums.CategoryType;
-import org.l2jmobius.gameserver.data.xml.SpawnData;
-import org.l2jmobius.gameserver.managers.ZoneManager;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.spawns.SpawnGroup;
-import org.l2jmobius.gameserver.model.spawns.SpawnTemplate;
-import org.l2jmobius.gameserver.model.zone.ZoneType;
+import net.sf.l2jdev.gameserver.data.enums.CategoryType;
+import net.sf.l2jdev.gameserver.data.xml.SpawnData;
+import net.sf.l2jdev.gameserver.managers.ZoneManager;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.spawns.SpawnGroup;
+import net.sf.l2jdev.gameserver.model.spawns.SpawnTemplate;
+import net.sf.l2jdev.gameserver.model.zone.ZoneType;
 
 /**
  * @author Liamxroy

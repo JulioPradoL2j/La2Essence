@@ -36,7 +36,7 @@ Set file = Nothing
 'Generate command.
 command = path & "java " & parameters & " -jar ../libs/GameServer.jar"
 If window = 1 Then
-	command = "cmd /c start ""L2J Mobius - Game Server Console"" " & command
+	command = "cmd /c start ""Game Server Console"" " & command
 End If
 
 'Run the server.

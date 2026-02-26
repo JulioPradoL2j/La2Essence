@@ -16,9 +16,9 @@
  */
 package handlers.targethandlers.affectobject;
 
-import org.l2jmobius.gameserver.handler.IAffectObjectHandler;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.skill.targets.AffectObject;
+import net.sf.l2jdev.gameserver.handler.IAffectObjectHandler;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.skill.targets.AffectObject;
 
 /**
  * Undead enemy npc affect object implementation.

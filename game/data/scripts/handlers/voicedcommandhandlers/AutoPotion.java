@@ -20,10 +20,10 @@
  */
 package handlers.voicedcommandhandlers;
 
-import org.l2jmobius.gameserver.config.custom.AutoPotionsConfig;
-import org.l2jmobius.gameserver.handler.IVoicedCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.taskmanagers.AutoPotionTaskManager;
+import net.sf.l2jdev.gameserver.config.custom.AutoPotionsConfig;
+import net.sf.l2jdev.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.taskmanagers.AutoPotionTaskManager;
 
 /**
  * @author Mobius, Gigi

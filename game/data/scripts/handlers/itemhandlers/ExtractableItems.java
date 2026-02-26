@@ -27,27 +27,27 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import org.l2jmobius.commons.util.Rnd;
-import org.l2jmobius.gameserver.config.RatesConfig;
-import org.l2jmobius.gameserver.data.xml.ItemData;
-import org.l2jmobius.gameserver.handler.IItemHandler;
-import org.l2jmobius.gameserver.managers.DailyResetManager;
-import org.l2jmobius.gameserver.model.ExtractableProduct;
-import org.l2jmobius.gameserver.model.actor.Playable;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.request.AutoPeelRequest;
-import org.l2jmobius.gameserver.model.item.EtcItem;
-import org.l2jmobius.gameserver.model.item.ItemTemplate;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
-import org.l2jmobius.gameserver.model.item.enums.SpecialItemType;
-import org.l2jmobius.gameserver.model.item.holders.ItemHolder;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.ExPCCafePointInfo;
-import org.l2jmobius.gameserver.network.serverpackets.InventoryUpdate;
-import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
-import org.l2jmobius.gameserver.network.serverpackets.autopeel.ExResultItemAutoPeel;
-import org.l2jmobius.gameserver.network.serverpackets.autopeel.ExStopItemAutoPeel;
+import net.sf.l2jdev.commons.util.Rnd;
+import net.sf.l2jdev.gameserver.config.RatesConfig;
+import net.sf.l2jdev.gameserver.data.xml.ItemData;
+import net.sf.l2jdev.gameserver.handler.IItemHandler;
+import net.sf.l2jdev.gameserver.managers.DailyResetManager;
+import net.sf.l2jdev.gameserver.model.ExtractableProduct;
+import net.sf.l2jdev.gameserver.model.actor.Playable;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.request.AutoPeelRequest;
+import net.sf.l2jdev.gameserver.model.item.EtcItem;
+import net.sf.l2jdev.gameserver.model.item.ItemTemplate;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.model.item.enums.SpecialItemType;
+import net.sf.l2jdev.gameserver.model.item.holders.ItemHolder;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExPCCafePointInfo;
+import net.sf.l2jdev.gameserver.network.serverpackets.InventoryUpdate;
+import net.sf.l2jdev.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2jdev.gameserver.network.serverpackets.autopeel.ExResultItemAutoPeel;
+import net.sf.l2jdev.gameserver.network.serverpackets.autopeel.ExStopItemAutoPeel;
 
 /**
  * Extractable Items handler.

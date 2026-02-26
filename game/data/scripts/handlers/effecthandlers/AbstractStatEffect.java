@@ -23,19 +23,19 @@ package handlers.effecthandlers;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.conditions.Condition;
-import org.l2jmobius.gameserver.model.conditions.ConditionPlayerIsInCombat;
-import org.l2jmobius.gameserver.model.conditions.ConditionUsingItemType;
-import org.l2jmobius.gameserver.model.conditions.ConditionUsingMagicWeapon;
-import org.l2jmobius.gameserver.model.conditions.ConditionUsingTwoHandWeapon;
-import org.l2jmobius.gameserver.model.effects.AbstractEffect;
-import org.l2jmobius.gameserver.model.item.type.ArmorType;
-import org.l2jmobius.gameserver.model.item.type.WeaponType;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.enums.StatModifierType;
-import org.l2jmobius.gameserver.model.stats.Stat;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.conditions.Condition;
+import net.sf.l2jdev.gameserver.model.conditions.ConditionPlayerIsInCombat;
+import net.sf.l2jdev.gameserver.model.conditions.ConditionUsingItemType;
+import net.sf.l2jdev.gameserver.model.conditions.ConditionUsingMagicWeapon;
+import net.sf.l2jdev.gameserver.model.conditions.ConditionUsingTwoHandWeapon;
+import net.sf.l2jdev.gameserver.model.effects.AbstractEffect;
+import net.sf.l2jdev.gameserver.model.item.type.ArmorType;
+import net.sf.l2jdev.gameserver.model.item.type.WeaponType;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.enums.StatModifierType;
+import net.sf.l2jdev.gameserver.model.stats.Stat;
 
 /**
  * @author Sdw, Mobius

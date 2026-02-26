@@ -16,11 +16,11 @@
  */
 package ai.others.SymbolMaker;
 
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.network.serverpackets.HennaEquipList;
-import org.l2jmobius.gameserver.network.serverpackets.HennaRemoveList;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.network.serverpackets.HennaEquipList;
+import net.sf.l2jdev.gameserver.network.serverpackets.HennaRemoveList;
 
 /**
  * Symbol Maker AI.

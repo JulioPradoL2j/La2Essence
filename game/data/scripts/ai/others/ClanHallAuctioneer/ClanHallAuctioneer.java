@@ -32,25 +32,25 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-import org.l2jmobius.gameserver.data.xml.ClanHallData;
-import org.l2jmobius.gameserver.managers.ClanHallAuctionManager;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.clan.Clan;
-import org.l2jmobius.gameserver.model.clan.ClanAccess;
-import org.l2jmobius.gameserver.model.html.PageBuilder;
-import org.l2jmobius.gameserver.model.html.PageResult;
-import org.l2jmobius.gameserver.model.html.formatters.BypassParserFormatter;
-import org.l2jmobius.gameserver.model.html.pagehandlers.NextPrevPageHandler;
-import org.l2jmobius.gameserver.model.html.styles.ButtonsStyle;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
-import org.l2jmobius.gameserver.model.itemcontainer.Inventory;
-import org.l2jmobius.gameserver.model.residences.Bidder;
-import org.l2jmobius.gameserver.model.residences.ClanHall;
-import org.l2jmobius.gameserver.model.residences.ClanHallAuction;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2jdev.gameserver.data.xml.ClanHallData;
+import net.sf.l2jdev.gameserver.managers.ClanHallAuctionManager;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.clan.Clan;
+import net.sf.l2jdev.gameserver.model.clan.ClanAccess;
+import net.sf.l2jdev.gameserver.model.html.PageBuilder;
+import net.sf.l2jdev.gameserver.model.html.PageResult;
+import net.sf.l2jdev.gameserver.model.html.formatters.BypassParserFormatter;
+import net.sf.l2jdev.gameserver.model.html.pagehandlers.NextPrevPageHandler;
+import net.sf.l2jdev.gameserver.model.html.styles.ButtonsStyle;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.model.itemcontainer.Inventory;
+import net.sf.l2jdev.gameserver.model.residences.Bidder;
+import net.sf.l2jdev.gameserver.model.residences.ClanHall;
+import net.sf.l2jdev.gameserver.model.residences.ClanHallAuction;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
 
 /**
  * Clan Hall Auctioneer AI.

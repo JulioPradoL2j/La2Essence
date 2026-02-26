@@ -22,13 +22,13 @@ package handlers.admincommandhandlers;
 
 import java.util.logging.Logger;
 
-import org.l2jmobius.gameserver.data.xml.BuyListData;
-import org.l2jmobius.gameserver.data.xml.MultisellData;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.buylist.ProductList;
-import org.l2jmobius.gameserver.network.serverpackets.ActionFailed;
-import org.l2jmobius.gameserver.network.serverpackets.ExBuySellList;
+import net.sf.l2jdev.gameserver.data.xml.BuyListData;
+import net.sf.l2jdev.gameserver.data.xml.MultisellData;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.buylist.ProductList;
+import net.sf.l2jdev.gameserver.network.serverpackets.ActionFailed;
+import net.sf.l2jdev.gameserver.network.serverpackets.ExBuySellList;
 
 /**
  * This class handles following admin commands:

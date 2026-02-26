@@ -16,15 +16,15 @@
  */
 package handlers.targethandlers.affectobject;
 
-import org.l2jmobius.gameserver.config.PlayerConfig;
-import org.l2jmobius.gameserver.handler.IAffectObjectHandler;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.clan.Clan;
-import org.l2jmobius.gameserver.model.groups.CommandChannel;
-import org.l2jmobius.gameserver.model.groups.Party;
-import org.l2jmobius.gameserver.model.skill.targets.AffectObject;
-import org.l2jmobius.gameserver.model.zone.ZoneId;
+import net.sf.l2jdev.gameserver.config.PlayerConfig;
+import net.sf.l2jdev.gameserver.handler.IAffectObjectHandler;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.clan.Clan;
+import net.sf.l2jdev.gameserver.model.groups.CommandChannel;
+import net.sf.l2jdev.gameserver.model.groups.Party;
+import net.sf.l2jdev.gameserver.model.skill.targets.AffectObject;
+import net.sf.l2jdev.gameserver.model.zone.ZoneId;
 
 /**
  * Not Friend affect object implementation. Based on Gracia Final retail tests.<br>

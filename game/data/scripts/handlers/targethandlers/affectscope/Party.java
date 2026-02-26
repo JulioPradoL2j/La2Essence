@@ -20,17 +20,17 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-import org.l2jmobius.gameserver.handler.AffectObjectHandler;
-import org.l2jmobius.gameserver.handler.IAffectObjectHandler;
-import org.l2jmobius.gameserver.handler.IAffectScopeHandler;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Playable;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.targets.AffectScope;
+import net.sf.l2jdev.gameserver.handler.AffectObjectHandler;
+import net.sf.l2jdev.gameserver.handler.IAffectObjectHandler;
+import net.sf.l2jdev.gameserver.handler.IAffectScopeHandler;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Playable;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.targets.AffectScope;
 
 /**
  * @author Nik
@@ -46,7 +46,7 @@ public class Party implements IAffectScopeHandler
 		if (target.isPlayable())
 		{
 			final Player player = target.asPlayer();
-			final org.l2jmobius.gameserver.model.groups.Party party = player.getParty();
+			final net.sf.l2jdev.gameserver.model.groups.Party party = player.getParty();
 
 			// Create the target filter.
 			final AtomicInteger affected = new AtomicInteger(0);
@@ -65,7 +65,7 @@ public class Party implements IAffectScopeHandler
 
 				if (p != player)
 				{
-					final org.l2jmobius.gameserver.model.groups.Party targetParty = p.getParty();
+					final net.sf.l2jdev.gameserver.model.groups.Party targetParty = p.getParty();
 					if ((party == null) || (targetParty == null) || (party.getLeaderObjectId() != targetParty.getLeaderObjectId()))
 					{
 						return false;

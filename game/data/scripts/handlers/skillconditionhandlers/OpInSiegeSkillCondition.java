@@ -23,15 +23,15 @@ package handlers.skillconditionhandlers;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.l2jmobius.gameserver.managers.FortSiegeManager;
-import org.l2jmobius.gameserver.managers.SiegeManager;
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.siege.FortSiege;
-import org.l2jmobius.gameserver.model.siege.Siege;
-import org.l2jmobius.gameserver.model.skill.ISkillCondition;
-import org.l2jmobius.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.managers.FortSiegeManager;
+import net.sf.l2jdev.gameserver.managers.SiegeManager;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.siege.FortSiege;
+import net.sf.l2jdev.gameserver.model.siege.Siege;
+import net.sf.l2jdev.gameserver.model.skill.ISkillCondition;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
 
 /**
  * @author dontknowdontcare

@@ -20,10 +20,10 @@
  */
 package handlers.voicedcommandhandlers;
 
-import org.l2jmobius.commons.util.StringUtil;
-import org.l2jmobius.gameserver.handler.IVoicedCommandHandler;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Player;
+import net.sf.l2jdev.commons.util.StringUtil;
+import net.sf.l2jdev.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Player;
 
 public class ClanHandler implements IVoicedCommandHandler
 {

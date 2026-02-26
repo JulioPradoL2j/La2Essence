@@ -20,13 +20,13 @@
  */
 package ai.others.OlyBuffer;
 
-import org.l2jmobius.gameserver.config.OlympiadConfig;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.skill.Skill;
-import org.l2jmobius.gameserver.model.skill.holders.SkillHolder;
-import org.l2jmobius.gameserver.network.serverpackets.MagicSkillUse;
+import net.sf.l2jdev.gameserver.config.OlympiadConfig;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.skill.Skill;
+import net.sf.l2jdev.gameserver.model.skill.holders.SkillHolder;
+import net.sf.l2jdev.gameserver.network.serverpackets.MagicSkillUse;
 
 /**
  * Olympiad Buffer AI.

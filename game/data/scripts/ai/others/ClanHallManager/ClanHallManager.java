@@ -20,26 +20,26 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.StringTokenizer;
 
-import org.l2jmobius.commons.util.StringUtil;
-import org.l2jmobius.gameserver.data.xml.ResidenceFunctionsData;
-import org.l2jmobius.gameserver.data.xml.TeleporterData;
-import org.l2jmobius.gameserver.model.World;
-import org.l2jmobius.gameserver.model.actor.Creature;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.instance.Merchant;
-import org.l2jmobius.gameserver.model.clan.ClanAccess;
-import org.l2jmobius.gameserver.model.clan.enums.ClanHallGrade;
-import org.l2jmobius.gameserver.model.residences.ClanHall;
-import org.l2jmobius.gameserver.model.residences.ResidenceFunction;
-import org.l2jmobius.gameserver.model.residences.ResidenceFunctionTemplate;
-import org.l2jmobius.gameserver.model.residences.ResidenceFunctionType;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.skill.holders.SkillHolder;
-import org.l2jmobius.gameserver.model.teleporter.TeleportHolder;
-import org.l2jmobius.gameserver.network.NpcStringId;
-import org.l2jmobius.gameserver.network.serverpackets.AgitDecoInfo;
-import org.l2jmobius.gameserver.util.ArrayUtil;
+import net.sf.l2jdev.commons.util.StringUtil;
+import net.sf.l2jdev.gameserver.data.xml.ResidenceFunctionsData;
+import net.sf.l2jdev.gameserver.data.xml.TeleporterData;
+import net.sf.l2jdev.gameserver.model.World;
+import net.sf.l2jdev.gameserver.model.actor.Creature;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.instance.Merchant;
+import net.sf.l2jdev.gameserver.model.clan.ClanAccess;
+import net.sf.l2jdev.gameserver.model.clan.enums.ClanHallGrade;
+import net.sf.l2jdev.gameserver.model.residences.ClanHall;
+import net.sf.l2jdev.gameserver.model.residences.ResidenceFunction;
+import net.sf.l2jdev.gameserver.model.residences.ResidenceFunctionTemplate;
+import net.sf.l2jdev.gameserver.model.residences.ResidenceFunctionType;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.skill.holders.SkillHolder;
+import net.sf.l2jdev.gameserver.model.teleporter.TeleportHolder;
+import net.sf.l2jdev.gameserver.network.NpcStringId;
+import net.sf.l2jdev.gameserver.network.serverpackets.AgitDecoInfo;
+import net.sf.l2jdev.gameserver.util.ArrayUtil;
 
 /**
  * Clan Hall Manager AI.

@@ -20,8 +20,8 @@
  */
 package handlers.effecthandlers;
 
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.enums.player.ElementalSpiritType;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.enums.player.ElementalSpiritType;
 
 /**
  * @author JoeAlisson

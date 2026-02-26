@@ -16,7 +16,7 @@
  */
 package handlers;
 
-import org.l2jmobius.gameserver.handler.ConditionHandler;
+import net.sf.l2jdev.gameserver.handler.ConditionHandler;
 
 import handlers.conditions.CategoryTypeCondition;
 import handlers.conditions.NpcLevelCondition;

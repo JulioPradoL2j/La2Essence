@@ -22,19 +22,19 @@ package handlers.itemhandlers;
 
 import java.util.List;
 
-import org.l2jmobius.gameserver.config.RelicSystemConfig;
-import org.l2jmobius.gameserver.data.holders.RelicCouponHolder;
-import org.l2jmobius.gameserver.data.xml.RelicCouponData;
-import org.l2jmobius.gameserver.handler.IItemHandler;
-import org.l2jmobius.gameserver.model.actor.Playable;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.actor.request.RelicSummonRequest;
-import org.l2jmobius.gameserver.model.item.enums.ItemProcessType;
-import org.l2jmobius.gameserver.model.item.instance.Item;
-import org.l2jmobius.gameserver.model.variables.AccountVariables;
-import org.l2jmobius.gameserver.network.PacketLogger;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.relics.ExRelicsSummonResult;
+import net.sf.l2jdev.gameserver.config.RelicSystemConfig;
+import net.sf.l2jdev.gameserver.data.holders.RelicCouponHolder;
+import net.sf.l2jdev.gameserver.data.xml.RelicCouponData;
+import net.sf.l2jdev.gameserver.handler.IItemHandler;
+import net.sf.l2jdev.gameserver.model.actor.Playable;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.actor.request.RelicSummonRequest;
+import net.sf.l2jdev.gameserver.model.item.enums.ItemProcessType;
+import net.sf.l2jdev.gameserver.model.item.instance.Item;
+import net.sf.l2jdev.gameserver.model.variables.AccountVariables;
+import net.sf.l2jdev.gameserver.network.PacketLogger;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.relics.ExRelicsSummonResult;
 
 /**
  * @author CostyKiller, Brado

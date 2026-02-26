@@ -20,12 +20,12 @@
  */
 package handlers.voicedcommandhandlers;
 
-import org.l2jmobius.gameserver.config.custom.OfflineTradeConfig;
-import org.l2jmobius.gameserver.handler.IVoicedCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.ActionFailed;
-import org.l2jmobius.gameserver.network.serverpackets.ConfirmDlg;
+import net.sf.l2jdev.gameserver.config.custom.OfflineTradeConfig;
+import net.sf.l2jdev.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.ActionFailed;
+import net.sf.l2jdev.gameserver.network.serverpackets.ConfirmDlg;
 
 /**
  * @author Mobius

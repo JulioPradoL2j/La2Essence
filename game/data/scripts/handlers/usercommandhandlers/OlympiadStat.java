@@ -20,14 +20,14 @@
  */
 package handlers.usercommandhandlers;
 
-import org.l2jmobius.gameserver.config.OlympiadConfig;
-import org.l2jmobius.gameserver.handler.IUserCommandHandler;
-import org.l2jmobius.gameserver.model.WorldObject;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.olympiad.Olympiad;
-import org.l2jmobius.gameserver.network.SystemMessageId;
-import org.l2jmobius.gameserver.network.serverpackets.SystemMessage;
-import org.l2jmobius.gameserver.network.serverpackets.olympiad.ExOlympiadRecord;
+import net.sf.l2jdev.gameserver.config.OlympiadConfig;
+import net.sf.l2jdev.gameserver.handler.IUserCommandHandler;
+import net.sf.l2jdev.gameserver.model.WorldObject;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.olympiad.Olympiad;
+import net.sf.l2jdev.gameserver.network.SystemMessageId;
+import net.sf.l2jdev.gameserver.network.serverpackets.SystemMessage;
+import net.sf.l2jdev.gameserver.network.serverpackets.olympiad.ExOlympiadRecord;
 
 /**
  * Olympiad Stat user command.

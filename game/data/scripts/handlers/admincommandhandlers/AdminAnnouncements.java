@@ -18,23 +18,23 @@ package handlers.admincommandhandlers;
 
 import java.util.StringTokenizer;
 
-import org.l2jmobius.commons.util.StringUtil;
-import org.l2jmobius.gameserver.cache.HtmCache;
-import org.l2jmobius.gameserver.config.GeneralConfig;
-import org.l2jmobius.gameserver.data.sql.AnnouncementsTable;
-import org.l2jmobius.gameserver.handler.IAdminCommandHandler;
-import org.l2jmobius.gameserver.model.actor.Player;
-import org.l2jmobius.gameserver.model.announce.Announcement;
-import org.l2jmobius.gameserver.model.announce.AnnouncementType;
-import org.l2jmobius.gameserver.model.announce.AutoAnnouncement;
-import org.l2jmobius.gameserver.model.announce.IAnnouncement;
-import org.l2jmobius.gameserver.model.html.PageBuilder;
-import org.l2jmobius.gameserver.model.html.PageResult;
-import org.l2jmobius.gameserver.model.html.formatters.BypassParserFormatter;
-import org.l2jmobius.gameserver.model.html.pagehandlers.NextPrevPageHandler;
-import org.l2jmobius.gameserver.model.html.styles.ButtonsStyle;
-import org.l2jmobius.gameserver.util.Broadcast;
-import org.l2jmobius.gameserver.util.HtmlUtil;
+import net.sf.l2jdev.commons.util.StringUtil;
+import net.sf.l2jdev.gameserver.cache.HtmCache;
+import net.sf.l2jdev.gameserver.config.GeneralConfig;
+import net.sf.l2jdev.gameserver.data.sql.AnnouncementsTable;
+import net.sf.l2jdev.gameserver.handler.IAdminCommandHandler;
+import net.sf.l2jdev.gameserver.model.actor.Player;
+import net.sf.l2jdev.gameserver.model.announce.Announcement;
+import net.sf.l2jdev.gameserver.model.announce.AnnouncementType;
+import net.sf.l2jdev.gameserver.model.announce.AutoAnnouncement;
+import net.sf.l2jdev.gameserver.model.announce.IAnnouncement;
+import net.sf.l2jdev.gameserver.model.html.PageBuilder;
+import net.sf.l2jdev.gameserver.model.html.PageResult;
+import net.sf.l2jdev.gameserver.model.html.formatters.BypassParserFormatter;
+import net.sf.l2jdev.gameserver.model.html.pagehandlers.NextPrevPageHandler;
+import net.sf.l2jdev.gameserver.model.html.styles.ButtonsStyle;
+import net.sf.l2jdev.gameserver.util.Broadcast;
+import net.sf.l2jdev.gameserver.util.HtmlUtil;
 
 /**
  * @author UnAfraid

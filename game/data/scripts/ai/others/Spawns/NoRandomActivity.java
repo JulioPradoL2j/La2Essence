@@ -16,12 +16,12 @@
  */
 package ai.others.Spawns;
 
-import org.l2jmobius.gameserver.model.Spawn;
-import org.l2jmobius.gameserver.model.StatSet;
-import org.l2jmobius.gameserver.model.actor.Npc;
-import org.l2jmobius.gameserver.model.script.Script;
-import org.l2jmobius.gameserver.model.spawns.SpawnGroup;
-import org.l2jmobius.gameserver.model.spawns.SpawnTemplate;
+import net.sf.l2jdev.gameserver.model.Spawn;
+import net.sf.l2jdev.gameserver.model.StatSet;
+import net.sf.l2jdev.gameserver.model.actor.Npc;
+import net.sf.l2jdev.gameserver.model.script.Script;
+import net.sf.l2jdev.gameserver.model.spawns.SpawnGroup;
+import net.sf.l2jdev.gameserver.model.spawns.SpawnTemplate;
 
 /**
  * @author UnAfraid

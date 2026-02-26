@@ -22,7 +22,7 @@ package handlers;
 
 import java.util.logging.Logger;
 
-import org.l2jmobius.gameserver.handler.EffectHandler;
+import net.sf.l2jdev.gameserver.handler.EffectHandler;
 
 import handlers.effecthandlers.*;
 
