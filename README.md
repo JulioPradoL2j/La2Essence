@@ -8,10 +8,10 @@ Se você baixou o pacote do servidor e está com dúvidas de como executar, siga
 
 | Componente   | Download |
 |--------------|----------|
-| 🔧 Client Files (System, Animations, SysTextures...) | [Download Client](https://mega.nz/file/gmEAhRSY#3Trm55-Vz-EAvG9QQ0hJF4AGYPvDOCmcvohL7YQ8dTY) |
-| ☕ Java 25 | [Download Java 25](https://mega.nz/file/V7tj1arS#OKWaTzaCqYK0m3iMmR0kW3TddfAJoiu8a20kOFEKShk) |
+| 🔧 Client Files (System, Animations, SysTextures...) | [Download Client]( ) |
+| ☕ Java 25 | [Download Java 25](https://mega.nz/file/43MSRDQJ#7sXv0LhckVeOon5sz7RIIGHGHwhcJaHQxEDWuONCuug) |
 | 🛢️ MariaDB 10.4 | [Download MariaDB](https://mega.nz/file/1jEykRgL#DDuIGktiFbmE-M0jMzhUvYVckw1U0ov-OnZEYS5vopU) |
-| 🔧️ Geodata L2D | [Download Geodata](https://mega.nz/file/0yhmTQhC#n8VmP03UJpdBtt1lPM-AZSPNTTdUygN0ODn-xc0coRk) |
+| 🔧️ Geodata L2D | [Download Geodata]( ) |
 
 ---
 
@@ -19,7 +19,7 @@ Se você baixou o pacote do servidor e está com dúvidas de como executar, siga
 
 Antes de tudo, é necessário instalar o Java 25:
 
-- Baixe o [Java 25](https://mega.nz/file/V7tj1arS#OKWaTzaCqYK0m3iMmR0kW3TddfAJoiu8a20kOFEKShk)
+- Baixe o [Java 25](https://mega.nz/file/43MSRDQJ#7sXv0LhckVeOon5sz7RIIGHGHwhcJaHQxEDWuONCuug)
 - Instale normalmente.
 
 Após a instalação, **crie a variável de ambiente `JAVA_HOME`:**
@@ -29,14 +29,14 @@ Após a instalação, **crie a variável de ambiente `JAVA_HOME`:**
 - Vá em: `Painel de Controle > Sistema > Configurações Avançadas > Variáveis de Ambiente`
 - Clique em **Nova (variável do sistema)**
   - Nome: `JAVA_HOME`
-  - Valor: `C:\Program Files\AdoptOpenJDK\jdk-11.0.10.9-hotspot` _(ajuste conforme o local de instalação)_
+  - Valor: `C:\Program Files\Java\JDK_25` _(ajuste conforme o local de instalação)_
 - Edite a variável `Path` e adicione: `%JAVA_HOME%\bin`
 
 ### No Linux:
 
 - Adicione no seu `~/.bashrc` ou `~/.zshrc`:
 ```bash
-export JAVA_HOME=/caminho/para/AdoptOpenJDK/jdk-11.0.10.9-hotspot
+export JAVA_HOME=C:\Program Files\Java\JDK_25
 export PATH=$JAVA_HOME/bin:$PATH
 ```
 
@@ -82,7 +82,6 @@ chmod +x install_db.sh
 
 Dentro dela estão os arquivos:
 
-- `LoginServer.launch`
 - `GameServer.launch`
 
 Execute o servidor clicando com o botão direito no `.launch` desejado e escolha:  
