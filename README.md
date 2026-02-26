@@ -90,8 +90,8 @@ Se quiser compilar o projeto fora do Eclipse:
 - Use o `build.xml` com o EclipesIDE para compilar o código-fonte
   - Ele irá gerar os `.class` e `.jar` necessários
 - Depois use o `amount.xml` para:
-  - Agrupar LoginServer, GameServer, Imgs, Tools e libs
-  - Criar uma pasta `Zip/` com todos os arquivos prontos para execução
+  - Agrupar Login, Game, imagens, Tools e libs
+  - Ele Criar uma pasta `Zip/` com todos os arquivos prontos para execução
 
 ---
 
