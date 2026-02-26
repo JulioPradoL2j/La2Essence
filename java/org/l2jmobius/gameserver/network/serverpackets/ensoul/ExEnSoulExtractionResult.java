@@ -1,0 +1,49 @@
+package org.l2jmobius.gameserver.network.serverpackets.ensoul;
+
+import java.util.Collection;
+import java.util.Collections;
+
+import org.l2jmobius.commons.network.WritableBuffer;
+import org.l2jmobius.gameserver.model.ensoul.EnsoulOption;
+import org.l2jmobius.gameserver.model.item.instance.Item;
+import org.l2jmobius.gameserver.network.GameClient;
+import org.l2jmobius.gameserver.network.ServerPackets;
+import org.l2jmobius.gameserver.network.serverpackets.ServerPacket;
+
+public class ExEnSoulExtractionResult extends ServerPacket
+{
+	private final boolean _success;
+	private final Collection<EnsoulOption> _specialAbilities;
+	private final Collection<EnsoulOption> _additionalSpecialAbilities;
+
+	@SuppressWarnings("unchecked")
+	public ExEnSoulExtractionResult(boolean success, Item item)
+	{
+		this._success = success;
+		this._specialAbilities = (Collection<EnsoulOption>) (success ? item.getSpecialAbilities() : Collections.emptyList());
+		this._additionalSpecialAbilities = (Collection<EnsoulOption>) (success ? item.getAdditionalSpecialAbilities() : Collections.emptyList());
+	}
+
+	@Override
+	public void writeImpl(GameClient client, WritableBuffer buffer)
+	{
+		ServerPackets.EX_ENSOUL_EXTRACTION_RESULT.writeId(this, buffer);
+		buffer.writeByte(this._success);
+		if (this._success)
+		{
+			buffer.writeByte(this._specialAbilities.size());
+
+			for (EnsoulOption option : this._specialAbilities)
+			{
+				buffer.writeInt(option.getId());
+			}
+
+			buffer.writeByte(this._additionalSpecialAbilities.size());
+
+			for (EnsoulOption option : this._additionalSpecialAbilities)
+			{
+				buffer.writeInt(option.getId());
+			}
+		}
+	}
+}

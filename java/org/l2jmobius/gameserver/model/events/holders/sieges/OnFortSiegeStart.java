@@ -1,0 +1,26 @@
+package org.l2jmobius.gameserver.model.events.holders.sieges;
+
+import org.l2jmobius.gameserver.model.events.EventType;
+import org.l2jmobius.gameserver.model.events.holders.IBaseEvent;
+import org.l2jmobius.gameserver.model.siege.FortSiege;
+
+public class OnFortSiegeStart implements IBaseEvent
+{
+	private final FortSiege _siege;
+
+	public OnFortSiegeStart(FortSiege siege)
+	{
+		this._siege = siege;
+	}
+
+	public FortSiege getSiege()
+	{
+		return this._siege;
+	}
+
+	@Override
+	public EventType getType()
+	{
+		return EventType.ON_FORT_SIEGE_START;
+	}
+}

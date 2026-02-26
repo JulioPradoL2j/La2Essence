@@ -1,0 +1,34 @@
+package org.l2jmobius.gameserver.model.events.holders.actor.player;
+
+import org.l2jmobius.gameserver.model.clan.Clan;
+import org.l2jmobius.gameserver.model.clan.ClanMember;
+import org.l2jmobius.gameserver.model.events.EventType;
+import org.l2jmobius.gameserver.model.events.holders.IBaseEvent;
+
+public class OnPlayerClanJoin implements IBaseEvent
+{
+	private final ClanMember _clanMember;
+	private final Clan _clan;
+
+	public OnPlayerClanJoin(ClanMember clanMember, Clan clan)
+	{
+		this._clanMember = clanMember;
+		this._clan = clan;
+	}
+
+	public ClanMember getClanMember()
+	{
+		return this._clanMember;
+	}
+
+	public Clan getClan()
+	{
+		return this._clan;
+	}
+
+	@Override
+	public EventType getType()
+	{
+		return EventType.ON_PLAYER_CLAN_JOIN;
+	}
+}

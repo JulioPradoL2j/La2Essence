@@ -1,0 +1,36 @@
+package org.l2jmobius.gameserver.network.serverpackets.shuttle;
+
+import org.l2jmobius.commons.network.WritableBuffer;
+import org.l2jmobius.gameserver.model.Location;
+import org.l2jmobius.gameserver.model.actor.Player;
+import org.l2jmobius.gameserver.network.GameClient;
+import org.l2jmobius.gameserver.network.ServerPackets;
+import org.l2jmobius.gameserver.network.serverpackets.ServerPacket;
+
+public class ExStopMoveInShuttle extends ServerPacket
+{
+	private final int _objectId;
+	private final int _boatId;
+	private final Location _pos;
+	private final int _heading;
+
+	public ExStopMoveInShuttle(Player player, int boatId)
+	{
+		this._objectId = player.getObjectId();
+		this._boatId = boatId;
+		this._pos = player.getInVehiclePosition();
+		this._heading = player.getHeading();
+	}
+
+	@Override
+	public void writeImpl(GameClient client, WritableBuffer buffer)
+	{
+		ServerPackets.EX_STOP_MOVE_LOCATION_IN_SHUTTLE.writeId(this, buffer);
+		buffer.writeInt(this._objectId);
+		buffer.writeInt(this._boatId);
+		buffer.writeInt(this._pos.getX());
+		buffer.writeInt(this._pos.getY());
+		buffer.writeInt(this._pos.getZ());
+		buffer.writeInt(this._heading);
+	}
+}
