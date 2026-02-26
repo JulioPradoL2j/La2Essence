@@ -63,12 +63,6 @@ Após a instalação do MariaDB:
 install_db.bat
 ```
 
-### ✅ No **Linux**:
-```bash
-chmod +x install_db.sh
-./install_db.sh
-```
-
 > Você também pode usar um cliente como HeidiSQL, DBeaver ou MySQL Workbench para importar manualmente os arquivos `.sql` da pasta `tools/sql`.
 
 ---
