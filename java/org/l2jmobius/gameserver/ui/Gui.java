@@ -309,7 +309,7 @@ public class Gui
 		frame.pack();
 		frame.setLocationRelativeTo(null);
 		this.redirectSystemStreams();
-		new SplashScreen(".." + File.separator + "images" + File.separator + "splashscreen.gif", 5000L, frame);
+		new SplashScreen(".." + File.separator + "images" + File.separator + "splashscreen.gif", 100L, frame);
 	}
 	
 	void updateTextArea(String text)
