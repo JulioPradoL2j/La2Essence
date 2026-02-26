@@ -9,17 +9,17 @@ Se você baixou o pacote do servidor e está com dúvidas de como executar, siga
 | Componente   | Download |
 |--------------|----------|
 | 🔧 Client Files (System, Animations, SysTextures...) | [Download Client](https://mega.nz/file/gmEAhRSY#3Trm55-Vz-EAvG9QQ0hJF4AGYPvDOCmcvohL7YQ8dTY) |
-| ☕ Java 11 | [Download Java 11](https://mega.nz/file/V7tj1arS#OKWaTzaCqYK0m3iMmR0kW3TddfAJoiu8a20kOFEKShk) |
+| ☕ Java 25 | [Download Java 25](https://mega.nz/file/V7tj1arS#OKWaTzaCqYK0m3iMmR0kW3TddfAJoiu8a20kOFEKShk) |
 | 🛢️ MariaDB 10.4 | [Download MariaDB](https://mega.nz/file/1jEykRgL#DDuIGktiFbmE-M0jMzhUvYVckw1U0ov-OnZEYS5vopU) |
 | 🔧️ Geodata L2D | [Download Geodata](https://mega.nz/file/0yhmTQhC#n8VmP03UJpdBtt1lPM-AZSPNTTdUygN0ODn-xc0coRk) |
 
 ---
 
-## 1️⃣ Instalar o Java 11
+## 1️⃣ Instalar o Java 25
 
-Antes de tudo, é necessário instalar o Java 11:
+Antes de tudo, é necessário instalar o Java 25:
 
-- Baixe o [Java 11](https://mega.nz/file/V7tj1arS#OKWaTzaCqYK0m3iMmR0kW3TddfAJoiu8a20kOFEKShk)
+- Baixe o [Java 25](https://mega.nz/file/V7tj1arS#OKWaTzaCqYK0m3iMmR0kW3TddfAJoiu8a20kOFEKShk)
 - Instale normalmente.
 
 Após a instalação, **crie a variável de ambiente `JAVA_HOME`:**
@@ -104,7 +104,7 @@ Se quiser compilar o projeto fora do Eclipse:
 
 ## 📌 Observações
 
-- O projeto requer Java 11 especificamente — versões superiores podem gerar incompatibilidades.
+- O projeto requer Java 25 especificamente — versões superiores podem gerar incompatibilidades.
 - Certifique-se de que o MariaDB está com o serviço ativo antes de rodar o script.
 
 ---
