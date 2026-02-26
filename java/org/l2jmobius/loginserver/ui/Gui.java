@@ -184,7 +184,7 @@ public class Gui
 		icons.add(new ImageIcon(".." + File.separator + "images" + File.separator + "32x32.png").getImage());
 		final JScrollPane scrollPanel = new JScrollPane(this._txtrConsole);
 		scrollPanel.setBounds(0, 0, 800, 550);
-		final JFrame frame = new JFrame("Mobius - LoginServer");
+		final JFrame frame = new JFrame("LoginServer");
 		frame.setDefaultCloseOperation(0);
 		frame.addWindowListener(new WindowAdapter()
 		{
