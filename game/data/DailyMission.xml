@@ -362,7 +362,7 @@
 	<reward id="1500" reward_id="15001" name="Hunt in Transcendent Instance Zones" requiredCompletion="300" dailyReset="true" duration="DAY" isOneTime="false">
 		<!-- Daily mission (once per account). A reward is given for killing 300 monsters in transcendent instance zones. To learn more, check the General section in the sidebar of the Special Zones UI. -->
 		<handler name="monster">
-			<param name="minLevel">70</param>
+			<param name="minLevel">40</param>
 			<param name="maxLevel">99</param>
 			<param name="ids">22107,22108,22109,22122,22331,22111,22110,22112,22123,22116,22117,22118,22124,22113,22114,22115,22147,22148,22149,22275,22276,22277,22278</param>
 		</handler>
@@ -401,44 +401,56 @@
 	</reward>
 	<reward id="3013" reward_id="3013" name="Olympiad Winner I" requiredCompletion="1" dailyReset="true" duration="DAY" isOneTime="false">
 		<!-- One-time mission. A reward is given for winning an Olympiad match. Available from Monday till Friday. -->
-		<handler name="olympiad" />
-		<items>
+         <handler name="olympiad">
+         <param name="winOnly">true</param>
+         </handler>
+        <items>
 			<item id="92991" count="3" /> <!-- Einhasad's Blessing Scroll - Sealed -->
 			<item id="91772" count="1" /> <!-- Scroll: PK - Sealed -->
 		</items>
 	</reward>
 	<reward id="3014" reward_id="3014" name="Olympiad Winner II" requiredCompletion="2" dailyReset="true" duration="DAY" isOneTime="false">
 		<!-- One-time mission. A reward is given for winning 2 Olympiad matches. Available from Monday till Friday. -->
-		<handler name="olympiad" />
-		<items>
+         <handler name="olympiad">
+         <param name="winOnly">true</param>
+         </handler>
+        <items>
 			<item id="91690" count="50" /> <!-- Special HP Recovery Potion - Sealed -->
 		</items>
 	</reward>
 	<reward id="3015" reward_id="3015" name="Olympiad Winner III" requiredCompletion="3" dailyReset="true" duration="DAY" isOneTime="false">
 		<!-- One-time mission. A reward is given for winning 3 Olympiad matches. Available from Monday till Friday. -->
-		<handler name="olympiad" />
-		<items>
+         <handler name="olympiad">
+         <param name="winOnly">true</param>
+         </handler>
+        <items>
 			<item id="92991" count="5" /> <!-- Einhasad's Blessing Scroll - Sealed -->
 		</items>
 	</reward>
 	<reward id="3016" reward_id="3016" name="Olympiad Winner IV" requiredCompletion="4" dailyReset="true" duration="DAY" isOneTime="false">
 		<!-- One-time mission. A reward is given for winning 4 Olympiad matches. Available from Monday till Friday. -->
-		<handler name="olympiad" />
-		<items>
+         <handler name="olympiad">
+         <param name="winOnly">true</param>
+         </handler>
+        <items>
 			<item id="91690" count="100" /> <!-- Special HP Recovery Potion - Sealed -->
 		</items>
 	</reward>
 	<reward id="3017" reward_id="30171" name="Olympiad Winner V" requiredCompletion="5" dailyReset="true" duration="DAY" isOneTime="false">
 		<!-- One-time mission. A reward is given for winning 5 Olympiad matches. Available from Monday till Friday. -->
-		<handler name="olympiad" />
-		<items>
+         <handler name="olympiad">
+         <param name="winOnly">true</param>
+         </handler>
+        <items>
 			<item id="102912" count="1" /> <!-- Olympiad Treasure Chest - Sealed -->
 		</items>
 	</reward>
 	<reward id="3018" reward_id="30181" name="Olympiad Competitor" requiredCompletion="50" dailyReset="false" duration="MONTH" isOneTime="false">
 		<!-- A reward is given for participating in 50 Olympiad matches in a month until the end of the Olympiad cycle. Available from Monday till Friday. -->
-		<handler name="olympiad" />
-		<items>
+         <handler name="olympiad">
+         <param name="winOnly">true</param>
+         </handler>
+        <items>
 			<item id="102912" count="1" /> <!-- Olympiad Treasure Chest - Sealed -->
 			<item id="97224" count="50" /> <!-- Mission Points -->
 		</items>
@@ -479,6 +491,7 @@
 		<!-- A reward is given when evolving the Fire Spirit up to Lv. 3. -->
 		<handler name="spirit">
 			<param name="element">FIRE</param>
+            <param name="kind">EVOLVE</param>
 		</handler>
 		<items>
 			<item id="91185" count="30" /> <!-- Mid-grade Spirit's Blessing - Sealed -->
@@ -488,6 +501,7 @@
 		<!-- A reward is given when evolving the Water Spirit up to Lv. 3. -->
 		<handler name="spirit">
 			<param name="element">WATER</param>
+            <param name="kind">EVOLVE</param>
 		</handler>
 		<items>
 			<item id="91185" count="30" /> <!-- Mid-grade Spirit's Blessing - Sealed -->
@@ -497,6 +511,7 @@
 		<!-- A reward is given when evolving the Wind Spirit up to Lv. 3. -->
 		<handler name="spirit">
 			<param name="element">WIND</param>
+            <param name="kind">EVOLVE</param>
 		</handler>
 		<items>
 			<item id="91185" count="30" /> <!-- Mid-grade Spirit's Blessing - Sealed -->
@@ -506,6 +521,7 @@
 		<!-- A reward is given when evolving the Earth Spirit up to Lv. 3. -->
 		<handler name="spirit">
 			<param name="element">EARTH</param>
+            <param name="kind">EVOLVE</param>
 		</handler>
 		<items>
 			<item id="91185" count="30" /> <!-- Mid-grade Spirit's Blessing - Sealed -->
@@ -515,6 +531,7 @@
 		<!-- A reward is given when evolving the Fire Spirit up to Lv. 5. -->
 		<handler name="spirit">
 			<param name="element">FIRE</param>
+            <param name="kind">EVOLVE</param>
 		</handler>
 		<items>
 			<item id="91186" count="30" /> <!-- High-grade Spirit's Blessing - Sealed -->
@@ -524,6 +541,7 @@
 		<!-- A reward is given when evolving the Water Spirit up to Lv. 5. -->
 		<handler name="spirit">
 			<param name="element">WATER</param>
+            <param name="kind">EVOLVE</param>
 		</handler>
 		<items>
 			<item id="91186" count="30" /> <!-- High-grade Spirit's Blessing - Sealed -->
@@ -533,6 +551,7 @@
 		<!-- A reward is given when evolving the Wind Spirit up to Lv. 5. -->
 		<handler name="spirit">
 			<param name="element">WIND</param>
+            <param name="kind">EVOLVE</param>
 		</handler>
 		<items>
 			<item id="91186" count="30" /> <!-- High-grade Spirit's Blessing - Sealed -->
@@ -542,6 +561,7 @@
 		<!-- A reward is given when evolving the Earth Spirit up to Lv. 5. -->
 		<handler name="spirit">
 			<param name="element">EARTH</param>
+            <param name="kind">EVOLVE</param>
 		</handler>
 		<items>
 			<item id="91186" count="30" /> <!-- High-grade Spirit's Blessing - Sealed -->
