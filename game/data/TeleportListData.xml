@@ -113,6 +113,7 @@
 	<teleport id="195" x="127226" y="-40970" z="-3584" price="48000" /> <!-- Xilenos Fortress -->
 	<teleport id="318" x="-22224" y="14168" z="-3232" price="200" /> <!-- Dark Forest -->
 	<teleport id="321" x="146856" y="25803" z="-2008" price="1000" /> <!-- Aden -->
+	<teleport id="401" x="136927" y="80538" z="-3696" price="1000" /> <!-- Catacombs -->
 	<teleport id="324" x="146440" y="46723" z="-3432" price="2000" /> <!-- Coliseum -->
 	<teleport id="415" x="-116686" y="46482" z="360" price="1000" /> <!-- Kamael Village -->
 	<teleport id="417" price="200"> <!-- Hill of Hope -->
