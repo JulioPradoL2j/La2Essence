@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -39,7 +39,7 @@ import net.sf.l2jdev.gameserver.network.serverpackets.NpcHtmlMessage;
 
 /**
  * @URL https://l2wiki.com/essence/events_and_promos/2170.html
- * @author Serenitty, Mobius
+ * @author Serenitty, BAN-JDEV
  */
 public class LeonasDungeonEvent extends LongTimeEvent
 {

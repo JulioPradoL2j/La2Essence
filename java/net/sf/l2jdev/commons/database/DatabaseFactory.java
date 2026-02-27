@@ -45,7 +45,7 @@ public class DatabaseFactory
 				config.setIdleTimeout(300000L);
 				config.setMaxLifetime(600000L);
 				config.setLeakDetectionThreshold(60000L);
-				config.setPoolName("L2JMobiusPool");
+				config.setPoolName("L2jDev");
 				config.setRegisterMbeans(true);
 				config.setInitializationFailTimeout(-1L);
 				config.setValidationTimeout(5000L);

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -37,7 +37,7 @@ import net.sf.l2jdev.gameserver.network.serverpackets.SystemMessage;
 /**
  * Physical soul damage effect implementation.<br>
  * <b>Note</b>: Initial formula taken from PhysicalDamage.
- * @author Adry_85, Nik, Mobius
+ * @author Adry_85, Nik, BAN-JDEV
  */
 public class PhysicalSoulDamage extends AbstractEffect
 {

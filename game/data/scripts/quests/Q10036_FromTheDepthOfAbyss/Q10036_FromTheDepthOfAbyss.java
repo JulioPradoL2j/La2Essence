@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -43,7 +43,7 @@ import quests.Q10037_NewLifesLessons.Q10037_NewLifesLessons;
 import quests.Q10038_NewLifesLessons.Q10038_NewLifesLessons;
 
 /**
- * @author Magik, Mobius
+ * @author Magik, BAN-JDEV
  */
 public class Q10036_FromTheDepthOfAbyss extends Quest
 {

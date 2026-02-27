@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -44,7 +44,7 @@ import net.sf.l2jdev.gameserver.model.stats.Stat;
  * Current formulas were tested to be the best matching retail, damage appears to be identical:<br>
  * For melee skills: 70 * graciaSkillBonus1.10113 * (patk * lvlmod + power) * crit * ss * skillpowerbonus / pdef<br>
  * For ranged skills: 70 * (patk * lvlmod + power + patk + power) * crit * ss * skillpower / pdef<br>
- * @author Nik, Mobius
+ * @author Nik, BAN-JDEV
  */
 public class PhysicalDamage extends AbstractEffect
 {

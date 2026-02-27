@@ -196,7 +196,6 @@ import net.sf.l2jdev.gameserver.scripting.ScriptEngine;
 import net.sf.l2jdev.gameserver.taskmanagers.GameTimeTaskManager;
 import net.sf.l2jdev.gameserver.taskmanagers.ItemLifeTimeTaskManager;
 import net.sf.l2jdev.gameserver.taskmanagers.ItemsAutoDestroyTaskManager;
-import net.sf.l2jdev.gameserver.ui.Gui;
 import net.sf.l2jdev.gameserver.util.Broadcast;
 
 public class GameServer
@@ -210,7 +209,7 @@ public class GameServer
 		if (InterfaceConfig.ENABLE_GUI)
 		{
 			System.out.println("GameServer: Running in GUI mode.");
-			new Gui();
+			 new GameServerLaucher();
 		}
 
 		File logFolder = new File(".", "log");

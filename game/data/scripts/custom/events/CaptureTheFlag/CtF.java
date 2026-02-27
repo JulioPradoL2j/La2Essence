@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -92,7 +92,7 @@ import org.w3c.dom.Node;
 /**
  * Capture The Flag event.
  * @author BraveHeart
- * @inspired by Mobius Team vs Team
+ * @inspired by BAN-JDEV Team vs Team
  */
 public class CtF extends Event
 {

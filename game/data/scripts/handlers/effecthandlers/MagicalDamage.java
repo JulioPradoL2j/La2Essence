@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -36,7 +36,7 @@ import net.sf.l2jdev.gameserver.model.stats.Formulas;
 
 /**
  * Magical damage effect implementation.
- * @author Adry_85, Mobius
+ * @author Adry_85, BAN-JDEV
  */
 public class MagicalDamage extends AbstractEffect
 {

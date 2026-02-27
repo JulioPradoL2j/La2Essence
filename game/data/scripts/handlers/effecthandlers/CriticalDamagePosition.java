@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -31,25 +31,26 @@ import net.sf.l2jdev.gameserver.model.stats.Stat;
 import net.sf.l2jdev.gameserver.util.MathUtil;
 
 /**
- * @author Sdw, Mobius
+ * @author Sdw, BAN-JDEV
  */
 public class CriticalDamagePosition extends AbstractEffect
 {
 	private final double _amount;
 	private final Position _position;
-
+	
 	public CriticalDamagePosition(StatSet params)
 	{
 		_amount = params.getDouble("amount", 0);
 		_position = params.getEnum("position", Position.class, Position.FRONT);
 	}
-
+	
 	@Override
 	public void onStart(Creature effector, Creature effected, Skill skill, Item item)
 	{
 		effected.getStat().mergePositionTypeValue(Stat.CRITICAL_DAMAGE, _position, (_amount / 100) + 1, MathUtil::mul);
 	}
-
+	
+	@SuppressWarnings("unused")
 	@Override
 	public void onExit(Creature effector, Creature effected, Skill skill)
 	{
@@ -58,8 +59,9 @@ public class CriticalDamagePosition extends AbstractEffect
 		if (amount == 0d)
 		{
 			// To reverse 100% resistance, reset to the default value.
-			effected.getStat().mergePositionTypeValue(Stat.CRITICAL_DAMAGE, _position, 1d, (_, _) -> 1d);
-
+			// To reverse 100% resistance, reset to the default value.
+			effected.getStat().mergePositionTypeValue(Stat.CRITICAL_DAMAGE, _position, 1d, (oldValue, newValue) -> 1d);
+			
 			// Recalculate stats in case effected has other instances of this effect.
 			ThreadPool.schedule(() -> {
 				if (effected.isSpawned())

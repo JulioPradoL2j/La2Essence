@@ -1,49 +1,39 @@
-'Get Java path.
+' Get Java path.
 Dim path
 Set shell = WScript.CreateObject("WScript.Shell")
 path = shell.Environment.Item("JAVA_HOME")
 If path = "" Then
-	MsgBox "Could not find JAVA_HOME environment variable!", vbOKOnly, "Login Server"
+    MsgBox "Could not find JAVA_HOME environment variable!", vbOKOnly, "Login Server"
 Else
-	If InStr(path, "\bin") = 0 Then
-		path = path + "\bin\"
-	Else
-		path = path + "\"
-	End If
-	path = Replace(path, "\\", "\")
-	path = Replace(path, "Program Files", "Progra~1")
+    If InStr(path, "\bin") = 0 Then
+        path = path + "\bin\"
+    Else
+        path = path + "\"
+    End If
+    path = Replace(path, "\\", "\")
+    path = Replace(path, "Program Files", "Progra~1")
 End If
 
-'Load java.cfg parameters.
-Dim parameters
-Set file = CreateObject("Scripting.FileSystemObject").OpenTextFile("java.cfg", 1)
-parameters = file.ReadLine()
-file.Close
-Set file = Nothing
 
-'Load GUI configuration.
-window = 1
-Set file = CreateObject("Scripting.FileSystemObject").OpenTextFile("config\Interface.ini", 1)
-Do While Not file.AtEndOfStream
-	If Replace(LCase(file.ReadLine()), " ", "") = "enablegui=true" Then
-		window = 0
-		Exit Do
-	End If
-Loop
-file.Close
-Set file = Nothing
 
-'Generate command.
+' Generate command.
+Dim command
 command = path & "java -Duser.timezone=Etc/GMT+3 -Xmx128m -cp ../libs/*; net.sf.l2jdev.loginserver.LoginServer"
-If window = 1 Then
-	command = "cmd /c start ""Login Server Console"" " & command
-End If
 
-'Run the server.
+' Run the server.
+Dim exitcode
 exitcode = 0
 Do
-	exitcode = shell.Run(command, window, True)
-	If exitcode <> 0 And exitcode <> 2 Then	'0 Terminated - 2 Restarted
-		MsgBox "Login Server terminated abnormally!", vbOKOnly, "Login Server"
-	End If
+    ' Run the command and keep the console open.
+    exitcode = shell.Run("cmd /c " & command & " & exit", 0, True)
+
+    ' Handle the exit code
+    If exitcode = 2 Then
+        ' Restart
+        exitcode = 2
+    ElseIf exitcode <> 0 Then
+        ' Error
+       exitcode = 0
+        Exit Do
+    End If
 Loop While exitcode = 2

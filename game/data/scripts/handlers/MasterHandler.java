@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -346,7 +346,7 @@ import handlers.voicedcommandhandlers.Wedding;
 
 /**
  * Master handler.
- * @author UnAfraid, Mobius
+ * @author UnAfraid, BAN-JDEV
  */
 public class MasterHandler
 {

@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -37,7 +37,7 @@ import quests.Q10039_StrengthOfSpirit.Q10039_StrengthOfSpirit;
 import quests.Q10040_StrengthOfSpirit.Q10040_StrengthOfSpirit;
 
 /**
- * @author Magik, Mobius
+ * @author Magik, BAN-JDEV
  */
 public class Q10038_NewLifesLessons extends Quest
 {

@@ -25,7 +25,7 @@ public class frmAbout
 	public frmAbout()
 	{
 		this.initialize();
-		this._uri = createURI("www.l2jmobius.org");
+		this._uri = createURI("www.l2jBAN-JDEV.org");
 		this._frmAbout.setVisible(true);
 	}
 
@@ -38,12 +38,12 @@ public class frmAbout
 		this._frmAbout.setDefaultCloseOperation(2);
 		this._frmAbout.setType(Type.UTILITY);
 		this._frmAbout.getContentPane().setLayout(null);
-		JLabel lblLjmobius = new JLabel("L2jMobius");
-		lblLjmobius.setFont(new Font("Tahoma", 0, 32));
-		lblLjmobius.setHorizontalAlignment(0);
-		lblLjmobius.setBounds(10, 11, 271, 39);
-		this._frmAbout.getContentPane().add(lblLjmobius);
-		JLabel lblData = new JLabel("2013-" + Calendar.getInstance().get(1));
+		JLabel lblLDev = new JLabel("L2JDev");
+		lblLDev.setFont(new Font("Tahoma", 0, 32));
+		lblLDev.setHorizontalAlignment(0);
+		lblLDev.setBounds(10, 11, 271, 39);
+		this._frmAbout.getContentPane().add(lblLDev);
+		JLabel lblData = new JLabel("2026-" + Calendar.getInstance().get(1));
 		lblData.setHorizontalAlignment(0);
 		lblData.setBounds(10, 44, 271, 14);
 		this._frmAbout.getContentPane().add(lblData);
@@ -57,8 +57,8 @@ public class frmAbout
 		lblProtocols.setFont(new Font("Tahoma", 0, 14));
 		lblProtocols.setBounds(10, 92, 271, 23);
 		this._frmAbout.getContentPane().add(lblProtocols);
-		JLabel site = new JLabel("www.l2jmobius.org");
-		site.setText("<html><font color=\"#000099\"><u>www.l2jmobius.org</u></font></html>");
+		JLabel site = new JLabel("www.l2jBAN-JDEV.org");
+		site.setText("<html><font color=\"#000099\"><u>www.l2jBAN-JDEV.org</u></font></html>");
 		site.setHorizontalAlignment(0);
 		site.setBounds(76, 128, 140, 14);
 		site.addMouseListener(new MouseAdapter()

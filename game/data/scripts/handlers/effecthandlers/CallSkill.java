@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -141,7 +141,7 @@ public class CallSkill extends AbstractEffect
 		final Skill triggerSkill;
 		if (_skillLevelScaleTo <= 0)
 		{
-			// Mobius: Use 0 to trigger max effector learned skill level.
+			// BAN-JDEV: Use 0 to trigger max effector learned skill level.
 			if (_skill.getSkillLevel() == 0)
 			{
 				final int knownLevel = effector.getSkillLevel(_skill.getSkillId());

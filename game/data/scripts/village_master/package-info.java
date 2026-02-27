@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -22,6 +22,6 @@
  * Scripts defined in the village_master folder control the AI for the dialogs of village masters.<br>
  * In particular, changing occupations, creating/disolving a clan,<br>
  * and many more options given by village masters often require additional checks.
- * @author Mobius
+ * @author BAN-JDEV
  */
 package village_master;

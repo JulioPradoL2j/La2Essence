@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -57,7 +57,7 @@ import net.sf.l2jdev.gameserver.network.serverpackets.huntingzones.TimedHuntingZ
 import net.sf.l2jdev.gameserver.util.ArrayUtil;
 
 /**
- * @author Berezkin Nikolay, Mobius
+ * @author Berezkin Nikolay, BAN-JDEV
  */
 public class TimedHunting extends InstanceScript
 {

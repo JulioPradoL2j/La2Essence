@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -39,7 +39,7 @@ import net.sf.l2jdev.gameserver.model.skill.targets.AffectScope;
 
 /**
  * Range sorted by lowest to highest hp percent affect scope implementation.
- * @author Nik, Mobius
+ * @author Nik, BAN-JDEV
  */
 public class RangeSortByHp implements IAffectScopeHandler
 {

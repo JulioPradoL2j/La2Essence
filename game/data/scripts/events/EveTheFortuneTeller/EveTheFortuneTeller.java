@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -30,7 +30,7 @@ import net.sf.l2jdev.gameserver.network.serverpackets.luckygame.ExStartLuckyGame
 /**
  * Eve the Fortune Teller Returns<br>
  * Info - http://www.lineage2.com/en/news/events/11182015-eve-the-fortune-teller-returns.php
- * @author Mobius
+ * @author BAN-JDEV
  */
 public class EveTheFortuneTeller extends LongTimeEvent
 {

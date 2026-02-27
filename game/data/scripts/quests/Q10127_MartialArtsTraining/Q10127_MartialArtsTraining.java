@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -36,7 +36,7 @@ import quests.Q10128_UsingSoulshots.Q10128_UsingSoulshots;
 import quests.Q10129_UsingBlessedSpiritshots.Q10129_UsingBlessedSpiritshots;
 
 /**
- * @author Mobius
+ * @author BAN-JDEV
  */
 public class Q10127_MartialArtsTraining extends Quest
 {

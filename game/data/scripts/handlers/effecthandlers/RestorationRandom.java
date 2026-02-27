@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -46,7 +46,7 @@ import net.sf.l2jdev.gameserver.network.serverpackets.SystemMessage;
  * Restoration Random effect implementation.<br>
  * This effect is present in item skills that "extract" new items upon usage.<br>
  * This effect has been unhardcoded in order to work on targets as well.
- * @author Zoey76, Mobius
+ * @author Zoey76, BAN-JDEV
  */
 public class RestorationRandom extends AbstractEffect
 {

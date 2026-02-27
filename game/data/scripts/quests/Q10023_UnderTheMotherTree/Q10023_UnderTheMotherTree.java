@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -43,7 +43,7 @@ import quests.Q10024_NewLifesLessons.Q10024_NewLifesLessons;
 import quests.Q10025_NewLifesLessons.Q10025_NewLifesLessons;
 
 /**
- * @author Magik, Mobius
+ * @author Magik, BAN-JDEV
  */
 public class Q10023_UnderTheMotherTree extends Quest
 {

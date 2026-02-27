@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -29,7 +29,7 @@ import net.sf.l2jdev.gameserver.model.skill.Skill;
 
 /**
  * Change Hair Color effect implementation.
- * @author Zoey76, Mobius
+ * @author Zoey76, BAN-JDEV
  */
 public class ChangeHairColor extends AbstractEffect
 {

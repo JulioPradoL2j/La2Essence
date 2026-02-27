@@ -1,57 +1,50 @@
 package net.sf.l2jdev.commons.ui;
 
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Image;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.Frame;
 import java.awt.Toolkit;
-import java.util.Objects;
 import java.util.Timer;
 import java.util.TimerTask;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JWindow;
 
 public class SplashScreen extends JWindow
 {
-	private static final long serialVersionUID = 1L;
-	private final Image _image;
-
-	public SplashScreen(String path, long time, final JFrame parent)
+	private static final long serialVersionUID = 3135071544352172471L;
+	
+	public SplashScreen(String imagePath, JFrame frame)
 	{
-		this.setBackground(new Color(0, 255, 0, 0));
-		this._image = Toolkit.getDefaultToolkit().getImage(path);
-		ImageIcon imageIcon = new ImageIcon(this._image);
-		this.setSize(imageIcon.getIconWidth(), imageIcon.getIconHeight());
-		this.setLocationRelativeTo(null);
-		this.setAlwaysOnTop(true);
-		this.setVisible(true);
+		JLabel splashLabel = new JLabel(new ImageIcon(imagePath));
+		getContentPane().add(splashLabel, BorderLayout.CENTER);
+		pack();
+		
+		// Centralizar a janela na tela
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		Dimension windowSize = getSize();
+		setLocation((screenSize.width - windowSize.width) / 2, (screenSize.height - windowSize.height) / 2);
+		
+		setAlwaysOnTop(true);
+		setVisible(true);
+		
 		new Timer().schedule(new TimerTask()
 		{
-			{
-				Objects.requireNonNull(SplashScreen.this);
-			}
-
 			@Override
 			public void run()
 			{
-				SplashScreen.this.setVisible(false);
-				if (parent != null)
+				setVisible(false);
+				if (frame != null)
 				{
-					parent.setVisible(true);
-					parent.toFront();
-					parent.setState(1);
-					parent.setState(0);
+					frame.setVisible(true);
+					frame.toFront();
+					frame.setState(Frame.ICONIFIED);
+					frame.setState(Frame.NORMAL);
 				}
-
-				SplashScreen.this.dispose();
+				dispose();
 			}
-		}, imageIcon.getIconWidth() > 0 ? time : 100L);
-	}
-
-	@Override
-	public void paint(Graphics g)
-	{
-		g.drawImage(this._image, 0, 0, null);
+		}, 1500);
 	}
 }

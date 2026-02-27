@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -60,7 +60,7 @@ public class RollingDice implements IItemHandler
 			return false;
 		}
 
-		// Mobius: Retail dice position land calculation.
+		// BAN-JDEV: Retail dice position land calculation.
 		final double angle = LocationUtil.convertHeadingToDegree(player.getHeading());
 		final double radian = Math.toRadians(angle);
 		final double course = Math.toRadians(180);

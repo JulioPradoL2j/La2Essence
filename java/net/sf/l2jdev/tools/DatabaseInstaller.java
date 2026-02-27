@@ -90,8 +90,8 @@ public class DatabaseInstaller extends JFrame
 
 	private void gui()
 	{
-		new SplashScreen(".." + File.separator + "images" + File.separator + "splashscreen.gif", 5000L, this);
-		this.setTitle("Mobius - Database Installer");
+		new SplashScreen(".." + File.separator + "images" + File.separator + "splashscreen.gif", this);
+		this.setTitle("BAN-JDEV - Database Installer");
 		this.setMinimumSize(new Dimension(620, 400));
 		this.setDefaultCloseOperation(3);
 		this.setLocationRelativeTo(null);
@@ -136,7 +136,7 @@ public class DatabaseInstaller extends JFrame
 		leftPanel.add(this._passField);
 		leftPanel.add(new JLabel("Database:"));
 		leftPanel.add(Box.createVerticalStrut(5));
-		this._dbNameField = new JTextField("l2jmobiusessence", 20);
+		this._dbNameField = new JTextField("l2jBAN-JDEVessence", 20);
 		this._dbNameField.setPreferredSize(new Dimension(200, 20));
 		this._dbNameField.setMaximumSize(new Dimension(Integer.MAX_VALUE, 30));
 		leftPanel.add(this._dbNameField);
@@ -186,7 +186,7 @@ public class DatabaseInstaller extends JFrame
 	private void console()
 	{
 		System.out.println("=========================================================");
-		System.out.println("       L2jMobius Development - Database Installer        ");
+		System.out.println("       L2jBAN-JDEV Development - Database Installer        ");
 		System.out.println("               Created by Skache                        ");
 		System.out.println("=========================================================");
 		this.showMenu();
@@ -275,7 +275,7 @@ public class DatabaseInstaller extends JFrame
 	private void installDatabaseMenu(Scanner scanner)
 	{
 		System.out.println("=========================================================");
-		System.out.println("             L2jMobius Database Installation             ");
+		System.out.println("             L2jBAN-JDEV Database Installation             ");
 		System.out.println("=========================================================");
 		System.out.println("[1] Install Both Login and Game Databases");
 		System.out.println("[2] Install Login Database");
@@ -308,11 +308,11 @@ public class DatabaseInstaller extends JFrame
 
 		System.out.print("Enter MySQL Password: ");
 		String password = scanner.nextLine().trim();
-		System.out.print("Enter Database Name [l2jmobiusinterlude]: ");
+		System.out.print("Enter Database Name [l2jBAN-JDEVinterlude]: ");
 		String dbName = scanner.nextLine().trim();
 		if (dbName.isEmpty())
 		{
-			dbName = "l2jmobiusinterlude";
+			dbName = "l2jBAN-JDEVinterlude";
 		}
 
 		switch (choice)

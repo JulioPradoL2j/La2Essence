@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -35,7 +35,7 @@ import net.sf.l2jdev.gameserver.model.stats.Stat;
  * As for example in retail this effect does reduce reflected damage taken (because it is received damage), as well as it does not decrease reflected damage done,<br>
  * because reflected damage is being calculated with the original attack damage and not this altered one.<br>
  * Multiple values of this effect add-up to each other rather than multiplying with each other. Be careful, there were cases in retail where damage is deacreased to 0.
- * @author Nik, Mobius
+ * @author Nik, BAN-JDEV
  */
 public class DamageByAttack extends AbstractEffect
 {

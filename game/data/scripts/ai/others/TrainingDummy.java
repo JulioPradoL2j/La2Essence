@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@ import net.sf.l2jdev.gameserver.model.actor.Npc;
 import net.sf.l2jdev.gameserver.model.script.Script;
 
 /**
- * @author Mobius
+ * @author BAN-JDEV
  */
 public class TrainingDummy extends Script
 {

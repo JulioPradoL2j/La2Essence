@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -22,6 +22,6 @@
  * Custom scripts define quests or AI not in the original Lineage 2 game<br>
  * and may temporarily emulate incomplete game features until fully implemented,<br>
  * using the same structure and syntax as quest scripts.
- * @author Mobius
+ * @author BAN-JDEV
  */
 package custom;

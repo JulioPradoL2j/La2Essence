@@ -123,7 +123,7 @@ public class AccountManager extends JFrame
 
 	private void gui()
 	{
-		this.setTitle("Mobius - Account Manager");
+		this.setTitle("BAN-JDEV - Account Manager");
 		this.setMinimumSize(new Dimension(600, 400));
 		this.setDefaultCloseOperation(3);
 		this.setLocationRelativeTo(null);

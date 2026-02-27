@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -27,7 +27,7 @@ import net.sf.l2jdev.gameserver.model.script.LongTimeEvent;
 /**
  * Chef Monkey Event
  * @URL https://eu.4gameforum.com/threads/603119/
- * @author Mobius
+ * @author BAN-JDEV
  */
 public class ChefMonkeyEvent extends LongTimeEvent
 {

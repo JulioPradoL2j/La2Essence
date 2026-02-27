@@ -21,7 +21,7 @@
 
 	<target name="prepare-final" description="Prepare the final folders properties">
 		<property name="build.dist" location="${build}/dist" />
-		<property name="build.dist.server" location="${build.dist}/essence_trunk" />
+		<property name="build.dist.server" location="${build.dist}/L2JDev_Essence" />
 		<property name="build.dist.server.tools" location="${build.dist.server}/tools" />
 		<property name="build.dist.server.images" location="${build.dist.server}/images" />
 		<property name="build.dist.server.game" location="${build.dist.server}/game" />

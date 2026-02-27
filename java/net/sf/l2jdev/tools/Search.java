@@ -124,7 +124,7 @@ public class Search extends JFrame
 		Path imagesPath = START_DIR.resolve("dist" + File.separator + "images");
 		if (Files.exists(imagesPath) && Files.isDirectory(imagesPath))
 		{
-			new SplashScreen(imagesPath + File.separator + "splashscreen.gif", 3000L, this);
+			new SplashScreen(imagesPath + File.separator + "splashscreen.gif", this);
 			List<Image> icons = new ArrayList<>();
 			icons.add(new ImageIcon(".." + File.separator + "images" + File.separator + "16x16.png").getImage());
 			icons.add(new ImageIcon(".." + File.separator + "images" + File.separator + "32x32.png").getImage());
@@ -133,7 +133,7 @@ public class Search extends JFrame
 		}
 		else
 		{
-			new SplashScreen(".." + File.separator + "images" + File.separator + "splashscreen.gif", 3000L, this);
+			new SplashScreen(".." + File.separator + "images" + File.separator + "splashscreen.gif", this);
 			List<Image> icons = new ArrayList<>();
 			icons.add(new ImageIcon(".." + File.separator + "images" + File.separator + "16x16.png").getImage());
 			icons.add(new ImageIcon(".." + File.separator + "images" + File.separator + "32x32.png").getImage());
@@ -141,7 +141,7 @@ public class Search extends JFrame
 			this.setIconImages(icons);
 		}
 
-		this.setTitle("Mobius - Search");
+		this.setTitle("BAN-JDEV - Search");
 		this.setMinimumSize(new Dimension(800, 600));
 		this.setDefaultCloseOperation(3);
 		this.setLocationRelativeTo(null);
@@ -574,7 +574,7 @@ public class Search extends JFrame
 					this._summaryPanel.add(this._timeLabel);
 					final Pattern pattern = Pattern.compile(regexPattern, _caseInsensitive ? 2 : 0);
 					String truncatedPattern = regexPattern.length() > 50 ? regexPattern.substring(0, 50) : regexPattern;
-					this.setTitle("Mobius - Searching for " + truncatedPattern + "...");
+					this.setTitle("BAN-JDEV - Searching for " + truncatedPattern + "...");
 					final long startTime = System.currentTimeMillis();
 					this._progressBar.setVisible(true);
 					this._progressBar.setValue(0);
@@ -653,7 +653,7 @@ public class Search extends JFrame
 							}
 
 							Search.this._timeLabel.setText("Search complete in " + TimeUtil.formatDuration(System.currentTimeMillis() - startTime) + ".");
-							Search.this.setTitle("Mobius - Search");
+							Search.this.setTitle("BAN-JDEV - Search");
 						}
 					};
 					worker.execute();
@@ -671,7 +671,7 @@ public class Search extends JFrame
 	private void console()
 	{
 		System.out.println("=========================================================");
-		System.out.println("             L2jMobius Development - Search              ");
+		System.out.println("             L2jBAN-JDEV Development - Search              ");
 		System.out.println("=========================================================");
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Enter search text (regex supported): ");

@@ -70,7 +70,7 @@ public class LogPanel extends JFrame
 			DarkTheme.activate();
 		}
 
-		this.setTitle(deleteMode ? "Mobius - Delete Log File" : "Mobius - Log Viewer");
+		this.setTitle(deleteMode ? "BAN-JDEV - Delete Log File" : "BAN-JDEV - Log Viewer");
 		this.setMinimumSize(deleteMode ? new Dimension(400, 200) : new Dimension(1000, 600));
 		this.setDefaultCloseOperation(2);
 		this.setLayout(new BorderLayout());

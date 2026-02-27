@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -31,7 +31,7 @@ import net.sf.l2jdev.gameserver.model.stats.Stat;
 import net.sf.l2jdev.gameserver.util.MathUtil;
 
 /**
- * @author Sdw, Mobius
+ * @author Sdw, BAN-JDEV
  */
 public class CriticalRatePositionBonus extends AbstractEffect
 {
@@ -50,6 +50,7 @@ public class CriticalRatePositionBonus extends AbstractEffect
 		effected.getStat().mergePositionTypeValue(Stat.CRITICAL_RATE, _position, (_amount / 100) + 1, MathUtil::mul);
 	}
 
+	@SuppressWarnings("unused")
 	@Override
 	public void onExit(Creature effector, Creature effected, Skill skill)
 	{
@@ -58,7 +59,7 @@ public class CriticalRatePositionBonus extends AbstractEffect
 		if (amount == 0d)
 		{
 			// To reverse 100% resistance, reset to the default value.
-			effected.getStat().mergePositionTypeValue(Stat.CRITICAL_RATE, _position, 1d, (_, _) -> 1d);
+			effected.getStat().mergePositionTypeValue(Stat.CRITICAL_RATE, _position, 1d, (A, B) -> 1d);
 
 			// Recalculate stats in case effected has other instances of this effect.
 			ThreadPool.schedule(() -> {

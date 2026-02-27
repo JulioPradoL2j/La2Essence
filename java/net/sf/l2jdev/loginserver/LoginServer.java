@@ -21,7 +21,7 @@ import net.sf.l2jdev.commons.threads.ThreadPool;
 import net.sf.l2jdev.loginserver.config.LoginConfig;
 import net.sf.l2jdev.loginserver.network.LoginClient;
 import net.sf.l2jdev.loginserver.network.LoginPacketHandler;
-import net.sf.l2jdev.loginserver.ui.Gui;
+import net.sf.l2jdev.loginserver.ui.LoginServerLaucher;
 
 public class LoginServer
 {
@@ -47,7 +47,7 @@ public class LoginServer
 		if (InterfaceConfig.ENABLE_GUI)
 		{
 			System.out.println("LoginServer: Running in GUI mode.");
-			new Gui();
+			new LoginServerLaucher();
 		}
 	}
 	

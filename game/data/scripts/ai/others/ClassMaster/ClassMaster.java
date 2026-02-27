@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2013 L2jMobius
+ * Copyright (c) 2013 L2jBAN-JDEV
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -62,7 +62,7 @@ import org.w3c.dom.Node;
 
 /**
  * Class Master AI.
- * @author Nik, Mobius
+ * @author Nik, BAN-JDEV
  */
 public class ClassMaster extends Script implements IXmlReader
 {

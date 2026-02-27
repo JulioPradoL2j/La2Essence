@@ -32,7 +32,7 @@ public class ScriptExecutor
 	
 	public ScriptExecutor()
 	{
-		// Match original Mobius behavior: compile scripts as Java 8
+		// Match original BAN-JDEV behavior: compile scripts as Java 8
 		this.addOptionIfNotNull(OPTIONS, "1.8", "-source");
 		this.addOptionIfNotNull(OPTIONS, "data/scripts", "-sourcepath");
 		this.addOptionIfNotNull(OPTIONS, "source,lines,vars", "-g:");

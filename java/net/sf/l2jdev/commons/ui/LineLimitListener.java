@@ -9,33 +9,82 @@ import javax.swing.text.Element;
 
 public class LineLimitListener implements DocumentListener
 {
-	private final boolean _removeFromStart;
-	private final int _maxLines;
-
-	public LineLimitListener(int maxLines)
+	private int _maximumLines;
+	private final boolean _isRemoveFromStart;
+	
+	/*
+	 * Specify the number of lines to be stored in the Document. Extra lines will be removed from the start of the Document.
+	 */
+	public LineLimitListener(int maximumLines)
 	{
-		this(maxLines, true);
+		this(maximumLines, true);
 	}
-
-	public LineLimitListener(int maxLines, boolean removeFromStart)
+	
+	/*
+	 * Specify the number of lines to be stored in the Document. Extra lines will be removed from the start or end of the Document, depending on the boolean value specified.
+	 */
+	public LineLimitListener(int maximumLines, boolean isRemoveFromStart)
 	{
-		this._removeFromStart = removeFromStart;
-		this._maxLines = maxLines;
+		setLimitLines(maximumLines);
+		_isRemoveFromStart = isRemoveFromStart;
 	}
-
+	
+	/*
+	 * Return the maximum number of lines to be stored in the Document.
+	 */
 	public int getLimitLines()
 	{
-		return this._maxLines;
+		return _maximumLines;
 	}
-
-	private void removeLines(DocumentEvent event)
+	
+	/*
+	 * Set the maximum number of lines to be stored in the Document.
+	 */
+	public void setLimitLines(int maximumLines)
 	{
-		Document document = event.getDocument();
-		Element root = document.getDefaultRootElement();
-
-		while (root.getElementCount() > this._maxLines)
+		if (maximumLines < 1)
 		{
-			if (this._removeFromStart)
+			final String message = "Maximum lines must be greater than 0";
+			throw new IllegalArgumentException(message);
+		}
+		
+		_maximumLines = maximumLines;
+	}
+	
+	/*
+	 * Handle insertion of new text into the Document.
+	 */
+	@Override
+	public void insertUpdate(DocumentEvent e)
+	{
+		// Changes to the Document can not be done within the listener so we need to add the processing to the end of the EDT.
+		SwingUtilities.invokeLater(() -> removeLines(e));
+	}
+	
+	@Override
+	public void removeUpdate(DocumentEvent e)
+	{
+		// Ignore.
+	}
+	
+	@Override
+	public void changedUpdate(DocumentEvent e)
+	{
+		// Ignore.
+	}
+	
+	/*
+	 * Remove lines from the Document when necessary.
+	 */
+	private void removeLines(DocumentEvent e)
+	{
+		// The root Element of the Document will tell us the total number of line in the Document.
+		final Document document = e.getDocument();
+		final Element root = document.getDefaultRootElement();
+		
+		while (root.getElementCount() > _maximumLines)
+		{
+			if (_isRemoveFromStart)
 			{
 				removeFromStart(document, root);
 			}
@@ -45,51 +94,39 @@ public class LineLimitListener implements DocumentListener
 			}
 		}
 	}
-
+	
+	
 	private static void removeFromStart(Document document, Element root)
 	{
-		Element line = root.getElement(0);
-		int end = line.getEndOffset();
-
+		final Element line = root.getElement(0);
+		final int end = line.getEndOffset();
+		
 		try
 		{
 			document.remove(0, end);
 		}
-		catch (BadLocationException var6)
+		catch (BadLocationException ble)
 		{
-			System.out.println(var6);
+			System.out.println(ble);
 		}
 	}
+	
 
 	private static void removeFromEnd(Document document, Element root)
 	{
-		Element line = root.getElement(root.getElementCount() - 1);
-		int start = line.getStartOffset();
-		int end = line.getEndOffset();
-
+		// We use start minus 1 to make sure we remove the newline character of the previous line.
+		
+		final Element line = root.getElement(root.getElementCount() - 1);
+		final int start = line.getStartOffset();
+		final int end = line.getEndOffset();
+		
 		try
 		{
 			document.remove(start - 1, end - start);
 		}
-		catch (BadLocationException var7)
+		catch (BadLocationException ble)
 		{
-			System.out.println(var7);
+			System.out.println(ble);
 		}
-	}
-
-	@Override
-	public void insertUpdate(DocumentEvent event)
-	{
-		SwingUtilities.invokeLater(() -> this.removeLines(event));
-	}
-
-	@Override
-	public void removeUpdate(DocumentEvent event)
-	{
-	}
-
-	@Override
-	public void changedUpdate(DocumentEvent event)
-	{
 	}
 }
