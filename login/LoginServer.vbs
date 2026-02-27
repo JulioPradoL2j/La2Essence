@@ -34,7 +34,7 @@ file.Close
 Set file = Nothing
 
 'Generate command.
-command = path & "java " & parameters & " -jar ../libs/LoginServer.jar"
+command = path & "java -Duser.timezone=Etc/GMT+3 -Xmx128m -cp ../libs/*; net.sf.l2jdev.loginserver.LoginServer"
 If window = 1 Then
 	command = "cmd /c start ""Login Server Console"" " & command
 End If

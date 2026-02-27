@@ -34,7 +34,7 @@ file.Close
 Set file = Nothing
 
 'Generate command.
-command = path & "java " & parameters & " -jar ../libs/GameServer.jar"
+command = path & "java -Duser.timezone=Etc/GMT+3 -Xmx2000m -cp ../libs/*; net.sf.l2jdev.gameserver.GameServer"
 If window = 1 Then
 	command = "cmd /c start ""Game Server Console"" " & command
 End If
