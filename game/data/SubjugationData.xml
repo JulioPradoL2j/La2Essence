@@ -157,5 +157,28 @@
 		<npc id="22760" points="200" /> <!-- Bruto Shoter -->
 		<npc id="22761" points="200" /> <!-- Bruto Shaman -->
 	</purge>
+	<purge name="Tower of Insolence Purge" category="7" hottimes="12-14;19-23">
+		<npc id="22560" points="200" /> <!-- Ressurrected Spirit 01-->
+		<npc id="22561" points="200" /> <!-- Ressurrected Scout 01-->
+		<npc id="22563" points="200" /> <!-- Ressurrected Archer 01-->
+		<npc id="22562" points="200" /> <!-- Ressurrected Recruit 01-->
+		<npc id="22571" points="300" /> <!-- Brainwashed Elder 03-->
+		<npc id="22570" points="300" /> <!-- Brainwashed Maid 03-->
+		<npc id="22573" points="300" /> <!-- Brainwashed Shooter 03-->
+		<npc id="22572" points="300" /> <!-- Brainwashed Warrior 03-->
+		<npc id="22595" points="400" /> <!-- Mutated Prime Messenger 08-->
+		<npc id="22594" points="400" /> <!-- Mutated Messenger Angel 08-->
+		<npc id="22596" points="400" /> <!-- Mutated Archer Messenger 08-->
+		<npc id="22598" points="400" /> <!-- Dark Warrior 09-->
+		<npc id="22599" points="400" /> <!-- Dark Magus 09-->
+		<npc id="22614" points="500" /> <!-- Arel 09-->
+		<npc id="22600" points="400" /> <!-- Dark Dragon Berserker 09-->
+		<npc id="22612" points="600" /> <!-- Immortal Ruler 10-->
+		<npc id="22611" points="600" /> <!-- Immortal Bodyguard 10-->
+		<npc id="22610" points="600" /> <!-- Immortal Elder 10-->
+		<npc id="22608" points="600" /> <!-- Celestial Shooter 11-->
+		<npc id="22607" points="600" /> <!-- Celestial Shooter 11-->
+		<npc id="22606" points="400" /> <!-- Celestial Warrior 11-->
+	</purge>
 
 </list>

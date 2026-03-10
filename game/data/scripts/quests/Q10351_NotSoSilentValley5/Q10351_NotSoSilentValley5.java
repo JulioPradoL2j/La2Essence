@@ -136,23 +136,19 @@ public class Q10351_NotSoSilentValley5 extends Quest
 				{
 					break;
 				}
-
+				
 				if (questState.isCond(QuestCondType.DONE) && !questState.isCompleted())
 				{
 					questState.exitQuest(false, true);
 					rewardPlayer(player);
-				}
+					
 
-				// Removed with High Elves update.
-				// final QuestState nextQuestState = player.getQuestState(Q19904_LevelUpTo76.class.getSimpleName());
-				// if ((nextQuestState == null) || !nextQuestState.isCompleted())
-				// {
-				// player.sendPacket(new ExQuestDialog(19904, QuestDialogType.ACCEPT));
-				// }
+					player.sendPacket(new ExQuestDialog(10352, QuestDialogType.ACCEPT));
+				}
 				break;
 			}
 		}
-
+		
 		return null;
 	}
 
