@@ -20,6 +20,7 @@ import net.sf.l2jdev.gameserver.model.PetLevelData;
 import net.sf.l2jdev.gameserver.model.StatSet;
 import net.sf.l2jdev.gameserver.model.actor.enums.player.MountType;
 import net.sf.l2jdev.gameserver.model.skill.holders.SkillHolder;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
@@ -220,6 +221,25 @@ public class PetDataTable implements IXmlReader
 	public int getPetItemsByNpc(int npcId)
 	{
 		return this._pets.get(npcId).getItemId();
+	}
+
+	/**
+	 * Returns true if the given itemId is configured as a pet food for any pet.
+	 *
+	 * @param itemId the item template id to check
+	 * @return {@code true} if the item id is listed as food for any pet; {@code false} otherwise
+	 */
+	public boolean isPetFood(int itemId)
+	{
+		for (PetData data : _pets.values())
+		{
+			if (data.getFood().contains(itemId))
+			{
+				return true;
+			}
+		}
+
+		return false;
 	}
 
 	public static boolean isMountable(int npcId)

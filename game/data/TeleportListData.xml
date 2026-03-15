@@ -57,11 +57,10 @@
 	</teleport>
 	<teleport id="82" x="82927" y="53255" z="-1488" price="1000" /> <!-- Oren -->
 	<teleport id="84" price="9000"> <!-- Plains of the Lizardmen -->
-		<location x="81160" y="75068" z="-3592" />
-		<location x="82911" y="92847" z="-3328" />
-		<location x="87252" y="85514" z="-3056" />
-		<location x="95198" y="76261" z="-3480" />
-		<location x="95842" y="89089" z="-3472" />
+		<location x="87480" y="85530" z="-3110" />
+		<location x="84017" y="84017" z="-3387" />
+		<location x="80450" y="73244" z="-3588" />
+		<location x="89961" y="73098" z="-3640" />
 	</teleport>
 	<teleport id="101" x="186041" y="20320" z="-3344" price="2000" /> <!-- Seal of Shilen -->
 	<teleport id="102" x="177999" y="52173" z="-3997" price="24000" /> <!-- Giant's Cave -->
@@ -176,8 +175,8 @@
 	<teleport id="462" x="151963" y="5508" z="-584" price="50000" /> <!-- Right Side of the Aden Castle -->
 	<teleport id="463" x="147469" y="11386" z="-760" price="50000" /> <!-- Front Side of the Aden Castle -->
 	<teleport id="464" x="143070" y="5588" z="-592" price="50000" /> <!-- Left Side of the Aden Castle -->
-	<teleport id="472" x="-18407" y="181070" z="-3840" price="50000" /> <!-- Boss Extermination Battlefield Barracks -->
-	<teleport id="473" x="-12496" y="169822" z="-3960" price="1000" /> <!-- Road to Boss Extermination Battlefield -->
+	<teleport id="472" x="-18473" y="176669" z="-4232" price="50000" /> <!-- Boss Extermination Battlefield Barracks -->
+	<teleport id="473" x="-17129" y="173623" z="-4056" price="1000" /> <!-- Road to Boss Extermination Battlefield -->
 	<teleport id="475" x="-93255" y="109021" z="-3696" price="200" special="true" /> <!-- Inner Orc Barracks -->
 	<teleport id="476" x="146904" y="-82561" z="-5128" price="400" special="true" /> <!-- Morgos' Military Base's Central Barracks -->
 	<teleport id="482" x="-81101" y="-49143" z="-10416" price="10" special="true" /> <!-- Underground Labyrinth -->
@@ -334,7 +333,7 @@
 	<teleport id="605" x="96711" y="142918" z="-2168" price="20000" /> <!-- Giran Castle's Chief Guard -->
 	<teleport id="606" x="178395" y="20271" z="-3168" price="24000" /> <!-- Aden's Royal Cemetery -->
 	<teleport id="607" x="29573" y="11029" z="-4232" price="0" /> <!-- Abyss Warrior Rosania -->
-	<teleport id="608" x="146238" y="-11178" z="-4440" price="24000" /> <!-- Fire Dragon's Swamp -->
+	<teleport id="608" x="145759" y="-8806" z="-4534" price="24000" /> <!-- Fire Dragon's Swamp -->
 	<teleport id="609" x="148724" y="214109" z="-2040" price="1000" /> <!-- Crow Village -->
 	<teleport id="610" x="151654" y="207853" z="-3120" price="200" /> <!-- Moon Coast -->
 	<teleport id="611" x="149170" y="219616" z="-1248" price="24000" /> <!-- Horong's Bamboo Forest -->

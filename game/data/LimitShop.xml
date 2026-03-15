@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/LimitShop.xsd">
+	<product id="780" category="0">
+		<ingredient id="91663" count="20" /> <!-- L-Coin -->
+		<production id="103236" accountWeeklyLimit="1"/> <!-- Starter Kit Warg -->
+	</product>
+	<product id="781" category="0">
+		<ingredient id="91663" count="20" /> <!-- L-Coin -->
+		<production id="105681" accountWeeklyLimit="1"/> <!-- Starter Kit Samurai -->
+	</product>
+	<product id="782" category="0">
+		<ingredient id="91663" count="250" /> <!-- L-Coin -->
+		<production id="105603" accountDailyLimit="1" /> <!-- Samurai's Daily Lucky Pack -->
+	</product>
 	<product id="13" category="1">
 		<ingredient id="91663" count="20" /> <!-- L-Coin -->
 		<production id="91689" /> <!-- Blessed Scroll of Escape (Sealed) -->
@@ -76,14 +88,6 @@
 		<ingredient id="91663" count="100" /> <!-- L-Coin -->
 		<production id="92973" /> <!-- Scroll of Escape Pack: Tower of Insolence (Floors 8-12) -->
 	</product>
-	<product id="485" category="2">
-		<ingredient id="91663" count="350" /> <!-- L-Coin -->
-		<production id="91772" /> <!-- Scroll: PK (Sealed) -->
-	</product>
-	<product id="124070901" category="2">
-		<ingredient id="91663" count="200" /> <!-- L-Coin -->
-		<production id="93704" accountDailyLimit="1" /> <!-- Alligator Island's Time Stone (Sealed) -->
-	</product>
 	<product id="305" category="3">
 		<ingredient id="97145" count="15000" /> <!-- Ancient Adena -->
 		<production id="105280" accountBuyLimit="1" /> <!-- Superior Spellbook (Sealed) -->
@@ -127,18 +131,6 @@
 	<product id="431" category="3">
 		<ingredient id="97145" count="100000" /> <!-- Ancient Adena -->
 		<production id="94119" accountBuyLimit="1" /> <!-- Talisman of Baium (Sealed) -->
-	</product>
-	<product id="434" category="3">
-		<ingredient id="97145" count="300" /> <!-- Ancient Adena -->
-		<production id="91772" /> <!-- Scroll: PK (Sealed) -->
-	</product>
-	<product id="526" category="3">
-		<ingredient id="97145" count="5000" /> <!-- Ancient Adena -->
-		<production id="98814" accountBuyLimit="5" /> <!-- Special Armor Coupon (Sealed) -->
-	</product>
-	<product id="527" category="3">
-		<ingredient id="97145" count="50000" /> <!-- Ancient Adena -->
-		<production id="98813" accountBuyLimit="1" /> <!-- Boss Weapon Coupon (Sealed) -->
 	</product>
 	<product id="528" category="3">
 		<ingredient id="97145" count="200000" /> <!-- Ancient Adena -->
@@ -248,4 +240,69 @@
 		<ingredient id="91663" count="2000" /> <!-- L-Coin -->
 		<production id="105682" /> <!-- Samurai's Growth Ticket (Time-limited) -->
 	</product>
+	<product id="100020196" category="8">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="102745" accountDailyLimit="1"/> <!-- +5 Boss Weapon Coupon -->
+	</product>
+	<product id="100020197" category="8">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="101770" accountDailyLimit="1"/> <!-- +5 Special Armor Coupon -->
+	</product>
+	<product id="100020198" category="8">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="102050" accountDailyLimit="1"/> <!-- +5 Hunter's Armor Coupon -->
+	</product>
+	<product id="100020199" category="10">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="93966" accountDailyLimit="1"/> <!-- Guardian's Combat Ration -->
+	</product>
+	<product id="100020200" category="10">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="93967" accountDailyLimit="1"/> <!-- Guardian's HP Recovery Potion -->
+	</product>
+	<product id="100020232" category="10">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="98972" accountBuyLimit="1"/> <!-- Guardian Update Kit -->
+	</product>
+	<product id="100020201" category="10">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="97432" accountDailyLimit="1"/> <!-- Scroll: Boost Guardian's Attack -->
+	</product>
+	<product id="100020202" category="10">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="97433" accountDailyLimit="1"/> <!-- Scroll: Boost Guardian's Defense -->
+	</product>
+	<product id="100020208" category="10">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="105457" accountDailyLimit="1"/> <!-- Selection Coupons: Guardian Accessory -->
+	</product>
+	<product id="100020008" category="9">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="101785" accountDailyLimit="1"/> <!-- Package: Eva's Earring (MP Recovery) -->
+	</product>
+	<product id="100020009" category="9">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="101786" accountDailyLimit="1"/> <!-- Package: Shillien's Earring (HP Drain) -->
+	</product>
+	<product id="100020010" category="9">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="101787" accountDailyLimit="1"/> <!-- Package: Sayha's Ring (Atk. Spd.) -->
+	</product>
+	<product id="100020011" category="9">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="101788" accountDailyLimit="1"/> <!-- Package: Pa'agrio's Ring (P./ M. Atk.) -->
+	</product>
+	<product id="100020012" category="9">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="101789" accountDailyLimit="1"/> <!-- Package: Einhasad's Necklace (Cooldown) -->
+	</product>
+	<product id="100020013" category="9">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="95722" accountDailyLimit="1"/> <!-- Enchant Package : Ring Insolence -->
+	</product>
+	<product id="100020014" category="9">
+		<ingredient id="91663" count="500" /> <!-- L-Coin -->
+		<production id="95723" accountDailyLimit="1"/> <!-- Package: Einhasad's Necklace (Cooldown) -->
+	</product>
+
 </list>

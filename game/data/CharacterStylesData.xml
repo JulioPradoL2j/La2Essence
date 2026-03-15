@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/CharacterStylesData.xsd">
-	<category id="0" type="APPEARANCE_WEAPON" swapCostId="57" swapCostCount="1">
+	<category id="0" type="APPEARANCE_WEAPON" swapCostId="57" swapCostCount="10000000">
 		<style styleId="1" name="White Day - Dagger" shiftWeaponId="37688" weaponType="DAGGER">
 			<cost>
 				<item id="103828" count="1" />
@@ -578,6 +578,29 @@
 		</style>
 	</category>
 	<category id="1" type="KILL_EFFECT" swapCostId="57" swapCostCount="1">
+		<style styleId="12" name="Kill Effect - Antharas' Energy" skillId="40668" skillLevel="1">
+			<cost>
+                <item id="105292" count="1" />
+				<item id="105293" count="1" />
+			</cost>
+		</style>
+		<style styleId="11" name="Kill Effect - Fafurion's Energy" skillId="40630" skillLevel="1">
+			<cost>
+                <item id="105294" count="1" />
+				<item id="105295" count="1" />
+			</cost>
+		</style>
+		<style styleId="10" name="Kill Effect - Autumn Chestnuts" skillId="40662" skillLevel="1">
+			<cost>
+                <item id="105037" count="1" />
+				<item id="105038" count="1" />
+			</cost>
+		</style>	
+		<style styleId="9" name="Kill Effect - Refreshing Ice Bomb" skillId="40660" skillLevel="1">
+			<cost>
+                <item id="104362" count="1" />
+			</cost>
+		</style>	
 		<style styleId="1" name="Kill Effect - Candies" skillId="40623" skillLevel="1">
 			<cost>
 				<item id="103889" count="1" />
@@ -590,6 +613,7 @@
 		</style>
 		<style styleId="3" name="Kill Effect - Shining Snowball" skillId="40530" skillLevel="1">
 			<cost>
+                <item id="104685" count="1" />
 				<item id="101441" count="1" />
 			</cost>
 		</style>
@@ -605,6 +629,7 @@
 		</style>
 		<style styleId="6" name="Kill Effect - Fallen Maple Leaf" skillId="40587" skillLevel="1">
 			<cost>
+                <item id="104688" count="1" />
 				<item id="102643" count="1" />
 			</cost>
 		</style>
@@ -620,10 +645,19 @@
 		</style>
 	</category>
 	<category id="2" type="CHAT_BACKGROUND" swapCostId="57" swapCostCount="1">
+		<style styleId="4" name="Name Background - Summer Sea">
+			<cost>
+				<item id="104364" count="1" />
+			</cost>
+		</style>
 		<style styleId="1" name="Name Background - Flowers">
 			<cost>
+                <item id="104689" count="1" />
 				<item id="103890" count="1" />
-			</cost>
+            </cost>
+			<extraction>
+				<item id="103890" count="1" />
+			</extraction>
 		</style>
 		<style styleId="2" name="Name Background - Blue">
 			<cost>

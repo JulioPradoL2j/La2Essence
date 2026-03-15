@@ -5512,7 +5512,7 @@
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>BR_EVENT_BUF1</abnormalType>
-		<abnormalVisualEffect>U_ER_WI_WINDHIDE_AVE</abnormalVisualEffect>
+		<abnormalVisualEffect>LEGEND_DECO_HERO</abnormalVisualEffect>
 		<affectScope>SINGLE</affectScope>
 		<effectPoint>0</effectPoint>
 		<isMagic>4</isMagic>
@@ -5827,7 +5827,7 @@
 		<abnormalLevel>1</abnormalLevel>
 		<abnormalTime>600</abnormalTime>
 		<abnormalType>KAMAEL_TRANSFORM</abnormalType>
-		<abnormalVisualEffect>KAMAEL_BLACK_TRANSFORM;LONG_RAPIER_BLACK_AVE;BLACK_STANCE_AVE</abnormalVisualEffect>
+		<abnormalVisualEffect>LEGEND_DECO_HERO</abnormalVisualEffect>
 		<affectScope>SINGLE</affectScope>
 		<effectPoint>0</effectPoint>
 		<isMagic>4</isMagic>

@@ -9,6 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import net.sf.l2jdev.commons.threads.ThreadPool;
 import net.sf.l2jdev.gameserver.config.GeneralConfig;
 import net.sf.l2jdev.gameserver.data.xml.ActionData;
+import net.sf.l2jdev.gameserver.data.xml.PetDataTable;
 import net.sf.l2jdev.gameserver.data.xml.PetSkillData;
 import net.sf.l2jdev.gameserver.handler.IItemHandler;
 import net.sf.l2jdev.gameserver.handler.IPlayerActionHandler;
@@ -21,6 +22,7 @@ import net.sf.l2jdev.gameserver.model.actor.Player;
 import net.sf.l2jdev.gameserver.model.actor.Summon;
 import net.sf.l2jdev.gameserver.model.actor.instance.Guard;
 import net.sf.l2jdev.gameserver.model.actor.instance.Pet;
+import net.sf.l2jdev.gameserver.model.actor.stat.PlayerStat;
 import net.sf.l2jdev.gameserver.model.actor.transform.Transform;
 import net.sf.l2jdev.gameserver.model.actor.transform.TransformTemplate;
 import net.sf.l2jdev.gameserver.model.effects.AbstractEffect;
@@ -175,8 +177,8 @@ public class AutoUseTaskManager
 
 		public AutoUse(Set<Player> players)
 		{
-			Objects.requireNonNull(AutoUseTaskManager.this);
 			super();
+			Objects.requireNonNull(AutoUseTaskManager.this);
 			this._players = players;
 		}
 
@@ -216,12 +218,19 @@ public class AutoUseTaskManager
 									}
 									else
 									{
+										// Skip pet food here; pet feeding is handled by Pet.FeedTask with proper hunger checks.
+										if (PetDataTable.getInstance() != null && PetDataTable.getInstance().isPetFood(item.getId()))
+										{
+											continue;
+										}
+
 										ItemTemplate template = item.getTemplate();
 										if (template != null && template.checkCondition(player, player, false))
 										{
 											List<ItemSkillHolder> skills = template.getSkills(ItemSkillType.NORMAL);
 											if (skills != null)
 											{
+												boolean vitalityItem = false;
 												for (ItemSkillHolder itemSkillHolder : skills)
 												{
 													Skill skill = itemSkillHolder.getSkill();
@@ -229,6 +238,18 @@ public class AutoUseTaskManager
 													{
 														continue label309;
 													}
+
+													// Detect Sayha/Vitality boosting items and avoid using them if vitality is already full.
+													if (!vitalityItem && skill.hasEffectType(EffectType.VITALITY_POINT_UP))
+													{
+														vitalityItem = true;
+													}
+												}
+
+												if (vitalityItem && player.getVitalityPoints() >= PlayerStat.MAX_VITALITY_POINTS)
+												{
+													// Skip using Sayha/Vitality point items when at maximum.
+													continue;
 												}
 											}
 

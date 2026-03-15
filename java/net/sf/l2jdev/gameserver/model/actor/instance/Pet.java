@@ -1397,8 +1397,8 @@ public class Pet extends Summon
 	{
 		FeedTask()
 		{
-			Objects.requireNonNull(Pet.this);
 			super();
+			Objects.requireNonNull(Pet.this);
 		}
 
 		@Override
@@ -1458,7 +1458,7 @@ public class Pet extends Summon
 					}
 				}
 
-				if (food != null && Pet.this.isHungry() && Pet.this.getOwner().getAutoUseSettings().getAutoSupplyItems().contains(food.getId()) && !pet.isInsideZone(ZoneId.PEACE))
+				if (food != null && Pet.this.isHungry() && Pet.this.getOwner().getAutoUseSettings().getAutoSupplyItems().contains(food.getId()))
 				{
 					IItemHandler handler = ItemHandler.getInstance().getHandler(food.getEtcItem());
 					if (handler != null)

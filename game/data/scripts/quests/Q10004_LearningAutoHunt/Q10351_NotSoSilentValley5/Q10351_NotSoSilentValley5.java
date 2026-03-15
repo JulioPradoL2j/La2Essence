@@ -1,35 +1,62 @@
-package quests.Q19907_LevelUpTo84;
+/*
+ * Copyright (c) 2013 L2jBAN-JDEV
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+ * WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR
+ * IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+package quests.Q10351_NotSoSilentValley5;
 
 import net.sf.l2jdev.gameserver.data.xml.TeleportListData;
 import net.sf.l2jdev.gameserver.model.Location;
 import net.sf.l2jdev.gameserver.model.actor.Npc;
 import net.sf.l2jdev.gameserver.model.actor.Player;
-import net.sf.l2jdev.gameserver.model.events.EventType;
-import net.sf.l2jdev.gameserver.model.events.ListenerRegisterType;
-import net.sf.l2jdev.gameserver.model.events.annotations.RegisterEvent;
-import net.sf.l2jdev.gameserver.model.events.annotations.RegisterType;
-import net.sf.l2jdev.gameserver.model.events.holders.actor.player.OnPlayerLevelChanged;
 import net.sf.l2jdev.gameserver.model.script.Quest;
 import net.sf.l2jdev.gameserver.model.script.QuestDialogType;
 import net.sf.l2jdev.gameserver.model.script.QuestState;
+import net.sf.l2jdev.gameserver.model.script.newquestdata.NewQuest;
 import net.sf.l2jdev.gameserver.model.script.newquestdata.NewQuestLocation;
 import net.sf.l2jdev.gameserver.model.script.newquestdata.QuestCondType;
 import net.sf.l2jdev.gameserver.network.serverpackets.quest.ExQuestDialog;
 import net.sf.l2jdev.gameserver.network.serverpackets.quest.ExQuestNotification;
 
-import quests.Q10377_StopSelMahumTroops1.Q10377_StopSelMahumTroops1;
-
 /**
  * @author Magik
- * @modified Gemini
  */
-public class Q19907_LevelUpTo84 extends Quest
+public class Q10351_NotSoSilentValley5 extends Quest
 {
-	private static final int QUEST_ID = 19907;
+	private static final int QUEST_ID = 10351;
+	private static final int[] MONSTERS =
+	{
+		20965, // CHIMERA_PIECE
+		20966, // MUTATED_CREATION
+		20967, // CREATURE_OF_THE_PAST
+		20968, // FORGOTTEN_FACE
+		20970, // SOLDIER_OF_ANCIENT_TIMES
+		20971, // WARRIOR_OF_ANCIENT_TIMES
+		20972, // SHAMAN_OF_ANCIENT_TIMES
+		20973, // FORGOTTEN_ANCIENT_PEOPLE
+		22106, // ANCIENT_GUARDIAN
+		20969, // GIANT_SHADOW
+	};
 
-	public Q19907_LevelUpTo84()
+	public Q10351_NotSoSilentValley5()
 	{
 		super(QUEST_ID);
+		addKillId(MONSTERS);
 	}
 
 	@Override
@@ -48,12 +75,6 @@ public class Q19907_LevelUpTo84 extends Quest
 				if (!questState.isStarted() && !questState.isCompleted())
 				{
 					questState.startQuest();
-					if (player.getLevel() >= 84)
-					{
-						questState.setCount(getQuestData().getGoal().getCount());
-						questState.setCond(QuestCondType.DONE);
-						player.sendPacket(new ExQuestNotification(questState));
-					}
 				}
 				break;
 			}
@@ -115,23 +136,19 @@ public class Q19907_LevelUpTo84 extends Quest
 				{
 					break;
 				}
-
+				
 				if (questState.isCond(QuestCondType.DONE) && !questState.isCompleted())
 				{
 					questState.exitQuest(false, true);
 					rewardPlayer(player);
-				}
+					
 
-				final QuestState nextQuestState = player.getQuestState(Q10377_StopSelMahumTroops1.class.getSimpleName());
-				if (nextQuestState == null)
-				{
-					player.sendPacket(new ExQuestDialog(10377, QuestDialogType.ACCEPT));
+					player.sendPacket(new ExQuestDialog(10352, QuestDialogType.ACCEPT));
 				}
-
 				break;
 			}
 		}
-
+		
 		return null;
 	}
 
@@ -155,26 +172,37 @@ public class Q19907_LevelUpTo84 extends Quest
 		return null;
 	}
 
-	@RegisterEvent(EventType.ON_PLAYER_LEVEL_CHANGED)
-	@RegisterType(ListenerRegisterType.GLOBAL_PLAYERS)
-	public void onPlayerLevelChange(OnPlayerLevelChanged event)
+	@Override
+	public void onKill(Npc npc, Player killer, boolean isSummon)
 	{
-		final Player player = event.getPlayer();
-		if (player == null)
+		final QuestState questState = getQuestState(killer, false);
+		if ((questState != null) && questState.isCond(QuestCondType.STARTED))
 		{
-			return;
-		}
+			final NewQuest data = getQuestData();
+			if (data.getGoal().getItemId() > 0)
+			{
+				final int itemCount = (int) getQuestItemsCount(killer, data.getGoal().getItemId());
+				if (itemCount < data.getGoal().getCount())
+				{
+					giveItems(killer, data.getGoal().getItemId(), 1);
+					final int newItemCount = (int) getQuestItemsCount(killer, data.getGoal().getItemId());
+					questState.setCount(newItemCount);
+				}
+			}
+			else
+			{
+				final int currentCount = questState.getCount();
+				if (currentCount < data.getGoal().getCount())
+				{
+					questState.setCount(currentCount + 1);
+				}
+			}
 
-		final QuestState questState = getQuestState(player, false);
-		if ((questState == null) && canStartQuest(player))
-		{
-			player.sendPacket(new ExQuestDialog(QUEST_ID, QuestDialogType.ACCEPT));
-		}
-		else if ((questState != null) && questState.isStarted() && !questState.isCompleted() && (player.getLevel() >= 84))
-		{
-			questState.setCount(getQuestData().getGoal().getCount());
-			questState.setCond(QuestCondType.DONE);
-			player.sendPacket(new ExQuestNotification(questState));
+			if (questState.getCount() >= data.getGoal().getCount())
+			{
+				questState.setCond(QuestCondType.DONE);
+				killer.sendPacket(new ExQuestNotification(questState));
+			}
 		}
 	}
 }

@@ -606,6 +606,14 @@
 			<item id="97224" count="20" /> <!-- Mission Points -->
 		</items>
 	</reward>
+	<reward id="1505" reward_id="1505" name="Monster Purge" requiredCompletion="1" dailyReset="true" duration="DAY" isOneTime="false">
+		<!-- A reward is given after receiving the reward for using the Purge system in the corresponding hunting zones. -->
+		<handler name="purge" />
+		<items>
+			<item id="95481" count="1" /> <!-- Aden Purge Crystal - Sealed -->
+			<item id="97224" count="20" /> <!-- Mission Points -->
+		</items>
+	</reward>
 	<reward id="1513" reward_id="15131" name="On the Boss Extermination Battlefield" requiredCompletion="100" dailyReset="true" duration="DAY" isOneTime="false">
 		<!-- A reward is given for killing 10 monsters on the Boss Extermination Battlefield. -->
 		<handler name="monster">
@@ -709,20 +717,19 @@
 			<item id="97145" count="100" /> <!-- Ancient Adena -->
 		</items>
 	</reward>
-	<!--
-	<reward id="1526" reward_id="15261" name="Explore Kelbim's Fortress and Pagan Temple" requiredCompletion="300" dailyReset="true" duration="DAY" isOneTime="false">
-		A reward is given for killing 300 monsters in Kelbim's Fortress and Pagan Temple session zones. To learn more, check the 'World zone' section in the sidebar of the Special Zones UI.
+	<reward id="1526" reward_id="15261" name="Explore Pagan Temple" requiredCompletion="300" dailyReset="true" duration="DAY" isOneTime="false">
+		<!-- A reward is given for killing 300 monsters in Kelbim's Fortress and Pagan Temple session zones. To learn more, check the 'World zone' section in the sidebar of the Special Zones UI.-->
 		<handler name="monster">
 			<param name="minLevel">85</param>
 			<param name="maxLevel">99</param>
+			<param name="ids">29226,29216,29215,29212,29214,29213,22642,22641,22643,22646</param>
 		</handler>
 		<items>
-			<item id="98199" count="1" /> Kelbim's Fortress' Time Stone - Sealed
-			<item id="98214" count="1" /> Pagan Temple's Time Stone - Sealed
-			<item id="97145" count="100" /> Ancient Adena
+			<item id="98199" count="1" /> <!--Kelbim's Fortress' Time Stone - Sealed-->
+			<item id="98214" count="1" /> <!--Pagan Temple's Time Stone - Sealed-->
+			<item id="97145" count="100" /> <!--Ancient Adena-->
 		</items>
 	</reward>
-	-->
 	<reward id="1528" reward_id="15281" name="Hunt in the Garden of Authority" requiredCompletion="1000" dailyReset="false" duration="WEEK" isOneTime="false">
 		<!-- A reward is given for killing 1000 monsters titled 'Bearer of Sacred Power' in the Garden of Authority of the Forgotten Garden. To learn more, check the 'World zone' section in the sidebar of the Special Zones UI. -->
 		<handler name="monster">
@@ -761,18 +768,17 @@
 			<item id="94481" count="500" /> <!-- Clan XP - Sealed -->
 		</items>
 	</reward>
-	<!--
 	<reward id="1535" reward_id="15351" name="Explore the Catacombs" requiredCompletion="300" isOneTime="false">
-		Daily mission (once per account). A reward is given for killing 300 monsters in the Catacombs.
+		<!-- Daily mission (once per account). A reward is given for killing 300 monsters in the Catacombs.-->
 		<handler name="monster">
 			<param name="minLevel">80</param>
 			<param name="maxLevel">99</param>
+			<param name="ids">21618,21611,21612,21614,21615,21617,21613</param>
 		</handler>
 		<items>
-			<item id="97145" count="50" /> Ancient Adena
+			<item id="97145" count="50" /><!--  Ancient Adena-->
 		</items>
 	</reward>
-	-->
 	<reward id="4031" reward_id="4031" name="Special Gift for Reaching Lv. 90" requiredCompletion="90" dailyReset="false" duration="ONETIME" isOneTime="true">
 		<!-- Congratulations! You have reached Lv. 90. A reward is given once per account. -->
 		<handler name="level">
@@ -828,29 +834,6 @@
 			<item id="98828" count="1" /> <!-- Package: Immortal Ring - Sealed -->
 		</items>
 	</reward>
-	<!--
-	<reward id="1536" reward_id="1536" name="Eliminate Invading Monsters" requiredCompletion="150" isOneTime="false">
-		Daily mission (once per account). A reward is given for teleporting to a monster-invaded hunting zone and killing 150 monsters there.
-		<handler name="monster">
-			<param name="minLevel">76</param>
-			<param name="maxLevel">99</param>
-		</handler>
-		<items>
-			<item id="97415" count="3" /> Red Lantern (Time-limited) - Sealed
-		</items>
-	</reward>
-	<reward id="1537" reward_id="1537" name="Stop Monster Invasion" requiredCompletion="1" isOneTime="false">
-		Daily mission (once per account). A reward is given for teleporting to a monster-invaded hunting zone and opening Invader's Supply Chest that appears after killing the Monster Lord during the monster invasion.
-		<handler name="monster">
-			<param name="minLevel">76</param>
-			<param name="maxLevel">99</param>
-		</handler>
-		<items>
-			<item id="97415" count="3" /> Red Lantern (Time-limited) - Sealed
-			<item id="101305" count="1" /> Invader's Supply Box - Sealed
-		</items>
-	</reward>
-	-->
 	<reward id="3023" reward_id="30231" name="Assault on Orc Fortress" requiredCompletion="100" dailyReset="true" duration="DAY" isOneTime="false">
 		<!-- Daily mission (once per account). A reward is given for killing monsters during the battle for the Orc Fortress. -->
 		<handler name="monster">
@@ -861,6 +844,19 @@
 		<items>
 			<item id="49674" count="5" /> <!-- XP Growth Scroll - Sealed -->
 			<item id="93070" count="5" /> <!-- Blue Lantern - 3rd Place - Sealed -->
+			<item id="93068" count="1" /> <!-- Red Lantern - 1st Place - Sealed -->
+			<item id="97145" count="50" /> <!-- Ancient Adena -->
+		</items>
+	</reward>
+	<reward id="3024" reward_id="30241" name="Difficult Assault on Orc Fortress" requiredCompletion="1" dailyReset="true" duration="DAY" isOneTime="false">
+		<!-- Daily mission (once per account). A reward is given for killing titledmonsters during the battle for the Orc Fortress. -->
+		<handler name="monster">
+			<param name="minLevel">60</param>
+			<param name="maxLevel">99</param>
+			<param name="ids">22156</param>
+		</handler>
+		<items>
+			<item id="49674" count="3" /> <!-- XP Growth Scroll - Sealed -->
 			<item id="93068" count="1" /> <!-- Red Lantern - 1st Place - Sealed -->
 			<item id="97145" count="50" /> <!-- Ancient Adena -->
 		</items>
@@ -880,6 +876,17 @@
 			<item id="97224" count="15" /> <!-- Mission Points -->
 			<item id="94481" count="1750" /> <!-- Clan XP - Sealed -->
 			<item id="97145" count="60" /> <!-- Ancient Adena -->
+		</items>
+	</reward>
+	<reward id="1541" reward_id="1541" name="Explore Ironheart Fortress" requiredCompletion="20" isOneTime="false">
+		<!--Daily mission per account. A reward is given for killing Golems in the Ironheart Fortress. To learn more, check the 'World zone' section in the sidebar of the Special Zones UI. -->
+		<handler name="monster">
+			<param name="minLevel">90</param>
+			<param name="maxLevel">99</param>
+			<param name="ids">21611,21613,21617,21615,21612,21614,21618,21619</param>
+		</handler>
+		<items>
+			<item id="97147" count="1" /> <!--Hidden Power Booster - Sealed -->
 		</items>
 	</reward>
 	<!--

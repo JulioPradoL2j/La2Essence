@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+
+	<spawn> <territories>
+			<territory name="bamboo_area_01" minZ="-50" maxZ="100">
+				<node x="148000" y="222500" /><node x="149500" y="222500" />
+				<node x="149500" y="223500" /><node x="148000" y="223500" />
+			</territory>
+		</territories>
+		<npc id="23248" count="8" respawnTime="45sec" />
+		<npc id="23249" count="4" respawnTime="45sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_02" minZ="0" maxZ="120">
+				<node x="149500" y="222500" /><node x="151000" y="222500" />
+				<node x="151000" y="223500" /><node x="149500" y="223500" />
+			</territory>
+		</territories>
+		<npc id="23249" count="8" respawnTime="45sec" />
+		<npc id="23250" count="4" respawnTime="45sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_03" minZ="20" maxZ="120">
+				<node x="151000" y="223500" /><node x="152500" y="223500" />
+				<node x="152500" y="225000" /><node x="151000" y="225000" />
+			</territory>
+		</territories>
+		<npc id="23250" count="10" respawnTime="45sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_04" minZ="30" maxZ="130">
+				<node x="150000" y="225000" /><node x="151500" y="225000" />
+				<node x="151500" y="226500" /><node x="150000" y="226500" />
+			</territory>
+		</territories>
+		<npc id="23251" count="10" respawnTime="45sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_05" minZ="40" maxZ="140">
+				<node x="151500" y="225500" /><node x="153000" y="225500" />
+				<node x="153000" y="227500" /><node x="151500" y="227500" />
+			</territory>
+		</territories>
+		<npc id="23252" count="10" respawnTime="45sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_06" minZ="0" maxZ="100">
+				<node x="148500" y="223500" /><node x="150000" y="223500" />
+				<node x="150000" y="225000" /><node x="148500" y="225000" />
+			</territory>
+		</territories>
+		<npc id="23248" count="12" respawnTime="45sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_07" minZ="20" maxZ="100">
+				<node x="150500" y="225500" /><node x="151500" y="225500" />
+				<node x="151500" y="227000" /><node x="150500" y="227000" />
+			</territory>
+		</territories>
+		<npc id="23249" count="12" respawnTime="45sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_08" minZ="10" maxZ="110">
+				<node x="151000" y="224500" /><node x="152500" y="224500" />
+				<node x="152500" y="226000" /><node x="151000" y="226000" />
+			</territory>
+		</territories>
+		<npc id="23250" count="12" respawnTime="45sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_09" minZ="-150" maxZ="0">
+				<node x="156000" y="220000" /><node x="157500" y="220000" />
+				<node x="157500" y="221500" /><node x="156000" y="221500" />
+			</territory>
+		</territories>
+		<npc id="23242" count="15" respawnTime="30sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_10" minZ="-180" maxZ="-50">
+				<node x="154500" y="220000" /><node x="156000" y="220000" />
+				<node x="156000" y="221500" /><node x="154500" y="221500" />
+			</territory>
+		</territories>
+		<npc id="23243" count="15" respawnTime="30sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_11" minZ="-120" maxZ="20">
+				<node x="156500" y="221500" /><node x="158000" y="221500" />
+				<node x="158000" y="223000" /><node x="156500" y="223000" />
+			</territory>
+		</territories>
+		<npc id="23244" count="15" respawnTime="30sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_12" minZ="-200" maxZ="-50">
+				<node x="155000" y="222000" /><node x="156500" y="222000" />
+				<node x="156500" y="223500" /><node x="155000" y="223500" />
+			</territory>
+		</territories>
+		<npc id="23245" count="12" respawnTime="30sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_13" minZ="-100" maxZ="50">
+				<node x="156000" y="218500" /><node x="157500" y="218500" />
+				<node x="157500" y="220000" /><node x="156000" y="220000" />
+			</territory>
+		</territories>
+		<npc id="23246" count="15" respawnTime="30sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_14" minZ="-250" maxZ="-100">
+				<node x="155500" y="214000" /><node x="157000" y="214000" />
+				<node x="157000" y="216000" /><node x="155500" y="216000" />
+			</territory>
+		</territories>
+		<npc id="23242" count="18" respawnTime="30sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_15" minZ="-220" maxZ="-80">
+				<node x="156500" y="211000" /><node x="158000" y="211000" />
+				<node x="158000" y="213000" /><node x="156500" y="213000" />
+			</territory>
+		</territories>
+		<npc id="23243" count="18" respawnTime="30sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_16" minZ="-180" maxZ="-20">
+				<node x="154500" y="213500" /><node x="156000" y="213500" />
+				<node x="156000" y="215500" /><node x="154500" y="215500" />
+			</territory>
+		</territories>
+		<npc id="23244" count="15" respawnTime="30sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_17" minZ="-1300" maxZ="-1200">
+				<node x="144500" y="221500" /><node x="146000" y="221500" />
+				<node x="146000" y="223000" /><node x="144500" y="223000" />
+			</territory>
+		</territories>
+		<npc id="23242" count="20" respawnTime="20sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_18" minZ="-1280" maxZ="-1150">
+				<node x="143500" y="220500" /><node x="145000" y="220500" />
+				<node x="145000" y="222000" /><node x="143500" y="222000" />
+			</territory>
+		</territories>
+		<npc id="23243" count="20" respawnTime="20sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_19" minZ="-1260" maxZ="-1200">
+				<node x="145000" y="220000" /><node x="146500" y="220000" />
+				<node x="146500" y="221500" /><node x="145000" y="221500" />
+			</territory>
+		</territories>
+		<npc id="23245" count="15" respawnTime="20sec" />
+	</spawn>
+
+	<spawn> <territories>
+			<territory name="bamboo_area_20" minZ="-1250" maxZ="-1100">
+				<node x="144000" y="222500" /><node x="145500" y="222500" />
+				<node x="145500" y="224000" /><node x="144000" y="224000" />
+			</territory>
+		</territories>
+		<npc id="23246" count="15" respawnTime="20sec" />
+	</spawn>
+
+</list>
